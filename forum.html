@@ -53,6 +53,22 @@
     };
   </script>
   <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+  <script>
+    (function(){
+      "use strict";
+      function syncHeight(){
+        var container = document.getElementById("cusdis_thread");
+        var iframe = container && container.querySelector("iframe");
+        if(!iframe) return;
+        try {
+          var doc = iframe.contentDocument;
+          var h = doc && doc.documentElement && doc.documentElement.scrollHeight;
+          if(h) iframe.style.height = h + "px";
+        } catch(e){}
+      }
+      setInterval(syncHeight, 800);
+    })();
+  </script>
 </div>
 
 <footer class="site">
