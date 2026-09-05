@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://golfoaranci.github.io/sardinien-blog/sitemap.xml
