@@ -1,44 +1,48 @@
-# Unser Sardinien-Blog
+# Sardinien-Blog
 
-Ein privates Reise-Blog mit mehreren Artikeln rund um den Aufenthalt in Golfo Aranci und San Teodoro (22.09.–03.10.2026). Als statische Website gebaut – lässt sich unverändert auf jedes einfache Webhosting (z. B. via FTP oder GitHub Pages) hochladen, ohne Server, Datenbank oder Build-Schritt.
+Eine Tipp- und Ideensammlung rund um Sardinien – Strände, Kulinarik, Ausflüge, Reiseziele und Anreise, aufbereitet wie ein Blog. Als statische Website gebaut – lässt sich unverändert auf jedes einfache Webhosting (z. B. via FTP oder GitHub Pages) hochladen, ohne Server, Datenbank oder Build-Schritt.
 
 ## Öffnen (lokal)
 
-Doppelklick auf [index.html](index.html) öffnet die Blog-Startseite im Browser. Von dort aus sind alle Artikel verlinkt.
+Doppelklick auf [index.html](index.html) öffnet die Startseite im Browser. Von dort aus sind alle Artikel verlinkt.
 
 ## Struktur
 
 ```
 Sardinien-Blog/
-├── index.html          Blog-Startseite mit Artikel-Übersicht
+├── index.html          Startseite mit Artikel-Übersicht
 ├── style.css            Gemeinsames Design für alle Seiten
 ├── images/              Titelbilder (Pixabay, siehe Bildnachweis)
 └── posts/
-    ├── countdown-golfo-aranci-san-teodoro.html
-    ├── straende-nordosten-sardinien.html
-    ├── kulinarik-golfo-aranci-san-teodoro.html
-    ├── nachtfaehre-livorno-sardinien.html
-    ├── ausflug-tavolara.html
+    ├── straende-sardinien.html
+    ├── kulinarik-sardinien.html
+    ├── ausfluege-sardinien.html
+    ├── reiseziele-sardinien.html
+    ├── faehre-schiffe-sardinien.html
+    ├── tag-oder-nachtfaehre.html
+    ├── faehrhaefen-vergleich.html
     └── reisetipps-sardinien.html
 ```
 
 ## Artikel
 
-1. **Vorfreude** – Countdown: Warum wir uns auf Golfo Aranci & San Teodoro freuen
-2. **Strände** – Die schönsten Strände im Nordosten Sardiniens (inkl. Reservierungspflicht Cala Brandinchi/Lu Impostu)
-3. **Kulinarik** – Restaurant-Tipps für beide Stationen der Reise
-4. **Anreise** – Mit der Nachtfähre von Livorno nach Sardinien (Moby Legacy & Moby Fantasy)
-5. **Ausflüge** – Die Insel Tavolara
-6. **Tipps** – Kompakte Checkliste für die Reisevorbereitung
+- **Strände** – Die schönsten Strände Sardiniens (ganze Insel, nach Region gegliedert)
+- **Kulinarik** – Sardische Küche: Gerichte, Wein & Restaurant-Tipps
+- **Ausflüge** – Die schönsten Ausflugsziele auf Sardinien (Tavolara, La Maddalena, Grotte di Nettuno, Su Nuraxi, Cagliari)
+- **Reiseziele** – Regionen Sardiniens im Überblick (Costa Smeralda, Alghero, Golfo di Orosei, Cagliari, Barbagia, Sinis-Halbinsel)
+- **Anreise**
+  - Mit der Fähre nach Sardinien: Die Schiffe
+  - Tagfähre oder Nachtfähre? Die Vor- und Nachteile
+  - Fährhäfen im Vergleich: Von wo nach Sardinien? (Genua, Savona, Livorno, Civitavecchia, Toulon)
+- **Tipps** – Praktische Reisetipps für Sardinien (inkl. aktuellem Trend zu Strand-Reservierungen)
 
-Die Startseite zeigt zusätzlich einen automatisch berechneten Countdown bis zur Abreise (22.09.2026).
+Bewusst als allgemeine Ideen- und Tippsammlung angelegt, nicht als persönliches Reisetagebuch – die Inhalte gelten für die ganze Insel, nicht nur für eine bestimmte Region oder Reise.
 
 ## Online schalten
 
 Da es sich um reine, statische HTML/CSS/JS-Dateien ohne externe Abhängigkeiten handelt, genügt es, den kompletten Ordnerinhalt auf einen Webspace hochzuladen (Ordnerstruktur beibehalten). Vor der Veröffentlichung empfehlenswert:
 
-- **Eigene Fotos ergänzen**: Die aktuellen Titelbilder stammen von Pixabay (siehe Bildnachweis unten). Eigene Reisefotos lassen sich jederzeit einfach austauschen – dazu die entsprechende Datei in `images/` ersetzen (gleicher Dateiname) oder die `src`-Pfade in den `<img>`-Tags anpassen.
-- **Fakten gegenprüfen**: Angaben zu Reservierungspflichten, Restaurant-Öffnungszeiten und Fährzeiten sind Stand September 2026 recherchiert und sollten vor Veröffentlichung/Reiseantritt nochmals verifiziert werden.
+- **Fakten gegenprüfen**: Angaben zu Reservierungspflichten, Reedereien, Routen und Öffnungszeiten sind Stand September 2026 recherchiert und sollten regelmässig aktualisiert werden.
 - **Impressum/Datenschutz ergänzen**, falls die Seite öffentlich zugänglich sein soll (in der Schweiz/EU je nach Reichweite ggf. gesetzlich erforderlich).
 
 ## Bildnachweis
@@ -47,13 +51,15 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 
 | Bild | Motiv |
 |---|---|
-| `images/vorfreude-suitcase.jpg` | Gepackter Koffer |
 | `images/straende-isuledda.jpg` | Strand S'Isuledda bei San Teodoro |
 | `images/kulinarik-spaghetti.jpg` | Spaghetti mit Garnelen |
-| `images/anreise-ferry.jpg` | Fähre bei Sonnenuntergang |
 | `images/ausflug-tavolara.jpg` | Insel Tavolara |
+| `images/reiseziele-alghero.jpg` | Altstadtmauer von Alghero |
+| `images/anreise-ferry.jpg` | Fähre bei Sonnenuntergang |
+| `images/tagnacht-faehre.jpg` | Sonnenaufgang über dem Meer |
+| `images/faehrhaefen-genua.jpg` | Hafen von Genua |
 | `images/tipps-map.jpg` | Landkarte, Reisepass und Kompass |
 
 ## Anpassen
 
-Alle Seiten teilen sich die Datei [style.css](style.css) – Farben und Design lassen sich zentral über die CSS-Variablen im `:root`-Block anpassen. Neue Artikel am einfachsten durch Kopieren einer bestehenden Datei in `posts/` und Anpassen von Titel, Text und Illustration erstellen; nicht vergessen, die neue Seite auch in der Artikel-Übersicht in [index.html](index.html) zu verlinken.
+Alle Seiten teilen sich die Datei [style.css](style.css) – Farben und Design lassen sich zentral über die CSS-Variablen im `:root`-Block anpassen. Neue Artikel am einfachsten durch Kopieren einer bestehenden Datei in `posts/` und Anpassen von Titel, Text und Bild erstellen; nicht vergessen, die neue Seite auch in der Artikel-Übersicht in [index.html](index.html) zu verlinken.
