@@ -30,7 +30,17 @@ Sardinien-Blog/
     ├── wildschweine-sardinien.html
     ├── delfintouren-sardinien.html
     ├── jahreszeiten-sardinien.html
-    └── reisetipps-sardinien.html
+    ├── reisetipps-sardinien.html
+    ├── mit-kindern-sardinien.html
+    ├── autofahren-sardinien.html
+    ├── camping-sardinien.html
+    ├── wandern-sardinien.html
+    ├── segeln-bootstouren-sardinien.html
+    ├── feste-sardinien.html
+    ├── cantu-a-tenore-sardinien.html
+    ├── sprache-sardinien.html
+    ├── nuraghen-geschichte-sardinien.html
+    └── fakten-sardinien.html
 ```
 
 ## Artikel
@@ -42,7 +52,10 @@ Sardinien-Blog/
   - Die besten Weine Sardiniens
   - Die besten Biere Sardiniens
   - Die besten Liköre Sardiniens
-- **Ausflüge** – Die schönsten Ausflugsziele auf Sardinien (Tavolara, La Maddalena, Grotte di Nettuno, Su Nuraxi, Cagliari)
+- **Ausflüge**
+  - Die schönsten Ausflugsziele auf Sardinien (Tavolara, La Maddalena, Grotte di Nettuno, Su Nuraxi, Cagliari)
+  - Wandern auf Sardinien: Die schönsten Routen (Selvaggio Blu, Tiscali, Gola Su Gorropu, Punta La Marmora)
+  - Segeln und Bootstouren auf Sardinien
 - **Reiseziele** – Regionen Sardiniens im Überblick (Costa Smeralda, Alghero, Golfo di Orosei, Cagliari, Barbagia, Sinis-Halbinsel)
 - **Anreise**
   - Mit der Fähre nach Sardinien: Die Schiffe
@@ -53,9 +66,18 @@ Sardinien-Blog/
   - Tiere auf Sardinien: Wildpferde, Esel & Gänsegeier
   - Wildschweine auf Sardinien
   - Delfintouren auf Sardinien: Wo und worauf achten?
+- **Kultur** *(neu)*
+  - Traditionelle Feste Sardiniens (Sant'Efisio, Sa Sartiglia, Mamuthones, Cavalcata Sarda)
+  - Cantu a Tenore: Sardiniens mehrstimmiger Gesang (UNESCO-Kulturerbe)
+  - Die sardische Sprache: Wörter und Ausdrücke zum Merken
+  - Nuraghen und die Geschichte Sardiniens
+  - 10 Fakten über Sardinien, die man vielleicht nicht kennt
 - **Tipps**
   - Praktische Reisetipps für Sardinien (inkl. aktuellem Trend zu Strand-Reservierungen)
   - Sardinien nach Jahreszeit: Wann ist die beste Reisezeit?
+  - Sardinien mit Kindern: Familienfreundliche Tipps
+  - Autofahren auf Sardinien: Verkehr, Strassen & Mietwagen-Tipps
+  - Camping auf Sardinien: Die schönsten Regionen
 
 Bewusst als allgemeine Ideen- und Tippsammlung angelegt, nicht als persönliches Reisetagebuch – die Inhalte gelten für die ganze Insel, nicht nur für eine bestimmte Region oder Reise.
 
@@ -103,6 +125,16 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | `images/biere-glas.jpg` | Frisch gezapftes Bier |
 | `images/likoere-flaschen.jpg` | Spirituosenflaschen im Regal |
 | `images/wildschweine-eber.jpg` | Wildschwein in freier Natur |
+| `images/feste-kostueme.jpg` | Traditionelle sardische Tracht mit Stickerei |
+| `images/cantu-tenore-nuoro.jpg` | Berglandschaft bei Nuoro (Barbagia) |
+| `images/sprache-buch.jpg` | Aufgeschlagenes altes Buch |
+| `images/nuraghen-losa.jpg` | Nuraghe Losa |
+| `images/fakten-sardinien.jpg` | Sommerliche Küstenlandschaft |
+| `images/wandern-berg.jpg` | Wanderweg im Gebirge |
+| `images/segeln-kueste.jpg` | Segelboot vor der Küste |
+| `images/mitkindern-familie.jpg` | Familie am Strand |
+| `images/autofahren-strasse.jpg` | Kurvenreiche Landstrasse |
+| `images/camping-zelt.jpg` | Zelt am Strand |
 
 ## Anpassen
 
