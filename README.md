@@ -21,6 +21,10 @@ Sardinien-Blog/
     ├── faehre-schiffe-sardinien.html
     ├── tag-oder-nachtfaehre.html
     ├── faehrhaefen-vergleich.html
+    ├── flughaefen-sardinien.html
+    ├── tiere-sardinien.html
+    ├── delfintouren-sardinien.html
+    ├── jahreszeiten-sardinien.html
     └── reisetipps-sardinien.html
 ```
 
@@ -34,9 +38,19 @@ Sardinien-Blog/
   - Mit der Fähre nach Sardinien: Die Schiffe
   - Tagfähre oder Nachtfähre? Die Vor- und Nachteile
   - Fährhäfen im Vergleich: Von wo nach Sardinien? (Genua, Savona, Livorno, Civitavecchia, Toulon)
-- **Tipps** – Praktische Reisetipps für Sardinien (inkl. aktuellem Trend zu Strand-Reservierungen)
+  - Flughäfen im Vergleich: Olbia, Cagliari oder Alghero?
+- **Natur**
+  - Tiere auf Sardinien: Wildpferde, Esel & Gänsegeier
+  - Delfintouren auf Sardinien: Wo und worauf achten?
+- **Tipps**
+  - Praktische Reisetipps für Sardinien (inkl. aktuellem Trend zu Strand-Reservierungen)
+  - Sardinien nach Jahreszeit: Wann ist die beste Reisezeit?
 
 Bewusst als allgemeine Ideen- und Tippsammlung angelegt, nicht als persönliches Reisetagebuch – die Inhalte gelten für die ganze Insel, nicht nur für eine bestimmte Region oder Reise.
+
+## Design
+
+Überschriften nutzen die Google-Schriftart "Poppins" (per `@import` in `style.css` eingebunden, keine zusätzlichen `<link>`-Tags nötig). Artikelkarten haben einen dezenten Hover-Effekt (Bild-Zoom, Schatten) sowie eine sanfte Eingangs-Animation; der Hero-Bereich der Startseite hat dezente, verschwommene Farbflächen im Hintergrund.
 
 ## Online schalten
 
@@ -59,6 +73,10 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | `images/tagnacht-faehre.jpg` | Sonnenaufgang über dem Meer |
 | `images/faehrhaefen-genua.jpg` | Hafen von Genua |
 | `images/tipps-map.jpg` | Landkarte, Reisepass und Kompass |
+| `images/flughaefen-plane.jpg` | Flugzeug bei Sonnenuntergang |
+| `images/tiere-pferd.jpg` | Pferdeporträt |
+| `images/delfintouren-delfin.jpg` | Springender Delfin |
+| `images/jahreszeiten-meer.jpg` | Küste im Abendlicht |
 
 ## Anpassen
 
