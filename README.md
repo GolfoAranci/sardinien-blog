@@ -66,12 +66,19 @@ Bewusst als allgemeine Ideen- und Tippsammlung angelegt, nicht als persönliches
 - Das Logo im Header ist eine stilisierte Sardinien-Insel-Silhouette (Inline-SVG, kein Bild).
 - Auf der Startseite lässt sich die Artikel-Übersicht per Themen-Filter (Leiste über den Karten) auf eine Kategorie eingrenzen; die restlichen Karten rücken automatisch zusammen (`hidden`-Attribut statt Scroll-Anker).
 
+## SEO & Analytics
+
+- **sitemap.xml** und **robots.txt** im Hauptverzeichnis für Suchmaschinen.
+- Jede Seite hat eine individuelle **Meta-Description** für bessere Suchergebnis-Snippets.
+- **Google Analytics (GA4)** ist eingebunden (`analytics.js`), lädt aber erst nach Zustimmung über den Cookie-Banner am unteren Bildschirmrand (`.cookie-banner` in `style.css`). Die Measurement-ID steht am Anfang von `analytics.js` (`GA_ID`). Die Zustimmung wird im `localStorage` des jeweiligen Browsers gespeichert.
+- Neu bei Google veröffentlichte Seiten werden nicht automatisch gefunden – ohne Backlinks und ohne Einreichung in der [Google Search Console](https://search.google.com/search-console) kann es Tage bis Wochen dauern, bis sie indexiert wird.
+
 ## Online schalten
 
 Da es sich um reine, statische HTML/CSS/JS-Dateien ohne externe Abhängigkeiten handelt, genügt es, den kompletten Ordnerinhalt auf einen Webspace hochzuladen (Ordnerstruktur beibehalten). Vor der Veröffentlichung empfehlenswert:
 
 - **Fakten gegenprüfen**: Angaben zu Reservierungspflichten, Reedereien, Routen und Öffnungszeiten sind Stand September 2026 recherchiert und sollten regelmässig aktualisiert werden.
-- **Impressum/Datenschutz ergänzen**, falls die Seite öffentlich zugänglich sein soll (in der Schweiz/EU je nach Reichweite ggf. gesetzlich erforderlich).
+- **Impressum/Datenschutzerklärung ergänzen**: Durch den Einsatz von Google Analytics ist eine Datenschutzerklärung (mit Hinweis auf Google Analytics, Auftragsverarbeitung durch Google, Widerrufsmöglichkeit) rechtlich empfehlenswert bis erforderlich, je nach Zielpublikum (Schweiz/EU). Aktuell verlinkt der Cookie-Banner auf keine solche Seite.
 
 ## Bildnachweis
 

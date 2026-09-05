@@ -172,6 +172,25 @@ footer.site{
 }
 footer.site .disclaimer{max-width:600px;margin:8px auto 0;font-size:.76rem;}
 
+/* COOKIE BANNER */
+.cookie-banner{
+  position:fixed;left:0;right:0;bottom:0;z-index:50;
+  background:var(--blue-900);color:#fff;
+  padding:16px 20px;
+  display:flex;align-items:center;justify-content:center;gap:20px;flex-wrap:wrap;
+  box-shadow:0 -8px 24px -10px rgba(0,0,0,.35);
+}
+.cookie-banner p{margin:0;font-size:.85rem;max-width:560px;color:#e7ecef;}
+.cookie-banner-actions{display:flex;gap:10px;flex:0 0 auto;}
+.cookie-banner button{
+  font-family:inherit;padding:9px 18px;border-radius:20px;border:1.5px solid transparent;
+  font-weight:600;font-size:.85rem;cursor:pointer;transition:.15s;
+}
+.cookie-banner .cookie-accept{background:var(--turquoise-500);color:#fff;}
+.cookie-banner .cookie-accept:hover{background:var(--turquoise-600);}
+.cookie-banner .cookie-decline{background:transparent;color:#e7ecef;border-color:rgba(255,255,255,.4);}
+.cookie-banner .cookie-decline:hover{background:rgba(255,255,255,.1);}
+
 @media (max-width:900px){
   .post-grid, .related-grid{grid-template-columns:repeat(2,1fr);}
 }
