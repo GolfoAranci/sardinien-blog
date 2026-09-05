@@ -1,0 +1,141 @@
+:root{
+  --sand-50:#fbf6ec;
+  --sand-100:#f4e9d3;
+  --sand-200:#ead6ac;
+  --sand-300:#dfc086;
+  --turquoise-100:#d7f3ee;
+  --turquoise-300:#7fd8c9;
+  --turquoise-500:#2bb4a3;
+  --turquoise-600:#1f9c8d;
+  --blue-500:#3d7ea6;
+  --blue-700:#1b4965;
+  --blue-900:#0d2b3e;
+  --coral:#e0794a;
+  --ink:#1f2d2b;
+  --ink-soft:#5b6c69;
+  --white:#ffffff;
+  --shadow:0 10px 30px -14px rgba(13,43,62,.25);
+  --radius:18px;
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  margin:0;
+  font-family:'Segoe UI', system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif;
+  background:
+    radial-gradient(1000px 500px at 100% -10%, var(--turquoise-100), transparent 60%),
+    radial-gradient(800px 400px at -10% 10%, var(--sand-100), transparent 55%),
+    var(--sand-50);
+  color:var(--ink);
+  line-height:1.65;
+}
+a{color:inherit;}
+img,svg{max-width:100%;}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px;}
+
+/* HEADER */
+header.site{
+  background:rgba(255,255,255,.85);
+  backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--sand-200);
+  position:sticky;top:0;z-index:20;
+}
+header.site .wrap{display:flex;align-items:center;justify-content:space-between;padding:16px 24px;flex-wrap:wrap;gap:10px;}
+.site-brand{display:flex;align-items:center;gap:10px;text-decoration:none;}
+.site-brand .badge{
+  width:38px;height:38px;border-radius:50%;
+  background:linear-gradient(135deg, var(--turquoise-500), var(--blue-500));
+  display:flex;align-items:center;justify-content:center;font-size:1.1rem;
+}
+.site-brand b{color:var(--blue-900);font-size:1.05rem;}
+.site-brand span{display:block;font-size:.72rem;color:var(--ink-soft);}
+nav.site-nav{display:flex;gap:6px;flex-wrap:wrap;}
+nav.site-nav a{
+  text-decoration:none;font-size:.85rem;font-weight:600;color:var(--blue-700);
+  padding:8px 12px;border-radius:20px;transition:.15s;
+}
+nav.site-nav a:hover{background:var(--turquoise-100);}
+
+/* HERO */
+.blog-hero{padding:54px 0 36px;}
+.blog-hero .eyebrow{
+  display:inline-block;text-transform:uppercase;letter-spacing:.14em;font-size:.72rem;
+  font-weight:800;color:var(--turquoise-600);background:var(--turquoise-100);
+  padding:5px 12px;border-radius:20px;margin-bottom:14px;
+}
+.blog-hero h1{font-size:clamp(1.9rem,4vw,2.6rem);color:var(--blue-900);margin:0 0 14px;letter-spacing:-.01em;}
+.blog-hero p.lead{color:var(--ink-soft);font-size:1rem;max-width:620px;margin:0 0 22px;}
+.countdown-pill{
+  display:inline-flex;align-items:baseline;gap:8px;background:var(--white);
+  border:1.5px solid var(--sand-200);border-radius:14px;padding:10px 18px;box-shadow:var(--shadow);
+}
+.countdown-pill .n{font-size:1.4rem;font-weight:800;color:var(--blue-900);}
+.countdown-pill .l{font-size:.8rem;color:var(--ink-soft);}
+
+/* POST GRID */
+.post-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;padding:10px 0 60px;}
+.post-card{
+  background:var(--white);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;
+  text-decoration:none;color:var(--ink);display:flex;flex-direction:column;transition:.15s;
+}
+.post-card:hover{transform:translateY(-3px);}
+.post-card .thumb{aspect-ratio:16/10;overflow:hidden;display:block;}
+.post-card .thumb svg{width:100%;height:100%;display:block;}
+.post-card .thumb img{width:100%;height:100%;display:block;object-fit:cover;}
+.post-card .body{padding:18px 20px 22px;flex:1;display:flex;flex-direction:column;}
+.tag{
+  display:inline-block;font-size:.68rem;font-weight:800;text-transform:uppercase;letter-spacing:.05em;
+  padding:4px 10px;border-radius:20px;margin-bottom:10px;align-self:flex-start;
+}
+.tag.vorfreude{background:#fde3d3;color:var(--coral);}
+.tag.straende{background:var(--turquoise-100);color:var(--turquoise-600);}
+.tag.kulinarik{background:#fbe7d0;color:#b5651d;}
+.tag.anreise{background:#dce8f5;color:var(--blue-700);}
+.tag.ausflug{background:#e3ded3;color:#7a6a3f;}
+.tag.tipps{background:var(--sand-200);color:#7a5a1f;}
+.post-card h3{margin:0 0 8px;font-size:1.08rem;color:var(--blue-900);line-height:1.35;}
+.post-card p.excerpt{margin:0 0 14px;font-size:.86rem;color:var(--ink-soft);flex:1;}
+.post-meta{font-size:.76rem;color:var(--ink-soft);display:flex;gap:10px;}
+
+/* ARTICLE */
+.post-hero{padding:20px 0 0;}
+.post-hero .thumb{border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);margin-bottom:28px;}
+.post-hero .thumb img{width:100%;max-height:420px;object-fit:cover;display:block;}
+article.post{padding-bottom:60px;}
+article.post .meta-row{display:flex;gap:12px;align-items:center;margin-bottom:14px;flex-wrap:wrap;}
+article.post h1{font-size:clamp(1.7rem,3.6vw,2.3rem);color:var(--blue-900);margin:0 0 16px;letter-spacing:-.01em;}
+article.post .lead{font-size:1.05rem;color:var(--ink-soft);margin:0 0 28px;max-width:680px;}
+article.post .content{max-width:680px;font-size:1rem;}
+article.post .content h2{color:var(--blue-900);font-size:1.3rem;margin:34px 0 12px;}
+article.post .content p{margin:0 0 18px;}
+article.post .content ul{margin:0 0 18px;padding-left:20px;}
+article.post .content li{margin-bottom:8px;}
+.pullquote{
+  border-left:4px solid var(--turquoise-500);background:var(--turquoise-100);
+  padding:16px 20px;border-radius:0 12px 12px 0;font-size:1.05rem;color:var(--blue-900);
+  font-style:italic;margin:26px 0;max-width:680px;
+}
+.tip-box{
+  background:var(--sand-100);border:1.5px solid var(--sand-200);border-radius:14px;
+  padding:16px 20px;margin:26px 0;max-width:680px;
+}
+.tip-box b{color:var(--blue-900);}
+
+.related{padding:20px 0 60px;border-top:1px solid var(--sand-200);margin-top:20px;}
+.related h2{color:var(--blue-900);font-size:1.2rem;margin:0 0 18px;}
+.related-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;}
+
+footer.site{
+  border-top:1px solid var(--sand-200);padding:30px 0;text-align:center;
+  color:var(--ink-soft);font-size:.82rem;
+}
+footer.site .disclaimer{max-width:600px;margin:8px auto 0;font-size:.76rem;}
+
+@media (max-width:900px){
+  .post-grid, .related-grid{grid-template-columns:repeat(2,1fr);}
+}
+@media (max-width:640px){
+  nav.site-nav{display:none;}
+  .post-grid, .related-grid{grid-template-columns:1fr;}
+  .wrap{padding:0 18px;}
+}
