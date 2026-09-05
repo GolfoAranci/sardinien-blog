@@ -12,6 +12,7 @@ Doppelklick auf [index.html](index.html) öffnet die Startseite im Browser. Von 
 Sardinien-Blog/
 ├── index.html          Startseite mit Artikel-Übersicht (Deutsch)
 ├── forum.html           Kommentar-Forum (siehe Abschnitt "Forum")
+├── links.html           Nuetzliche externe Links (siehe Abschnitt "Links")
 ├── style.css            Gemeinsames Design für alle Seiten
 ├── images/              Titelbilder (Pixabay, siehe Bildnachweis; von allen Sprachversionen gemeinsam genutzt)
 ├── it/                  Italienische Version (siehe Abschnitt "Mehrsprachigkeit")
@@ -115,6 +116,10 @@ Technisch läuft das über [Cusdis](https://cusdis.com), einen leichtgewichtigen
 - Die **App ID** steckt direkt im `data-app-id`-Attribut in `forum.html` – Verwaltung/Dashboard unter [cusdis.com](https://cusdis.com) (Login mit dem GitHub-Account GolfoAranci).
 - Neue Kommentare erscheinen **erst nach Freigabe** (Moderation) – es gibt eine E-Mail-Benachrichtigung mit Direkt-Freigabe-Link, ein Login ins Dashboard ist dafür nicht nötig.
 - Für weitere Seiten mit eigenem Kommentarbereich (z. B. direkt unter einem Artikel) lässt sich derselbe Einbettungscode mit einer anderen `data-page-id` wiederverwenden.
+
+## Links
+
+Über den **Links**-Button oben rechts im Header gelangt man zu [links.html](links.html), einer kleinen kuratierten Sammlung externer Adressen (Wetter/Wellengang, offizielle Reisehinweise, Notfall, Karten, Nationalparks). Bewusst nur Themen ohne Affiliate-Potenzial – für Buchungsthemen (Mietwagen, Fähre, Unterkunft) siehe den Abschnitt "Monetarisierung" weiter unten.
 
 ## Design
 
