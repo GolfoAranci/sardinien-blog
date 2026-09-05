@@ -73,6 +73,7 @@ Sardinien-Blog/
   - Fährhäfen im Vergleich: Von wo nach Sardinien? (Genua, Savona, Livorno, Civitavecchia, Toulon)
   - Flughäfen im Vergleich: Olbia, Cagliari oder Alghero?
   - Mietwagen auf Sardinien buchen: Worauf achten?
+  - Sardinien im Herbst: Fähre oder Flug, Genua oder Livorno?
 - **Natur**
   - Tiere auf Sardinien: Wildpferde, Esel & Gänsegeier
   - Wildschweine auf Sardinien
@@ -184,6 +185,7 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | `images/touren-boot.jpg` | Kleines Boot auf ruhigem Meer |
 | `images/mietwagen-schluessel.jpg` | Autoschlüssel im Zündschloss |
 | `images/unterkunft-zimmer.jpg` | Hotelzimmer mit Meerblick |
+| `images/herbst-sturm.jpg` | Aufziehende Herbstwolken über einer felsigen Küste |
 
 ## Anpassen
 
