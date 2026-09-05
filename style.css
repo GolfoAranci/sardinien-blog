@@ -213,3 +213,9 @@ footer.site .disclaimer{max-width:600px;margin:8px auto 0;font-size:.76rem;}
   .post-grid, .related-grid{grid-template-columns:1fr;}
   .wrap{padding:0 18px;}
 }
+
+/* FORUM */
+#cusdis_thread iframe{min-height:620px;}
+@media (max-width:640px){
+  #cusdis_thread iframe{min-height:760px;}
+}
