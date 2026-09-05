@@ -10,9 +10,12 @@ Doppelklick auf [index.html](index.html) öffnet die Startseite im Browser. Von 
 
 ```
 Sardinien-Blog/
-├── index.html          Startseite mit Artikel-Übersicht
+├── index.html          Startseite mit Artikel-Übersicht (Deutsch)
 ├── style.css            Gemeinsames Design für alle Seiten
-├── images/              Titelbilder (Pixabay, siehe Bildnachweis)
+├── images/              Titelbilder (Pixabay, siehe Bildnachweis; von allen Sprachversionen gemeinsam genutzt)
+├── it/                  Italienische Version (siehe Abschnitt "Mehrsprachigkeit")
+│   ├── index.html
+│   └── posts/
 └── posts/
     ├── straende-sardinien.html
     ├── kulinarik-sardinien.html
@@ -87,6 +90,19 @@ Sardinien-Blog/
   - Camping auf Sardinien: Die schönsten Regionen
 
 Bewusst als allgemeine Ideen- und Tippsammlung angelegt, nicht als persönliches Reisetagebuch – die Inhalte gelten für die ganze Insel, nicht nur für eine bestimmte Region oder Reise.
+
+## Mehrsprachigkeit
+
+Der Blog gibt es seit Kurzem auch auf **Italienisch**, im Unterordner [it/](it/index.html) – bewusst (noch) nicht als vollständige Übersetzung aller Artikel, sondern mit den vier bislang stärksten Themen als Start:
+
+- Le spiagge più belle della Sardegna *(Die schönsten Strände Sardiniens)*
+- La cucina sarda *(Sardische Küche)*
+- Le regioni della Sardegna *(Regionen Sardiniens)*
+- Le escursioni più belle in Sardegna *(Ausflugsziele)*
+
+Ein kleiner **Sprachumschalter** (🇮🇹 / 🇩🇪) im Header verlinkt zwischen den vorhandenen deutschen und italienischen Fassungen – nur auf den Seiten, für die tatsächlich eine Übersetzung existiert, um keine toten Links zu erzeugen. Beide Sprachversionen sind zusätzlich über `<link rel="alternate" hreflang="...">` im `<head>` miteinander verknüpft (gutes Praxis-Signal für Suchmaschinen).
+
+**Weitere Artikel übersetzen:** Eine bestehende deutsche Seite in `posts/` kopieren, ins Italienische übersetzen, unter `it/posts/` mit passendem Dateinamen ablegen, in `it/index.html` verlinken, in `sitemap.xml` ergänzen und auf beiden Seiten (DE + IT) den `lang-switch`-Link sowie den `hreflang`-Tag ergänzen.
 
 ## Design
 
