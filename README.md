@@ -16,6 +16,10 @@ Sardinien-Blog/
 └── posts/
     ├── straende-sardinien.html
     ├── kulinarik-sardinien.html
+    ├── agriturismi-sardinien.html
+    ├── weine-sardinien.html
+    ├── biere-sardinien.html
+    ├── likoere-sardinien.html
     ├── ausfluege-sardinien.html
     ├── reiseziele-sardinien.html
     ├── faehre-schiffe-sardinien.html
@@ -23,6 +27,7 @@ Sardinien-Blog/
     ├── faehrhaefen-vergleich.html
     ├── flughaefen-sardinien.html
     ├── tiere-sardinien.html
+    ├── wildschweine-sardinien.html
     ├── delfintouren-sardinien.html
     ├── jahreszeiten-sardinien.html
     └── reisetipps-sardinien.html
@@ -31,7 +36,12 @@ Sardinien-Blog/
 ## Artikel
 
 - **Strände** – Die schönsten Strände Sardiniens (ganze Insel, nach Region gegliedert)
-- **Kulinarik** – Sardische Küche: Gerichte, Wein & Restaurant-Tipps
+- **Kulinarik**
+  - Sardische Küche: Gerichte, Wein & Restaurant-Tipps
+  - Agriturismi auf Sardinien: Essen wie auf dem Land
+  - Die besten Weine Sardiniens
+  - Die besten Biere Sardiniens
+  - Die besten Liköre Sardiniens
 - **Ausflüge** – Die schönsten Ausflugsziele auf Sardinien (Tavolara, La Maddalena, Grotte di Nettuno, Su Nuraxi, Cagliari)
 - **Reiseziele** – Regionen Sardiniens im Überblick (Costa Smeralda, Alghero, Golfo di Orosei, Cagliari, Barbagia, Sinis-Halbinsel)
 - **Anreise**
@@ -41,6 +51,7 @@ Sardinien-Blog/
   - Flughäfen im Vergleich: Olbia, Cagliari oder Alghero?
 - **Natur**
   - Tiere auf Sardinien: Wildpferde, Esel & Gänsegeier
+  - Wildschweine auf Sardinien
   - Delfintouren auf Sardinien: Wo und worauf achten?
 - **Tipps**
   - Praktische Reisetipps für Sardinien (inkl. aktuellem Trend zu Strand-Reservierungen)
@@ -50,7 +61,10 @@ Bewusst als allgemeine Ideen- und Tippsammlung angelegt, nicht als persönliches
 
 ## Design
 
-Überschriften nutzen die Google-Schriftart "Poppins" (per `@import` in `style.css` eingebunden, keine zusätzlichen `<link>`-Tags nötig). Artikelkarten haben einen dezenten Hover-Effekt (Bild-Zoom, Schatten) sowie eine sanfte Eingangs-Animation; der Hero-Bereich der Startseite hat dezente, verschwommene Farbflächen im Hintergrund.
+- Überschriften nutzen die Google-Schriftart "Poppins" (per `@import` in `style.css` eingebunden, keine zusätzlichen `<link>`-Tags nötig).
+- Artikelkarten haben einen dezenten Hover-Effekt (Bild-Zoom, Schatten) sowie eine sanfte Eingangs-Animation; der Hero-Bereich der Startseite hat dezente, verschwommene Farbflächen im Hintergrund.
+- Das Logo im Header ist eine stilisierte Sardinien-Insel-Silhouette (Inline-SVG, kein Bild).
+- Auf der Startseite lässt sich die Artikel-Übersicht per Themen-Filter (Leiste über den Karten) auf eine Kategorie eingrenzen; die restlichen Karten rücken automatisch zusammen (`hidden`-Attribut statt Scroll-Anker).
 
 ## Online schalten
 
@@ -77,6 +91,11 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | `images/tiere-pferd.jpg` | Pferdeporträt |
 | `images/delfintouren-delfin.jpg` | Springender Delfin |
 | `images/jahreszeiten-meer.jpg` | Küste im Abendlicht |
+| `images/agriturismi-tisch.jpg` | Käse, Trauben und Rotwein auf rustikalem Tisch |
+| `images/weine-glaeser.jpg` | Rot- und Weisswein mit Trauben |
+| `images/biere-glas.jpg` | Frisch gezapftes Bier |
+| `images/likoere-flaschen.jpg` | Spirituosenflaschen im Regal |
+| `images/wildschweine-eber.jpg` | Wildschwein in freier Natur |
 
 ## Anpassen
 
