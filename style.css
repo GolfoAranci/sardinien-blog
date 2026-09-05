@@ -61,6 +61,14 @@ header.site .wrap{display:flex;align-items:center;justify-content:space-between;
   white-space:nowrap;
 }
 .lang-switch:hover{background:var(--sand-100);}
+.header-actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap;}
+.forum-btn{
+  font-size:.82rem;font-weight:700;color:#fff;text-decoration:none;
+  padding:8px 16px;border-radius:20px;white-space:nowrap;transition:.15s;
+  background:linear-gradient(135deg, var(--turquoise-500), var(--blue-500));
+  box-shadow:0 4px 10px -4px rgba(43,180,163,.55);
+}
+.forum-btn:hover{filter:brightness(1.08);}
 
 /* HERO */
 .blog-hero{padding:60px 0 40px;position:relative;overflow:hidden;}

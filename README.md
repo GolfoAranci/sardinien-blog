@@ -11,6 +11,7 @@ Doppelklick auf [index.html](index.html) öffnet die Startseite im Browser. Von 
 ```
 Sardinien-Blog/
 ├── index.html          Startseite mit Artikel-Übersicht (Deutsch)
+├── forum.html           Kommentar-Forum (siehe Abschnitt "Forum")
 ├── style.css            Gemeinsames Design für alle Seiten
 ├── images/              Titelbilder (Pixabay, siehe Bildnachweis; von allen Sprachversionen gemeinsam genutzt)
 ├── it/                  Italienische Version (siehe Abschnitt "Mehrsprachigkeit")
@@ -103,6 +104,16 @@ Der Blog gibt es seit Kurzem auch auf **Italienisch**, im Unterordner [it/](it/i
 Ein kleiner **Sprachumschalter** (🇮🇹 / 🇩🇪) im Header verlinkt zwischen den vorhandenen deutschen und italienischen Fassungen – nur auf den Seiten, für die tatsächlich eine Übersetzung existiert, um keine toten Links zu erzeugen. Beide Sprachversionen sind zusätzlich über `<link rel="alternate" hreflang="...">` im `<head>` miteinander verknüpft (gutes Praxis-Signal für Suchmaschinen).
 
 **Weitere Artikel übersetzen:** Eine bestehende deutsche Seite in `posts/` kopieren, ins Italienische übersetzen, unter `it/posts/` mit passendem Dateinamen ablegen, in `it/index.html` verlinken, in `sitemap.xml` ergänzen und auf beiden Seiten (DE + IT) den `lang-switch`-Link sowie den `hreflang`-Tag ergänzen.
+
+## Forum
+
+Über den **Forum**-Button oben rechts im Header (auf der Startseite und allen deutschen Artikeln) gelangt man zu [forum.html](forum.html), einem einfachen Kommentar-Board ohne Registrierung: Besucher geben nur einen Nickname ein und schreiben direkt los.
+
+Technisch läuft das über [Cusdis](https://cusdis.com), einen leichtgewichtigen, quelloffenen und datenschutzfreundlichen Kommentar-Dienst (kostenlose Cloud-Stufe, aktuell 100 freigegebene Kommentare/Monat):
+
+- Die **App ID** steckt direkt im `data-app-id`-Attribut in `forum.html` – Verwaltung/Dashboard unter [cusdis.com](https://cusdis.com) (Login mit dem GitHub-Account GolfoAranci).
+- Neue Kommentare erscheinen **erst nach Freigabe** (Moderation) – es gibt eine E-Mail-Benachrichtigung mit Direkt-Freigabe-Link, ein Login ins Dashboard ist dafür nicht nötig.
+- Für weitere Seiten mit eigenem Kommentarbereich (z. B. direkt unter einem Artikel) lässt sich derselbe Einbettungscode mit einer anderen `data-page-id` wiederverwenden.
 
 ## Design
 
