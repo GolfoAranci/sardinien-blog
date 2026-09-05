@@ -40,7 +40,10 @@ Sardinien-Blog/
     ├── cantu-a-tenore-sardinien.html
     ├── sprache-sardinien.html
     ├── nuraghen-geschichte-sardinien.html
-    └── fakten-sardinien.html
+    ├── fakten-sardinien.html
+    ├── touren-buchen-sardinien.html
+    ├── mietwagen-buchen-sardinien.html
+    └── unterkunft-sardinien.html
 ```
 
 ## Artikel
@@ -56,12 +59,16 @@ Sardinien-Blog/
   - Die schönsten Ausflugsziele auf Sardinien (Tavolara, La Maddalena, Grotte di Nettuno, Su Nuraxi, Cagliari)
   - Wandern auf Sardinien: Die schönsten Routen (Selvaggio Blu, Tiscali, Gola Su Gorropu, Punta La Marmora)
   - Segeln und Bootstouren auf Sardinien
-- **Reiseziele** – Regionen Sardiniens im Überblick (Costa Smeralda, Alghero, Golfo di Orosei, Cagliari, Barbagia, Sinis-Halbinsel)
+  - Die besten Touren und Ausflüge, die man buchen kann
+- **Reiseziele**
+  - Regionen Sardiniens im Überblick (Costa Smeralda, Alghero, Golfo di Orosei, Cagliari, Barbagia, Sinis-Halbinsel)
+  - Unterkunft auf Sardinien: Hotel, Ferienwohnung oder Agriturismo?
 - **Anreise**
   - Mit der Fähre nach Sardinien: Die Schiffe
   - Tagfähre oder Nachtfähre? Die Vor- und Nachteile
   - Fährhäfen im Vergleich: Von wo nach Sardinien? (Genua, Savona, Livorno, Civitavecchia, Toulon)
   - Flughäfen im Vergleich: Olbia, Cagliari oder Alghero?
+  - Mietwagen auf Sardinien buchen: Worauf achten?
 - **Natur**
   - Tiere auf Sardinien: Wildpferde, Esel & Gänsegeier
   - Wildschweine auf Sardinien
@@ -94,6 +101,18 @@ Bewusst als allgemeine Ideen- und Tippsammlung angelegt, nicht als persönliches
 - Jede Seite hat eine individuelle **Meta-Description** für bessere Suchergebnis-Snippets.
 - **Google Analytics (GA4)** ist eingebunden (`analytics.js`), lädt aber erst nach Zustimmung über den Cookie-Banner am unteren Bildschirmrand (`.cookie-banner` in `style.css`). Die Measurement-ID steht am Anfang von `analytics.js` (`GA_ID`). Die Zustimmung wird im `localStorage` des jeweiligen Browsers gespeichert.
 - Neu bei Google veröffentlichte Seiten werden nicht automatisch gefunden – ohne Backlinks und ohne Einreichung in der [Google Search Console](https://search.google.com/search-console) kann es Tage bis Wochen dauern, bis sie indexiert wird.
+
+## Monetarisierung (vorbereitet, noch nicht aktiv)
+
+Drei Artikel sind gezielt so angelegt, dass sie sich später mit Affiliate-Links verbinden lassen, sobald ein Partnerprogramm-Konto existiert:
+
+- **Die besten Touren und Ausflüge, die man buchen kann** → z. B. GetYourGuide oder Viator
+- **Mietwagen auf Sardinien buchen** → z. B. DiscoverCars oder Rentalcars
+- **Unterkunft auf Sardinien** → z. B. Booking.com
+
+Aktuell enthalten diese Artikel nur allgemeine Erwähnungen solcher Plattformen (keine echten Affiliate-Links, keine Provisionen). Anmeldung bei den Partnerprogrammen muss der Website-Betreiber selbst vornehmen (eigenes Konto, oft mit Bank-/Steuerdaten) – danach lassen sich die entsprechenden Textstellen gezielt durch echte Affiliate-Links ersetzen.
+
+Display-Werbung (z. B. Google AdSense) lohnt sich erst ab nennenswertem, wiederkehrendem Traffic und ist aktuell nicht eingebunden.
 
 ## Online schalten
 
@@ -135,6 +154,9 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | `images/mitkindern-familie.jpg` | Familie am Strand |
 | `images/autofahren-strasse.jpg` | Kurvenreiche Landstrasse |
 | `images/camping-zelt.jpg` | Zelt am Strand |
+| `images/touren-boot.jpg` | Kleines Boot auf ruhigem Meer |
+| `images/mietwagen-schluessel.jpg` | Autoschlüssel im Zündschloss |
+| `images/unterkunft-zimmer.jpg` | Hotelzimmer mit Meerblick |
 
 ## Anpassen
 
