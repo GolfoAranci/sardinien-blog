@@ -31,6 +31,16 @@ Sardinien-Blog/
     ├── costa-rei-sardinien.html
     ├── chia-sardinien.html
     ├── herbst-anreise-sardinien.html
+    ├── hotel-caladivolpe-sardinien.html
+    ├── hotel-pitrizza-sardinien.html
+    ├── hotel-petrasegreta-sardinien.html
+    ├── hotel-farospartivento-sardinien.html
+    ├── hotel-villalastronas-sardinien.html
+    ├── hotel-palazzodoglio-sardinien.html
+    ├── hotel-borgolupuleu-sardinien.html
+    ├── hotel-alberocapovolto-sardinien.html
+    ├── hotel-mannois-sardinien.html
+    ├── hotel-7pines-sardinien.html
     ├── kulinarik-sardinien.html
     ├── agriturismi-sardinien.html
     ├── weine-sardinien.html
@@ -90,6 +100,7 @@ Sardinien-Blog/
 - **Reiseziele**
   - Regionen Sardiniens im Überblick (Costa Smeralda, Alghero, Golfo di Orosei, Cagliari, Barbagia, Sinis-Halbinsel)
   - Unterkunft auf Sardinien: Hotel, Ferienwohnung oder Agriturismo?
+  - 10 aussergewöhnliche Hotels: Cala di Volpe, Pitrizza, Petra Segreta, Faro Capo Spartivento, Villa Las Tronas, Palazzo Doglio, Borgo Lu Puleu, Albero Capovolto, Albergo Diffuso Mannois, 7Pines
 - **Anreise**
   - Mit der Fähre nach Sardinien: Die Schiffe
   - Tagfähre oder Nachtfähre? Die Vor- und Nachteile
@@ -223,6 +234,16 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | `images/strand-poetto.jpg` | Blick auf die Sella del Diavolo vom Poetto in Cagliari |
 | `images/strand-costarei.jpg` | Felsige Küste und türkises Wasser bei Costa Rei |
 | `images/strand-chia.jpg` | Steinweg durch Pinien zur Bucht von Chia |
+| `images/hotel-caladivolpe.jpg` | Yachten in einer Bucht der Costa Smeralda |
+| `images/hotel-pitrizza.jpg` | Infinity-Pool mit Blick auf die Küste bei Sonnenuntergang |
+| `images/hotel-petrasegreta.jpg` | Runder Granitfelsen in den Hügeln der Gallura bei San Pantaleo |
+| `images/hotel-farospartivento.jpg` | Leuchtturm bei Nacht unter der Milchstrasse |
+| `images/hotel-villalastronas.jpg` | Villa Las Tronas auf einer Landzunge bei Alghero |
+| `images/hotel-palazzodoglio.jpg` | Mittelalterlicher Turm im Castello-Viertel von Cagliari |
+| `images/hotel-borgolupuleu.jpg` | Olivenhain mit knorrigen alten Bäumen |
+| `images/hotel-alberocapovolto.jpg` | Historischer Wachturm an der Küste der Gallura |
+| `images/hotel-mannois.jpg` | Blick aus einer Felshöhle auf das türkise Meer am Golfo di Orosei |
+| `images/hotel-7pines.jpg` | Moderner Infinity-Pool mit Blick auf das Meer |
 
 ## Anpassen
 
