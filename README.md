@@ -29,6 +29,16 @@ Sardinien-Blog/
     ├── insider-launeddas-sardinien.html
     ├── insider-gairovecchio-sardinien.html
     ├── insider-koenigreich-sardinien.html
+    ├── camping-capoferrato-sardinien.html
+    ├── camping-calagonone-sardinien.html
+    ├── camping-costaverde-sardinien.html
+    ├── camping-maddalena-sardinien.html
+    ├── camping-santeodoro-sardinien.html
+    ├── camping-wildcamping-sardinien.html
+    ├── camping-wohnmobil-sardinien.html
+    ├── camping-glamping-sardinien.html
+    ├── camping-packliste-sardinien.html
+    ├── camping-kosten-sardinien.html
     ├── straende-sardinien.html
     ├── pelosa-stintino-sardinien.html
     ├── cala-goloritze-sardinien.html
@@ -134,6 +144,16 @@ Sardinien-Blog/
   - Sardinien mit Kindern: Familienfreundliche Tipps
   - Autofahren auf Sardinien: Verkehr, Strassen & Mietwagen-Tipps
   - Camping auf Sardinien: Die schönsten Regionen
+    - Camping Village Capo Ferrato (Costa Rei)
+    - Camping Cala Gonone (Golfo di Orosei)
+    - Camping an der Costa Verde (Piscinas)
+    - Camping auf La Maddalena
+    - Camping San Teodoro (La Cinta)
+    - Wildcamping auf Sardinien: Ist es legal?
+    - Mit dem Wohnmobil nach Sardinien
+    - Glamping auf Sardinien
+    - Camping-Packliste fürs sardische Klima
+    - Camping-Kosten im Vergleich zu Hotel & Ferienwohnung
 - **Insider** *(neu)* – Themen abseits der üblichen Reiseblog-Kost, siehe Abschnitt "Insider-Themen"
   - Su Filindeu: Die seltenste Pasta der Welt
   - Casu Marzu: Der lebendige Käse Sardiniens
@@ -278,6 +298,13 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | `images/insider-launeddas.jpg` | Hohe Schilfrohr-Halme im Wind |
 | `images/insider-gairovecchio.jpg` | Verfallenes Steinhaus mit alter Holztür |
 | `images/insider-koenigreich.jpg` | Historischer Torbogen im Castello-Viertel von Cagliari |
+| `images/camping-calagonone.jpg` | Beleuchtetes Zelt unter Pinien und Sternenhimmel |
+| `images/camping-costaverde.jpg` | Wilde, felsige Küste im Südwesten Sardiniens |
+| `images/camping-maddalena.jpg` | Hafen und Altstadt von La Maddalena |
+| `images/camping-wildcamping.jpg` | Wellen laufen bei Dämmerung auf einen einsamen Strand |
+| `images/camping-glamping.jpg` | Beleuchtetes Lodge-Zelt mit Holzterrasse im Pinienwald |
+| `images/camping-packliste.jpg` | Windgeformte Dünen mit hohem Strandgras |
+| `images/camping-kosten.jpg` | Ausgebreitete Euro-Centmünzen |
 
 ## Anpassen
 
