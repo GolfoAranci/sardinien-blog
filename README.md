@@ -29,6 +29,9 @@ Sardinien-Blog/
     ├── insider-launeddas-sardinien.html
     ├── insider-gairovecchio-sardinien.html
     ├── insider-koenigreich-sardinien.html
+    ├── insider-tiscali-sardinien.html
+    ├── insider-asinara-sardinien.html
+    ├── insider-bluezone-sardinien.html
     ├── camping-capoferrato-sardinien.html
     ├── camping-calagonone-sardinien.html
     ├── camping-costaverde-sardinien.html
@@ -165,12 +168,15 @@ Sardinien-Blog/
   - Launeddas: Sardiniens 3000 Jahre altes Instrument
   - Gairo Vecchio: Das viermal überflutete Geisterdorf
   - Das Königreich Sardinien: Namensgeber Italiens
+  - Tiscali: Das Bergdorf, das niemand von unten sieht
+  - Asinara: Vom Hochsicherheitsgefängnis zum Nationalpark
+  - Blue Zone Barbagia: Warum hier so viele 100 werden
 
 Bewusst als allgemeine Ideen- und Tippsammlung angelegt, nicht als persönliches Reisetagebuch – die Inhalte gelten für die ganze Insel, nicht nur für eine bestimmte Region oder Reise.
 
 ## Insider-Themen
 
-Eine eigene Filterkategorie "🕵️ Insider" auf der Startseite bündelt zehn Artikel zu Themen, die auf den meisten anderen Sardinien-Blogs kaum vorkommen: von der seltensten Pasta der Welt über eine umstrittene Sterbehilfe-Legende bis zum Königreich, das Italien seinen Namen gab. Die Artikel sind recherchiert und mit Quellen abgesichert; bei historisch umstrittenen Themen (z. B. Sa Femina Accabadora) wird der Streitstand offen benannt statt als gesicherte Tatsache dargestellt.
+Eine eigene Filterkategorie "🕵️ Insider" auf der Startseite bündelt dreizehn Artikel zu Themen, die auf den meisten anderen Sardinien-Blogs kaum vorkommen: von der seltensten Pasta der Welt über eine umstrittene Sterbehilfe-Legende bis zum Königreich, das Italien seinen Namen gab. Die Artikel sind recherchiert und mit Quellen abgesichert; bei historisch umstrittenen Themen (z. B. Sa Femina Accabadora) wird der Streitstand offen benannt statt als gesicherte Tatsache dargestellt.
 
 ## Mehrsprachigkeit
 
@@ -298,6 +304,9 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | `images/insider-launeddas.jpg` | Hohe Schilfrohr-Halme im Wind |
 | `images/insider-gairovecchio.jpg` | Verfallenes Steinhaus mit alter Holztür |
 | `images/insider-koenigreich.jpg` | Historischer Torbogen im Castello-Viertel von Cagliari |
+| `images/insider-tiscali.jpg` | Nuragische Steinhütte mit Türsturz aus Stein |
+| `images/insider-asinara.jpg` | Küstenwachturm an einer Bucht auf Asinara |
+| `images/insider-bluezone.jpg` | Bergdorf am Fuss eines Kalksteinmassivs in der Barbagia |
 | `images/camping-calagonone.jpg` | Beleuchtetes Zelt unter Pinien und Sternenhimmel |
 | `images/camping-costaverde.jpg` | Wilde, felsige Küste im Südwesten Sardiniens |
 | `images/camping-maddalena.jpg` | Hafen und Altstadt von La Maddalena |
