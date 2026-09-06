@@ -48,6 +48,7 @@ Sardinien-Blog/
     ├── cala-mariolu-sardinien.html
     ├── cala-luna-sardinien.html
     ├── cala-brandinchi-sardinien.html
+    ├── isola-gabbiani-sardinien.html
     ├── la-cinta-sardinien.html
     ├── is-arutas-sardinien.html
     ├── poetto-cagliari-sardinien.html
@@ -104,6 +105,7 @@ Sardinien-Blog/
   - Cala Mariolu: Die Bucht mit den weissen Kieseln
   - Cala Luna: Bucht mit Höhlen im Golfo di Orosei
   - Cala Brandinchi: Die "kleine Tahiti" Sardiniens
+  - Isola dei Gabbiani: Kite- & Windsurf-Paradies bei Palau
   - La Cinta: Kilometerlanger Sandstrand bei San Teodoro
   - Is Arutas: Der Strand aus Quarzsand
   - Spiaggia del Poetto: Der Stadtstrand von Cagliari
@@ -307,6 +309,7 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | `images/insider-tiscali.jpg` | Nuragische Steinhütte mit Türsturz aus Stein |
 | `images/insider-asinara.jpg` | Küstenwachturm an einer Bucht auf Asinara |
 | `images/insider-bluezone.jpg` | Bergdorf am Fuss eines Kalksteinmassivs in der Barbagia |
+| `images/gabbiani-kite.jpg` | Kitesurfer springt über türkisfarbenes Wasser |
 | `images/camping-calagonone.jpg` | Beleuchtetes Zelt unter Pinien und Sternenhimmel |
 | `images/camping-costaverde.jpg` | Wilde, felsige Küste im Südwesten Sardiniens |
 | `images/camping-maddalena.jpg` | Hafen und Altstadt von La Maddalena |
