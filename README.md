@@ -73,6 +73,7 @@ Sardinien-Blog/
     ├── ausfluege-sardinien.html
     ├── reiseziele-sardinien.html
     ├── faehre-schiffe-sardinien.html
+    ├── moby-aki-orli-sardinien.html
     ├── tag-oder-nachtfaehre.html
     ├── faehrhaefen-vergleich.html
     ├── flughaefen-sardinien.html
@@ -128,6 +129,7 @@ Sardinien-Blog/
   - 10 aussergewöhnliche Hotels: Cala di Volpe, Pitrizza, Petra Segreta, Faro Capo Spartivento, Villa Las Tronas, Palazzo Doglio, Borgo Lu Puleu, Albero Capovolto, Albergo Diffuso Mannois, 7Pines
 - **Anreise**
   - Mit der Fähre nach Sardinien: Die Schiffe
+  - Mit Moby Aki und Moby Orli nach Sardinien
   - Tagfähre oder Nachtfähre? Die Vor- und Nachteile
   - Fährhäfen im Vergleich: Von wo nach Sardinien? (Genua, Savona, Livorno, Civitavecchia, Toulon)
   - Flughäfen im Vergleich: Olbia, Cagliari oder Alghero?
@@ -310,6 +312,7 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | `images/insider-asinara.jpg` | Küstenwachturm an einer Bucht auf Asinara |
 | `images/insider-bluezone.jpg` | Bergdorf am Fuss eines Kalksteinmassivs in der Barbagia |
 | `images/gabbiani-kite.jpg` | Kitesurfer springt über türkisfarbenes Wasser |
+| `images/anreise-mobyschiffe.jpg` | Weisse Fähre überquert eine ruhige Bucht |
 | `images/camping-calagonone.jpg` | Beleuchtetes Zelt unter Pinien und Sternenhimmel |
 | `images/camping-costaverde.jpg` | Wilde, felsige Küste im Südwesten Sardiniens |
 | `images/camping-maddalena.jpg` | Hafen und Altstadt von La Maddalena |
