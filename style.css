@@ -108,6 +108,9 @@ header.site .wrap{display:flex;align-items:center;justify-content:space-between;
   background:linear-gradient(135deg, var(--turquoise-500), var(--blue-500));
   border-color:transparent;color:#fff;box-shadow:0 6px 16px -8px rgba(43,180,163,.55);
 }
+.filter-btn[data-filter="insider"]{background:#1b2a3d;color:#f4c76b;border-color:#1b2a3d;}
+.filter-btn[data-filter="insider"]:hover{background:#243a54;}
+.filter-btn[data-filter="insider"].active{background:#1b2a3d;color:#f4c76b;box-shadow:0 6px 16px -8px rgba(27,42,61,.55);}
 .filter-count{margin:10px 0 4px;font-size:.82rem;color:var(--ink-soft);min-height:1.2em;}
 
 /* POST GRID */
@@ -220,3 +223,24 @@ footer.site .disclaimer{max-width:600px;margin:8px auto 0;font-size:.76rem;}
 @media (max-width:640px){
   #cusdis_thread iframe{min-height:760px;}
 }
+
+/* SPOTLIGHT */
+.spotlight{background:#132030;padding:44px 0 40px;}
+.spotlight .eyebrow{background:rgba(244,199,107,.15);color:#f4c76b;}
+.spotlight h2{font-family:var(--font-head);font-weight:800;font-size:clamp(1.35rem,2.8vw,1.9rem);color:#fff;margin:14px 0 10px;letter-spacing:-.01em;line-height:1.2;}
+.spotlight-lead{color:#c3ccd6;max-width:640px;margin:0 0 26px;font-size:.98rem;line-height:1.55;}
+.spotlight-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:26px;}
+.spotlight-card{
+  display:flex;flex-direction:column;gap:10px;background:#1b2a3d;border-radius:16px;
+  padding:18px;text-decoration:none;border:1px solid rgba(244,199,107,.22);transition:.15s;
+}
+.spotlight-card:hover{border-color:#f4c76b;transform:translateY(-2px);}
+.spotlight-fact{font-size:.84rem;color:#c3ccd6;line-height:1.45;}
+.spotlight-title{font-family:var(--font-head);font-weight:700;font-size:.95rem;color:#f4c76b;line-height:1.35;}
+.spotlight-cta{
+  background:#f4c76b;color:#1b2a3d;border:0;border-radius:20px;padding:12px 26px;
+  font-family:var(--font-head);font-weight:700;font-size:.9rem;cursor:pointer;transition:.15s;
+}
+.spotlight-cta:hover{filter:brightness(1.08);}
+@media (max-width:900px){.spotlight-grid{grid-template-columns:repeat(2,1fr);}}
+@media (max-width:640px){.spotlight-grid{grid-template-columns:1fr;}}

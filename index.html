@@ -30,7 +30,34 @@
     <span class="eyebrow">Tipp- &amp; Ideensammlung</span>
     <h1>Sardinien entdecken</h1>
     <p class="hero-subtitle">Strände, Küche, Ausflüge &amp; mehr</p>
-    <p class="lead">Eine wachsende Sammlung an Tipps und Ideen für die ganze Insel Sardinien – von den schönsten Stränden über kulinarische Highlights und lohnende Ausflugsziele bis zur Frage, wie man am besten anreist.</p>
+    <p class="lead">Eine wachsende Sammlung an Tipps und Ideen für die ganze Insel Sardinien – von den schönsten Stränden über kulinarische Highlights und lohnende Ausflugsziele bis zu Geschichten, die selbst Sardinien-Kenner überraschen.</p>
+  </div>
+</section>
+
+<section class="spotlight">
+  <div class="wrap">
+    <span class="eyebrow">🕵️ Krass, aber wahr</span>
+    <h2>Sardinien hat mehr Geheimnisse, als du denkst</h2>
+    <p class="spotlight-lead">Zehn recherchierte Geschichten abseits der üblichen Reiseblog-Themen – von der seltensten Pasta der Welt bis zum Dorf, das gleich viermal vom Erdrutsch verschluckt wurde.</p>
+    <div class="spotlight-grid">
+      <a class="spotlight-card" href="posts/insider-filindeu-sardinien.html">
+        <span class="spotlight-fact">Nur eine einzige Familie weltweit kann sie herstellen</span>
+        <span class="spotlight-title">Su Filindeu, die seltenste Pasta der Welt →</span>
+      </a>
+      <a class="spotlight-card" href="posts/insider-casumarzu-sardinien.html">
+        <span class="spotlight-fact">Verboten – und trotzdem seit Generationen Tradition</span>
+        <span class="spotlight-title">Der Käse mit lebenden Fliegenlarven →</span>
+      </a>
+      <a class="spotlight-card" href="posts/insider-gairovecchio-sardinien.html">
+        <span class="spotlight-fact">Vier Erdrutsche, ein für immer aufgegebenes Dorf</span>
+        <span class="spotlight-title">Das Geisterdorf Gairo Vecchio →</span>
+      </a>
+      <a class="spotlight-card" href="posts/insider-koenigreich-sardinien.html">
+        <span class="spotlight-fact">Der Name eines ganzen Königreichs – und Namensgeber Italiens</span>
+        <span class="spotlight-title">Das Königreich Sardinien →</span>
+      </a>
+    </div>
+    <button class="spotlight-cta" type="button" id="spotlightCta">Alle 10 Insider-Geschichten ansehen ↓</button>
   </div>
 </section>
 
@@ -820,6 +847,16 @@
       applyFilter(btn.dataset.filter);
     });
   });
+
+  var spotlightCta = document.getElementById("spotlightCta");
+  if(spotlightCta){
+    spotlightCta.addEventListener("click", function(){
+      var insiderBtn = document.querySelector('.filter-btn[data-filter="insider"]');
+      if(insiderBtn) insiderBtn.click();
+      var bar = document.getElementById("filterBar");
+      if(bar) bar.scrollIntoView({behavior:"smooth", block:"start"});
+    });
+  }
 })();
 </script>
 </body>
