@@ -61,6 +61,7 @@ header.site .wrap{display:flex;align-items:center;justify-content:space-between;
   white-space:nowrap;
 }
 .lang-switch:hover{background:var(--sand-100);}
+.lang-switch .flag-icon{display:inline-block;vertical-align:-2px;margin-right:5px;border-radius:2px;}
 .header-actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap;}
 .forum-btn{
   font-size:.82rem;font-weight:700;color:#fff;text-decoration:none;
