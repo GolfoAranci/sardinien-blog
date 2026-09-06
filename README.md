@@ -19,6 +19,16 @@ Sardinien-Blog/
 │   ├── index.html
 │   └── posts/
 └── posts/
+    ├── insider-filindeu-sardinien.html
+    ├── insider-casumarzu-sardinien.html
+    ├── insider-fassonis-sardinien.html
+    ├── insider-accabadora-sardinien.html
+    ├── insider-monteprama-sardinien.html
+    ├── insider-orgosolo-sardinien.html
+    ├── insider-domusdejanas-sardinien.html
+    ├── insider-launeddas-sardinien.html
+    ├── insider-gairovecchio-sardinien.html
+    ├── insider-koenigreich-sardinien.html
     ├── straende-sardinien.html
     ├── pelosa-stintino-sardinien.html
     ├── cala-goloritze-sardinien.html
@@ -124,8 +134,23 @@ Sardinien-Blog/
   - Sardinien mit Kindern: Familienfreundliche Tipps
   - Autofahren auf Sardinien: Verkehr, Strassen & Mietwagen-Tipps
   - Camping auf Sardinien: Die schönsten Regionen
+- **Insider** *(neu)* – Themen abseits der üblichen Reiseblog-Kost, siehe Abschnitt "Insider-Themen"
+  - Su Filindeu: Die seltenste Pasta der Welt
+  - Casu Marzu: Der lebendige Käse Sardiniens
+  - Is Fassonis: Uralte Schilfboote von Cabras
+  - Sa Femina Accabadora: Legende oder Realität?
+  - Die Riesen von Mont'e Prama
+  - Orgosolo: Das Dorf der Wandmalereien
+  - Domus de Janas: Die Feenhäuser Sardiniens
+  - Launeddas: Sardiniens 3000 Jahre altes Instrument
+  - Gairo Vecchio: Das viermal überflutete Geisterdorf
+  - Das Königreich Sardinien: Namensgeber Italiens
 
 Bewusst als allgemeine Ideen- und Tippsammlung angelegt, nicht als persönliches Reisetagebuch – die Inhalte gelten für die ganze Insel, nicht nur für eine bestimmte Region oder Reise.
+
+## Insider-Themen
+
+Eine eigene Filterkategorie "🕵️ Insider" auf der Startseite bündelt zehn Artikel zu Themen, die auf den meisten anderen Sardinien-Blogs kaum vorkommen: von der seltensten Pasta der Welt über eine umstrittene Sterbehilfe-Legende bis zum Königreich, das Italien seinen Namen gab. Die Artikel sind recherchiert und mit Quellen abgesichert; bei historisch umstrittenen Themen (z. B. Sa Femina Accabadora) wird der Streitstand offen benannt statt als gesicherte Tatsache dargestellt.
 
 ## Mehrsprachigkeit
 
@@ -244,6 +269,15 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | `images/hotel-alberocapovolto.jpg` | Historischer Wachturm an der Küste der Gallura |
 | `images/hotel-mannois.jpg` | Blick aus einer Felshöhle auf das türkise Meer am Golfo di Orosei |
 | `images/hotel-7pines.jpg` | Moderner Infinity-Pool mit Blick auf das Meer |
+| `images/insider-filindeu.jpg` | Reife Hartweizenähren kurz vor der Ernte |
+| `images/insider-casumarzu.jpg` | Angeschnittener Pecorino-Käselaib |
+| `images/insider-fassonis.jpg` | Schilfbewachsene Lagune bei Sonnenuntergang |
+| `images/insider-accabadora.jpg` | Eine einzelne brennende Kerze in Dunkelheit |
+| `images/insider-orgosolo.jpg` | Wandmalerei mit zwei Männern in traditioneller Kleidung |
+| `images/insider-domusdejanas.jpg` | Natürlicher Höhlengang mit Lichteinfall |
+| `images/insider-launeddas.jpg` | Hohe Schilfrohr-Halme im Wind |
+| `images/insider-gairovecchio.jpg` | Verfallenes Steinhaus mit alter Holztür |
+| `images/insider-koenigreich.jpg` | Historischer Torbogen im Castello-Viertel von Cagliari |
 
 ## Anpassen
 

@@ -149,6 +149,7 @@ header.site .wrap{display:flex;align-items:center;justify-content:space-between;
 .tag.natur{background:#e2f0d9;color:#4a7a2e;}
 .tag.kultur{background:#ece0f5;color:#6b3fa0;}
 .tag.tipps{background:var(--sand-200);color:#7a5a1f;}
+.tag.insider{background:#1b2a3d;color:#f4c76b;}
 .post-card h3{margin:0 0 8px;font-size:1.08rem;font-family:var(--font-head);font-weight:700;color:var(--blue-900);line-height:1.35;}
 .post-card p.excerpt{margin:0 0 14px;font-size:.86rem;color:var(--ink-soft);flex:1;}
 .post-meta{font-size:.76rem;color:var(--ink-soft);display:flex;gap:10px;}
