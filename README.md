@@ -305,6 +305,7 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | `images/camping-glamping.jpg` | Beleuchtetes Lodge-Zelt mit Holzterrasse im Pinienwald |
 | `images/camping-packliste.jpg` | Windgeformte Dünen mit hohem Strandgras |
 | `images/camping-kosten.jpg` | Ausgebreitete Euro-Centmünzen |
+| `images/hero-schaf.jpg` | Freches Cartoon-Schaf (Startseite, Hero-Bereich) |
 
 ## Anpassen
 
