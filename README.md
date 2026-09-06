@@ -20,6 +20,17 @@ Sardinien-Blog/
 │   └── posts/
 └── posts/
     ├── straende-sardinien.html
+    ├── pelosa-stintino-sardinien.html
+    ├── cala-goloritze-sardinien.html
+    ├── cala-mariolu-sardinien.html
+    ├── cala-luna-sardinien.html
+    ├── cala-brandinchi-sardinien.html
+    ├── la-cinta-sardinien.html
+    ├── is-arutas-sardinien.html
+    ├── poetto-cagliari-sardinien.html
+    ├── costa-rei-sardinien.html
+    ├── chia-sardinien.html
+    ├── herbst-anreise-sardinien.html
     ├── kulinarik-sardinien.html
     ├── agriturismi-sardinien.html
     ├── weine-sardinien.html
@@ -53,7 +64,18 @@ Sardinien-Blog/
 
 ## Artikel
 
-- **Strände** – Die schönsten Strände Sardiniens (ganze Insel, nach Region gegliedert)
+- **Strände**
+  - Die schönsten Strände Sardiniens (Übersicht, ganze Insel nach Region gegliedert)
+  - Spiaggia della Pelosa: Der Traumstrand bei Stintino
+  - Cala Goloritzé: Wanderung zur berühmten Bucht
+  - Cala Mariolu: Die Bucht mit den weissen Kieseln
+  - Cala Luna: Bucht mit Höhlen im Golfo di Orosei
+  - Cala Brandinchi: Die "kleine Tahiti" Sardiniens
+  - La Cinta: Kilometerlanger Sandstrand bei San Teodoro
+  - Is Arutas: Der Strand aus Quarzsand
+  - Spiaggia del Poetto: Der Stadtstrand von Cagliari
+  - Costa Rei: Kilometerlanger Sandstrand im Südosten
+  - Chia: Dünen, Turm und türkises Wasser im Süden
 - **Kulinarik**
   - Sardische Küche: Gerichte, Wein & Restaurant-Tipps
   - Agriturismi auf Sardinien: Essen wie auf dem Land
@@ -191,6 +213,16 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | `images/mietwagen-schluessel.jpg` | Autoschlüssel im Zündschloss |
 | `images/unterkunft-zimmer.jpg` | Hotelzimmer mit Meerblick |
 | `images/herbst-sturm.jpg` | Aufziehende Herbstwolken über einer felsigen Küste |
+| `images/strand-pelosa.jpg` | Torre della Pelosa im türkisen Wasser bei Stintino |
+| `images/strand-goloritze.jpg` | Felsbogen und türkises Wasser bei Cala Goloritzé |
+| `images/strand-mariolu.jpg` | Runder heller Fels im türkisen Wasser bei Cala Mariolu |
+| `images/strand-luna.jpg` | Steilküste, Felsen und Boote bei Cala Luna |
+| `images/strand-brandinchi.jpg` | Blick auf die Insel Tavolara von der Küste bei San Teodoro |
+| `images/strand-lacinta.jpg` | Wellen laufen sanft auf hellen Sandstrand |
+| `images/strand-isarutas.jpg` | Küste bei Is Arutas auf der Sinis-Halbinsel bei Sonnenuntergang |
+| `images/strand-poetto.jpg` | Blick auf die Sella del Diavolo vom Poetto in Cagliari |
+| `images/strand-costarei.jpg` | Felsige Küste und türkises Wasser bei Costa Rei |
+| `images/strand-chia.jpg` | Steinweg durch Pinien zur Bucht von Chia |
 
 ## Anpassen
 
