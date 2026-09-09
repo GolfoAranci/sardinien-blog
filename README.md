@@ -94,7 +94,12 @@ Sardinien-Blog/
     ├── fakten-sardinien.html
     ├── touren-buchen-sardinien.html
     ├── mietwagen-buchen-sardinien.html
-    └── unterkunft-sardinien.html
+    ├── unterkunft-sardinien.html
+    ├── route-nordosten-sardinien.html
+    ├── route-rundreise-sardinien.html
+    ├── route-familien-sardinien.html
+    ├── route-aktiv-sardinien.html
+    └── route-insider-sardinien.html
 ```
 
 ## Artikel
@@ -175,12 +180,22 @@ Sardinien-Blog/
   - Tiscali: Das Bergdorf, das niemand von unten sieht
   - Asinara: Vom Hochsicherheitsgefängnis zum Nationalpark
   - Blue Zone Barbagia: Warum hier so viele 100 werden
+- **Routen** *(neu)* – fertige Routenvorschläge, siehe Abschnitt "Routenvorschläge"
+  - 7 Tage Nordosten: Costa Smeralda & Maddalena
+  - 10 Tage Rundreise um Sardinien
+  - 7 Tage Familienwoche auf Sardinien
+  - 7 Tage Aktivurlaub: Wandern, Camping & Wassersport
+  - 7 Tage Insider-Route: Sardinien abseits der Klassiker
 
 Bewusst als allgemeine Ideen- und Tippsammlung angelegt, nicht als persönliches Reisetagebuch – die Inhalte gelten für die ganze Insel, nicht nur für eine bestimmte Region oder Reise.
 
 ## Insider-Themen
 
 Eine eigene Filterkategorie "🕵️ Insider" auf der Startseite bündelt dreizehn Artikel zu Themen, die auf den meisten anderen Sardinien-Blogs kaum vorkommen: von der seltensten Pasta der Welt über eine umstrittene Sterbehilfe-Legende bis zum Königreich, das Italien seinen Namen gab. Die Artikel sind recherchiert und mit Quellen abgesichert; bei historisch umstrittenen Themen (z. B. Sa Femina Accabadora) wird der Streitstand offen benannt statt als gesicherte Tatsache dargestellt.
+
+## Routenvorschläge
+
+Eine eigene Startseiten-Sektion "🗺️ Reiserouten" (zwischen dem Insider-Spotlight und der Artikel-Übersicht) bündelt fünf fertig ausgearbeitete Routenvorschläge, die bestehende Artikel zu kompletten Reisen verknüpfen: eine kompakte Nordosten-Woche, eine grosse 10-Tage-Rundreise, eine familienfreundliche Woche, ein Aktivurlaub mit Wandern/Camping/Wassersport und eine Route entlang der Insider-Geschichten. Wie beim Insider-Bereich sind die Routen zusätzlich über die Filterkategorie "🗺️ Routen" in der normalen Artikel-Übersicht erreichbar. Neue Routen lassen sich nach demselben Muster ergänzen: bestehende Artikel zu einem Tag-für-Tag-Verlauf verknüpfen, als eigene Seite unter `posts/route-*.html` anlegen und sowohl in der Routen-Sektion als auch im Post-Grid verlinken.
 
 ## Mehrsprachigkeit
 
