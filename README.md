@@ -266,7 +266,7 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | Bild | Motiv |
 |---|---|
 | `images/straende-isuledda.jpg` | Strand S'Isuledda bei San Teodoro |
-| `images/kulinarik-spaghetti.jpg` | Spaghetti mit Garnelen |
+| `images/kulinarik-porceddu.jpg` | Knuspriger Schweinebraten mit krosser Kruste |
 | `images/ausflug-tavolara.jpg` | Insel Tavolara |
 | `images/reiseziele-alghero.jpg` | Altstadtmauer von Alghero |
 | `images/anreise-ferry.jpg` | Fähre bei Sonnenuntergang |
