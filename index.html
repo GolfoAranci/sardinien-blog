@@ -80,33 +80,75 @@
   <div class="wrap">
     <span class="eyebrow">🗺️ Reiserouten</span>
     <h2>Fertige Routenvorschläge für deinen Sardinien-Urlaub</h2>
-    <p class="routes-lead">Du willst nicht selbst planen? Fünf ausgearbeitete Routen verbinden unsere Artikel zu kompletten Reisen – von der entspannten Familienwoche bis zur grossen Rundreise.</p>
-    <div class="routes-grid">
-      <a class="route-card" href="posts/route-nordosten-sardinien.html">
-        <span class="route-days">7 Tage</span>
-        <span class="route-title">Nordosten: Costa Smeralda &amp; Maddalena</span>
-        <span class="route-desc">Strände, Inselhüpfen und Wassersport, alles innerhalb einer Autostunde.</span>
-      </a>
-      <a class="route-card" href="posts/route-rundreise-sardinien.html">
-        <span class="route-days">11 Tage</span>
-        <span class="route-title">Rundreise um die ganze Insel</span>
-        <span class="route-desc">Küste, Supramonte, Barbagia und Cagliari einmal im Kreis.</span>
-      </a>
-      <a class="route-card" href="posts/route-familien-sardinien.html">
-        <span class="route-days">7 Tage</span>
-        <span class="route-title">Familienwoche mit Kindern</span>
-        <span class="route-desc">Flache Strände, kurze Fahrten, viel Zeit zum Spielen.</span>
-      </a>
-      <a class="route-card" href="posts/route-aktiv-sardinien.html">
-        <span class="route-days">7 Tage</span>
-        <span class="route-title">Aktivurlaub: Wandern, Camping &amp; Wassersport</span>
-        <span class="route-desc">Bergdörfer zu Fuss, Buchten per Boot, Kitesurfen am Nachmittag.</span>
-      </a>
-      <a class="route-card" href="posts/route-insider-sardinien.html">
-        <span class="route-days">10 Tage</span>
-        <span class="route-title">Insider-Route abseits der Klassiker</span>
-        <span class="route-desc">Unsere "Krass, aber wahr"-Geschichten als eigene Reiseroute.</span>
-      </a>
+    <p class="routes-lead">Du willst nicht selbst planen? Fünf ausgearbeitete Routen verbinden unsere Artikel zu kompletten Reisen – von der entspannten Familienwoche bis zur grossen Rundreise. Mit der Maus über eine Route fahren zeigt ihren Verlauf auf der Karte.</p>
+    <div class="routes-layout">
+      <div class="routes-map">
+        <svg viewBox="0 0 400 650" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path class="map-outline" d="M220,40 L270,55 L300,90 L295,140 L320,175 L335,230 L340,290 L330,345 L320,390 L300,440 L295,470 L260,510 L235,555 L205,580 L175,610 L130,580 L100,520 L90,460 L100,410 L75,385 L95,355 L85,300 L95,230 L85,160 L100,120 L75,100 L130,80 L180,55 Z"/>
+          <circle class="map-asinara" cx="52" cy="88" r="7"/>
+
+          <g class="map-route" data-route="nordosten">
+            <polyline points="300,165 290,100 285,80 270,90 322,195 300,165"/>
+            <circle cx="300" cy="165" r="5"/><circle cx="290" cy="100" r="5"/><circle cx="285" cy="80" r="5"/><circle cx="270" cy="90" r="5"/><circle cx="322" cy="195" r="5"/>
+          </g>
+          <g class="map-route" data-route="rundreise">
+            <polyline points="300,165 285,80 270,90 78,105 78,370 235,555 178,600 335,300 285,270 250,290 322,195 300,165"/>
+            <circle cx="300" cy="165" r="5"/><circle cx="285" cy="80" r="5"/><circle cx="270" cy="90" r="5"/><circle cx="78" cy="105" r="5"/><circle cx="78" cy="370" r="5"/><circle cx="235" cy="555" r="5"/><circle cx="178" cy="600" r="5"/><circle cx="335" cy="300" r="5"/><circle cx="285" cy="270" r="5"/><circle cx="250" cy="290" r="5"/><circle cx="322" cy="195" r="5"/>
+          </g>
+          <g class="map-route" data-route="familien">
+            <polyline points="300,165 322,195 315,155 270,90 300,140 300,165"/>
+            <circle cx="300" cy="165" r="5"/><circle cx="322" cy="195" r="5"/><circle cx="315" cy="155" r="5"/><circle cx="270" cy="90" r="5"/><circle cx="300" cy="140" r="5"/>
+          </g>
+          <g class="map-route" data-route="aktiv">
+            <polyline points="300,165 335,300 285,270 330,340 285,80 270,90 300,165"/>
+            <circle cx="300" cy="165" r="5"/><circle cx="335" cy="300" r="5"/><circle cx="285" cy="270" r="5"/><circle cx="330" cy="340" r="5"/><circle cx="285" cy="80" r="5"/><circle cx="270" cy="90" r="5"/>
+          </g>
+          <g class="map-route" data-route="insider">
+            <polyline points="300,165 280,95 52,88 78,370 110,545 235,555 310,385 250,290 270,255 300,165"/>
+            <circle cx="300" cy="165" r="5"/><circle cx="280" cy="95" r="5"/><circle cx="52" cy="88" r="5"/><circle cx="78" cy="370" r="5"/><circle cx="110" cy="545" r="5"/><circle cx="235" cy="555" r="5"/><circle cx="310" cy="385" r="5"/><circle cx="250" cy="290" r="5"/><circle cx="270" cy="255" r="5"/>
+          </g>
+
+          <circle class="map-olbia" cx="300" cy="165" r="6"/>
+          <text class="map-olbia-label" x="309" y="169">Olbia</text>
+        </svg>
+      </div>
+      <div class="routes-list">
+        <a class="route-card" data-route="nordosten" href="posts/route-nordosten-sardinien.html">
+          <span class="route-days">7 Tage</span>
+          <span class="route-text">
+            <span class="route-title">Nordosten: Costa Smeralda &amp; Maddalena</span>
+            <span class="route-desc">Strände, Inselhüpfen und Wassersport, alles innerhalb einer Autostunde.</span>
+          </span>
+        </a>
+        <a class="route-card" data-route="rundreise" href="posts/route-rundreise-sardinien.html">
+          <span class="route-days">11 Tage</span>
+          <span class="route-text">
+            <span class="route-title">Rundreise um die ganze Insel</span>
+            <span class="route-desc">Küste, Supramonte, Barbagia und Cagliari einmal im Uhrzeigersinn.</span>
+          </span>
+        </a>
+        <a class="route-card" data-route="familien" href="posts/route-familien-sardinien.html">
+          <span class="route-days">7 Tage</span>
+          <span class="route-text">
+            <span class="route-title">Familienwoche mit Kindern</span>
+            <span class="route-desc">Flache Strände, kurze Fahrten, viel Zeit zum Spielen.</span>
+          </span>
+        </a>
+        <a class="route-card" data-route="aktiv" href="posts/route-aktiv-sardinien.html">
+          <span class="route-days">7 Tage</span>
+          <span class="route-text">
+            <span class="route-title">Aktivurlaub: Wandern, Camping &amp; Wassersport</span>
+            <span class="route-desc">Bergdörfer zu Fuss, Buchten per Boot, Kitesurfen am Nachmittag.</span>
+          </span>
+        </a>
+        <a class="route-card" data-route="insider" href="posts/route-insider-sardinien.html">
+          <span class="route-days">10 Tage</span>
+          <span class="route-text">
+            <span class="route-title">Insider-Route abseits der Klassiker</span>
+            <span class="route-desc">Unsere "Krass, aber wahr"-Geschichten als eigene Reiseroute.</span>
+          </span>
+        </a>
+      </div>
     </div>
   </div>
 </section>
@@ -1148,6 +1190,20 @@
       if(bar) bar.scrollIntoView({behavior:"smooth", block:"start"});
     });
   }
+
+  var routeCards = document.querySelectorAll(".route-card[data-route]");
+  var mapRoutes = document.querySelectorAll(".map-route");
+  function setActiveRoute(name){
+    mapRoutes.forEach(function(g){
+      g.classList.toggle("active", g.dataset.route === name);
+    });
+  }
+  routeCards.forEach(function(card){
+    card.addEventListener("mouseenter", function(){ setActiveRoute(card.dataset.route); });
+    card.addEventListener("mouseleave", function(){ setActiveRoute(null); });
+    card.addEventListener("focus", function(){ setActiveRoute(card.dataset.route); });
+    card.addEventListener("blur", function(){ setActiveRoute(null); });
+  });
 })();
 </script>
 </body>
