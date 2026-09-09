@@ -182,10 +182,10 @@ Sardinien-Blog/
   - Blue Zone Barbagia: Warum hier so viele 100 werden
 - **Routen** *(neu)* – fertige Routenvorschläge, siehe Abschnitt "Routenvorschläge"
   - 7 Tage Nordosten: Costa Smeralda & Maddalena
-  - 10 Tage Rundreise um Sardinien
+  - 11 Tage Rundreise um Sardinien
   - 7 Tage Familienwoche auf Sardinien
   - 7 Tage Aktivurlaub: Wandern, Camping & Wassersport
-  - 7 Tage Insider-Route: Sardinien abseits der Klassiker
+  - 10 Tage Insider-Route: Sardinien abseits der Klassiker
 
 Bewusst als allgemeine Ideen- und Tippsammlung angelegt, nicht als persönliches Reisetagebuch – die Inhalte gelten für die ganze Insel, nicht nur für eine bestimmte Region oder Reise.
 
@@ -195,7 +195,7 @@ Eine eigene Filterkategorie "🕵️ Insider" auf der Startseite bündelt dreize
 
 ## Routenvorschläge
 
-Eine eigene Startseiten-Sektion "🗺️ Reiserouten" (zwischen dem Insider-Spotlight und der Artikel-Übersicht) bündelt fünf fertig ausgearbeitete Routenvorschläge, die bestehende Artikel zu kompletten Reisen verknüpfen: eine kompakte Nordosten-Woche, eine grosse 10-Tage-Rundreise, eine familienfreundliche Woche, ein Aktivurlaub mit Wandern/Camping/Wassersport und eine Route entlang der Insider-Geschichten. Wie beim Insider-Bereich sind die Routen zusätzlich über die Filterkategorie "🗺️ Routen" in der normalen Artikel-Übersicht erreichbar. Neue Routen lassen sich nach demselben Muster ergänzen: bestehende Artikel zu einem Tag-für-Tag-Verlauf verknüpfen, als eigene Seite unter `posts/route-*.html` anlegen und sowohl in der Routen-Sektion als auch im Post-Grid verlinken.
+Eine eigene Startseiten-Sektion "🗺️ Reiserouten" (zwischen dem Insider-Spotlight und der Artikel-Übersicht) bündelt fünf fertig ausgearbeitete Routenvorschläge, die bestehende Artikel zu kompletten Reisen verknüpfen: eine kompakte Nordosten-Woche, eine grosse 11-Tage-Rundreise, eine familienfreundliche Woche, ein Aktivurlaub mit Wandern/Camping/Wassersport und eine 10-tägige Route entlang der Insider-Geschichten. Alle Mehrtagesrouten sind bewusst als durchgehende Schlaufe ohne Rückwege angelegt. Wie beim Insider-Bereich sind die Routen zusätzlich über die Filterkategorie "🗺️ Routen" in der normalen Artikel-Übersicht erreichbar. Neue Routen lassen sich nach demselben Muster ergänzen: bestehende Artikel zu einem Tag-für-Tag-Verlauf verknüpfen, als eigene Seite unter `posts/route-*.html` anlegen und sowohl in der Routen-Sektion als auch im Post-Grid verlinken.
 
 ## Mehrsprachigkeit
 
