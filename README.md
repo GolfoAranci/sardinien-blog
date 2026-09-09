@@ -197,6 +197,8 @@ Eine eigene Filterkategorie "🕵️ Insider" auf der Startseite bündelt dreize
 
 Eine eigene Startseiten-Sektion "🗺️ Reiserouten" (zwischen dem Insider-Spotlight und der Artikel-Übersicht) bündelt fünf fertig ausgearbeitete Routenvorschläge, die bestehende Artikel zu kompletten Reisen verknüpfen: eine kompakte Nordosten-Woche, eine grosse 11-Tage-Rundreise, eine familienfreundliche Woche, ein Aktivurlaub mit Wandern/Camping/Wassersport und eine 10-tägige Route entlang der Insider-Geschichten. Alle Mehrtagesrouten sind bewusst als durchgehende Schlaufe ohne Rückwege angelegt. Wie beim Insider-Bereich sind die Routen zusätzlich über die Filterkategorie "🗺️ Routen" in der normalen Artikel-Übersicht erreichbar. Neue Routen lassen sich nach demselben Muster ergänzen: bestehende Artikel zu einem Tag-für-Tag-Verlauf verknüpfen, als eigene Seite unter `posts/route-*.html` anlegen und sowohl in der Routen-Sektion als auch im Post-Grid verlinken.
 
+Links in der Sektion steht eine stilisierte Sardinien-Karte (`images/sardinien-karte.png`), rechts die fünf Routenteaser als Liste. Beim Hovern oder Fokussieren (Tastatur) eines Teasers wird der jeweilige Streckenverlauf als gestrichelte Linie mit Stationspunkten über die Karte gelegt (`.routes-map-overlay`, ein transparentes SVG mit `viewBox="0 0 1024 1536"` passend zu den Pixelmassen des Kartenbilds). Neue oder geänderte Routen brauchen entsprechend angepasste `<polyline>`-Koordinaten in `index.html` – die ungefähre Zuordnung wichtiger Orte zu Koordinaten lässt sich am einfachsten von den bestehenden `<g class="map-route">`-Blöcken ableiten.
+
 ## Mehrsprachigkeit
 
 Der Blog gibt es seit Kurzem auch auf **Italienisch**, im Unterordner [it/](it/index.html) – bewusst (noch) nicht als vollständige Übersetzung aller Artikel, sondern mit den vier bislang stärksten Themen als Start:
@@ -328,6 +330,7 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | `images/insider-bluezone.jpg` | Bergdorf am Fuss eines Kalksteinmassivs in der Barbagia |
 | `images/gabbiani-kite.jpg` | Kitesurfer springt über türkisfarbenes Wasser |
 | `images/anreise-mobyschiffe.jpg` | Weisse Fähre überquert eine ruhige Bucht |
+| `images/sardinien-karte.png`* | Stilisierte 3D-Karte von Sardinien (Routen-Sektion) |
 | `images/camping-calagonone.jpg` | Beleuchtetes Zelt unter Pinien und Sternenhimmel |
 | `images/camping-costaverde.jpg` | Wilde, felsige Küste im Südwesten Sardiniens |
 | `images/camping-maddalena.jpg` | Hafen und Altstadt von La Maddalena |
@@ -336,6 +339,8 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | `images/camping-packliste.jpg` | Windgeformte Dünen mit hohem Strandgras |
 | `images/camping-kosten.jpg` | Ausgebreitete Euro-Centmünzen |
 | `images/hero-schaf.jpg` | Freches Cartoon-Schaf (Startseite, Hero-Bereich) |
+
+\* Ausnahme von der Pixabay-Regel oben: KI-generiert (vom Website-Betreiber bereitgestellt), keine Pixabay-Lizenz.
 
 ## Anpassen
 

@@ -268,15 +268,15 @@ footer.site .disclaimer{max-width:600px;margin:8px auto 0;font-size:.76rem;}
 
 .routes-layout{display:grid;grid-template-columns:minmax(200px,290px) 1fr;gap:28px;align-items:start;}
 .routes-map{position:sticky;top:84px;background:var(--white);border-radius:16px;padding:14px;box-shadow:var(--shadow);border:1.5px solid var(--sand-200);}
-.routes-map svg{display:block;width:100%;height:auto;}
-.map-outline{fill:var(--sand-100);stroke:var(--blue-700);stroke-width:2.5;stroke-linejoin:round;}
-.map-asinara{fill:var(--sand-100);stroke:var(--blue-700);stroke-width:2.5;}
-.map-olbia{fill:var(--blue-700);stroke:var(--white);stroke-width:2;}
-.map-olbia-label{font-family:var(--font-head);font-weight:700;font-size:13px;fill:var(--blue-900);}
+.routes-map-inner{position:relative;}
+.routes-map img{display:block;width:100%;height:auto;}
+.routes-map-overlay{position:absolute;top:0;left:0;width:100%;height:100%;}
+.map-olbia{fill:var(--blue-700);stroke:var(--white);stroke-width:5;}
+.map-olbia-label{font-family:var(--font-head);font-weight:700;font-size:34px;fill:var(--blue-900);paint-order:stroke;stroke:var(--white);stroke-width:5;}
 .map-route{opacity:0;transition:opacity .25s ease;}
 .map-route.active{opacity:1;}
-.map-route polyline{fill:none;stroke:#a83e5c;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:7 6;}
-.map-route circle{fill:#a83e5c;stroke:var(--white);stroke-width:1.5;}
+.map-route polyline{fill:none;stroke:#a83e5c;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:16 14;}
+.map-route circle{fill:#a83e5c;stroke:var(--white);stroke-width:3.5;}
 
 .routes-list{display:flex;flex-direction:column;gap:12px;}
 .route-card{
