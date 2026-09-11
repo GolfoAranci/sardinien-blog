@@ -111,7 +111,6 @@ Sardinien-Blog/
   - Cala Mariolu: Die Bucht mit den weissen Kieseln
   - Cala Luna: Bucht mit Höhlen im Golfo di Orosei
   - Cala Brandinchi: Die "kleine Tahiti" Sardiniens
-  - Isola dei Gabbiani: Kite- & Windsurf-Paradies bei Palau
   - La Cinta: Kilometerlanger Sandstrand bei San Teodoro
   - Is Arutas: Der Strand aus Quarzsand
   - Spiaggia del Poetto: Der Stadtstrand von Cagliari
@@ -128,6 +127,7 @@ Sardinien-Blog/
   - Wandern auf Sardinien: Die schönsten Routen (Selvaggio Blu, Tiscali, Gola Su Gorropu, Punta La Marmora)
   - Segeln und Bootstouren auf Sardinien
   - Die besten Touren und Ausflüge, die man buchen kann
+  - Isola dei Gabbiani: Kite- & Windsurf-Paradies bei Palau
 - **Reiseziele**
   - Regionen Sardiniens im Überblick (Costa Smeralda, Alghero, Golfo di Orosei, Cagliari, Barbagia, Sinis-Halbinsel)
   - Unterkunft auf Sardinien: Hotel, Ferienwohnung oder Agriturismo?
