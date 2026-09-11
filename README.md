@@ -240,6 +240,7 @@ Technisch läuft das über [Cusdis](https://cusdis.com), einen leichtgewichtigen
 - Jede Seite hat eine individuelle **Meta-Description** für bessere Suchergebnis-Snippets.
 - **Google Analytics (GA4)** ist eingebunden (`analytics.js`), lädt aber erst nach Zustimmung über den Cookie-Banner am unteren Bildschirmrand (`.cookie-banner` in `style.css`). Die Measurement-ID steht am Anfang von `analytics.js` (`GA_ID`). Die Zustimmung wird im `localStorage` des jeweiligen Browsers gespeichert.
 - Neu bei Google veröffentlichte Seiten werden nicht automatisch gefunden – ohne Backlinks und ohne Einreichung in der [Google Search Console](https://search.google.com/search-console) kann es Tage bis Wochen dauern, bis sie indexiert wird.
+- **Strukturierte Daten (Schema.org):** Jeder Artikel hat ein `Article`-JSON-LD-Snippet im `<head>` (Headline, Beschreibung, Bild, echtes Erstell-/Änderungsdatum aus der Git-Historie, Autor/Publisher als Organisation "Sardinien-Blog"). Die Startseite trägt ein `WebSite`-Snippet. Damit Suchmaschinen und KI-Assistenten Inhalte besser einordnen und zitieren können. Neue Artikel sollten dasselbe Muster übernehmen (siehe ein beliebiger bestehender Artikel als Vorlage) – Datumsangaben lassen sich mit `git log --follow --diff-filter=A --format=%aI -- posts/<datei>.html` (Erstellung) bzw. `git log -1 --format=%aI -- posts/<datei>.html` (letzte Änderung) ermitteln.
 
 ## Monetarisierung (vorbereitet, noch nicht aktiv)
 
