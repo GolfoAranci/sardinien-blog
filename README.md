@@ -280,7 +280,7 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | `images/agriturismi-tisch.jpg` | Käse, Trauben und Rotwein auf rustikalem Tisch |
 | `images/weine-glaeser.jpg` | Rot- und Weisswein mit Trauben |
 | `images/biere-glas.jpg` | Frisch gezapftes Bier |
-| `images/likoere-flaschen.jpg` | Spirituosenflaschen im Regal |
+| `images/likoere-mirto.jpg` | Gläser mit dunkelrotem Likör |
 | `images/wildschweine-eber.jpg` | Wildschwein in freier Natur |
 | `images/feste-kostueme.jpg` | Traditionelle sardische Tracht mit Stickerei |
 | `images/cantu-tenore-nuoro.jpg` | Berglandschaft bei Nuoro (Barbagia) |
@@ -293,7 +293,7 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | `images/autofahren-strasse.jpg` | Kurvenreiche Landstrasse |
 | `images/camping-zelt.jpg` | Zelt am Strand |
 | `images/touren-boot.jpg` | Kleines Boot auf ruhigem Meer |
-| `images/mietwagen-schluessel.jpg` | Autoschlüssel im Zündschloss |
+| `images/mietwagen-fiat.jpg` | Oranger Fiat 500 auf einer Landstrasse |
 | `images/unterkunft-zimmer.jpg` | Hotelzimmer mit Meerblick |
 | `images/herbst-sturm.jpg` | Aufziehende Herbstwolken über einer felsigen Küste |
 | `images/strand-pelosa.jpg` | Torre della Pelosa im türkisen Wasser bei Stintino |
