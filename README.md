@@ -213,6 +213,8 @@ Ein kleiner **Sprachumschalter** (🇮🇹 / 🇩🇪) im Header verlinkt zwisch
 
 **Weitere Artikel übersetzen:** Eine bestehende deutsche Seite in `posts/` kopieren, ins Italienische übersetzen, unter `it/posts/` mit passendem Dateinamen ablegen, in `it/index.html` verlinken, in `sitemap.xml` ergänzen und auf beiden Seiten (DE + IT) den `lang-switch`-Link sowie den `hreflang`-Tag ergänzen.
 
+Seit Kurzem gibt es zusätzlich eine **englische** Version im Unterordner [en/](en/index.html) – als vollständige, wachsende Übersetzung angelegt (nicht nur eine kleine Auswahl wie die italienische Fassung). Start war die komplette Kategorie "Strände" (11 Artikel + Startseite mit Suche und Filter-Leiste, analog zur deutschen Struktur); weitere Kategorien werden nach und nach ergänzt. Dateinamen folgen dem Muster `<name>-sardinia.html` (statt `-sardinien.html`) unter `en/posts/`. Neue Artikel übersetzen läuft nach demselben Muster wie bei Italienisch, nur mit drei Sprachversionen im `hreflang`-Verbund (DE/IT/EN) statt zwei – und zusätzlich mit einem eigenen `Article`-JSON-LD-Snippet auf Englisch (`inLanguage: "en"`).
+
 ## Forum
 
 Über den **Forum**-Button oben rechts im Header (auf der Startseite und allen deutschen Artikeln) gelangt man zu [forum.html](forum.html), einem einfachen Kommentar-Board ohne Registrierung: Besucher geben nur einen Nickname ein und schreiben direkt los.
