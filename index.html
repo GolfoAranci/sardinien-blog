@@ -20,6 +20,14 @@
     "@type": "Organization",
     "name": "Sardinien-Blog",
     "url": "https://golfoaranci.github.io/sardinien-blog/"
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://golfoaranci.github.io/sardinien-blog/index.html?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
   }
 }
 </script>
@@ -175,6 +183,9 @@
 </section>
 
 <div class="wrap">
+  <div class="search-bar">
+    <input type="search" id="searchInput" class="search-input" placeholder="🔍 Artikel durchsuchen (z. B. Strand, Camping, Mirto …)" aria-label="Artikel durchsuchen">
+  </div>
   <div class="filter-bar" id="filterBar">
     <button class="filter-btn active" data-filter="all">Alle</button>
     <button class="filter-btn" data-filter="straende">🏖️ Strände</button>
@@ -1180,8 +1191,19 @@
   var buttons = document.querySelectorAll(".filter-btn");
   var cards = document.querySelectorAll("#postGrid .post-card");
   var countEl = document.getElementById("filterCount");
+  var searchInput = document.getElementById("searchInput");
+  var currentFilter = "all";
+
+  var searchIndex = [];
+  cards.forEach(function(card){
+    var title = card.querySelector("h3");
+    var excerpt = card.querySelector(".excerpt");
+    var text = (title ? title.textContent : "") + " " + (excerpt ? excerpt.textContent : "");
+    searchIndex.push(text.toLowerCase());
+  });
 
   function applyFilter(filter){
+    currentFilter = filter;
     var visible = 0;
     cards.forEach(function(card){
       var match = filter === "all" || card.dataset.cat === filter;
@@ -1195,8 +1217,36 @@
     }
   }
 
+  function applySearch(query){
+    query = query.trim().toLowerCase();
+    if(query === ""){
+      applyFilter(currentFilter);
+      return;
+    }
+    buttons.forEach(function(b){ b.classList.remove("active"); });
+    var visible = 0;
+    cards.forEach(function(card, i){
+      var match = searchIndex[i].indexOf(query) !== -1;
+      card.hidden = !match;
+      if(match) visible++;
+    });
+    countEl.textContent = visible + (visible === 1 ? " Artikel gefunden" : " Artikel gefunden") + " für „" + query + "“";
+  }
+
+  if(searchInput){
+    searchInput.addEventListener("input", function(){
+      applySearch(searchInput.value);
+    });
+    var urlQuery = new URLSearchParams(window.location.search).get("q");
+    if(urlQuery){
+      searchInput.value = urlQuery;
+      applySearch(urlQuery);
+    }
+  }
+
   buttons.forEach(function(btn){
     btn.addEventListener("click", function(){
+      if(searchInput) searchInput.value = "";
       buttons.forEach(function(b){ b.classList.remove("active"); });
       btn.classList.add("active");
       applyFilter(btn.dataset.filter);

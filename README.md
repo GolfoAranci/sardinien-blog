@@ -233,6 +233,7 @@ Technisch läuft das über [Cusdis](https://cusdis.com), einen leichtgewichtigen
 - Artikelkarten haben einen dezenten Hover-Effekt (Bild-Zoom, Schatten) sowie eine sanfte Eingangs-Animation; der Hero-Bereich der Startseite hat dezente, verschwommene Farbflächen im Hintergrund.
 - Das Logo im Header ist eine stilisierte Sardinien-Insel-Silhouette (Inline-SVG, kein Bild).
 - Auf der Startseite lässt sich die Artikel-Übersicht per Themen-Filter (Leiste über den Karten) auf eine Kategorie eingrenzen; die restlichen Karten rücken automatisch zusammen (`hidden`-Attribut statt Scroll-Anker).
+- **Suchfeld** über der Filter-Leiste durchsucht Titel und Kurzbeschreibung aller Artikel rein clientseitig (kein Backend, kein Index-Build nötig). Ein Klick auf einen Kategorie-Filter leert das Suchfeld wieder. Die Suche ist per `?q=suchbegriff` in der URL direkt verlinkbar (z. B. für Googles Sitelinks-Suchbox, siehe `potentialAction`/`SearchAction` im WebSite-Schema).
 
 ## SEO & Analytics
 
