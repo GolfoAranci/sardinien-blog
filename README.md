@@ -130,6 +130,7 @@ Sardinien-Blog/
   - Isola dei Gabbiani: Kite- & Windsurf-Paradies bei Palau
 - **Reiseziele**
   - Regionen Sardiniens im Überblick (Costa Smeralda, Alghero, Golfo di Orosei, Cagliari, Barbagia, Sinis-Halbinsel)
+- **Unterkunft** *(neu, vorher Teil von Reiseziele)*
   - Unterkunft auf Sardinien: Hotel, Ferienwohnung oder Agriturismo?
   - 10 aussergewöhnliche Hotels: Cala di Volpe, Pitrizza, Petra Segreta, Faro Capo Spartivento, Villa Las Tronas, Palazzo Doglio, Borgo Lu Puleu, Albero Capovolto, Albergo Diffuso Mannois, 7Pines
 - **Anreise**
