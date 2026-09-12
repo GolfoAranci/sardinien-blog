@@ -227,7 +227,7 @@ Technisch läuft das über [Cusdis](https://cusdis.com), einen leichtgewichtigen
 
 ## Links
 
-Über den **Links**-Button oben rechts im Header gelangt man zu [links.html](links.html), einer kleinen kuratierten Sammlung externer Adressen (Wetter/Wellengang, offizielle Reisehinweise, Notfall, Karten, Nationalparks). Bewusst nur Themen ohne Affiliate-Potenzial – für Buchungsthemen (Mietwagen, Fähre, Unterkunft) siehe den Abschnitt "Monetarisierung" weiter unten.
+Über den **Links**-Button oben rechts im Header gelangt man zu [links.html](links.html), einer kuratierten Sammlung externer Adressen: Wetter/Wellengang, offizielle Websites der Fährgesellschaften und Flughäfen, öffentlicher Verkehr (ARST, Trenitalia), Strand-Reservierungsportale (u. a. spiaggialapelosa.it, Comune di Baunei/Heart of Sardinia), offizielle Reise- und Sicherheitshinweise, Notfall (inkl. Botschaften/Konsulate und Apothekensuche), Karten, Nationalparks sowie Kultur/Feste/UNESCO-Welterbestätten. Die Seite ist sprachunabhängig (ein einziges `links.html` für DE/IT/EN) und bewusst ohne Affiliate-Links – jeder Eintrag wurde vor dem Einbau per Websuche auf die korrekte offizielle Domain geprüft. Für Buchungsthemen (Mietwagen, Fähre, Unterkunft) siehe den Abschnitt "Monetarisierung" weiter unten.
 
 ## Design
 
