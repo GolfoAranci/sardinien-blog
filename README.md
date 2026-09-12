@@ -122,6 +122,7 @@ Sardinien-Blog/
   - Die besten Weine Sardiniens
   - Die besten Biere Sardiniens
   - Die besten Liköre Sardiniens
+  - Die 10 besten Restaurants in Golfo Aranci (persönliche Rangliste, nicht nach dem üblichen Artikel-Schema)
 - **Ausflüge**
   - Die schönsten Ausflugsziele auf Sardinien (Tavolara, La Maddalena, Grotte di Nettuno, Su Nuraxi, Cagliari)
   - Wandern auf Sardinien: Die schönsten Routen (Selvaggio Blu, Tiscali, Gola Su Gorropu, Punta La Marmora)
@@ -286,6 +287,7 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | `images/weine-glaeser.jpg` | Rot- und Weisswein mit Trauben |
 | `images/biere-glas.jpg` | Frisch gezapftes Bier |
 | `images/likoere-mirto.jpg` | Gläser mit dunkelrotem Likör |
+| `images/restaurants-golfoaranci.jpg` | Teller mit gegrillten Garnelen auf Spaghetti |
 | `images/wildschweine-eber.jpg` | Wildschwein in freier Natur |
 | `images/feste-kostueme.jpg` | Traditionelle sardische Tracht mit Stickerei |
 | `images/cantu-tenore-nuoro.jpg` | Berglandschaft bei Nuoro (Barbagia) |
