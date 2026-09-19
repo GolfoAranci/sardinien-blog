@@ -289,12 +289,15 @@ Da es sich um reine, statische HTML/CSS/JS-Dateien ohne externe Abhängigkeiten 
 
 Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der freien [Pixabay-Inhaltslizenz](https://pixabay.com/service/license-summary/) (kostenlose Nutzung, keine Namensnennung erforderlich):
 
-**Ausnahme:** Die Titelbilder der Strandartikel Cala Sisine, Spiaggia del Principe, Tuerredda, Piscinas, Cala Domestica, Porto Giunco, Cala Brandinchi, La Cinta, Cala Luna, Cala Mariolu, Costa Rei, Is Arutas, Chia und Isola dei Gabbiani sowie der Insider-Artikel Casu Marzu, Su Filindeu, Fassonis (Stagno di Cabras), Accabadora, Mont'e Prama, Domus de Janas, Launeddas, Gairo Vecchio, Königreich (Palazzo Regio), Tiscali, Asinara, Wandern (Gola Su Gorropu), Camping Cala Gonone, Reisetipps (Golfo di Orosei), Moby-Artikel, Tiere (Giara), Flughäfen, Sprache und Weine (Weinberg bei Alghero) stammen von Wikimedia Commons (Urheber und Lizenz stehen in der Tabelle und jeweils im Fuss der Artikel), weil sich dort der Ort eindeutig prüfen lässt. Bei CC BY / CC BY-SA ist die Namensnennung Pflicht; die Bilder wurden nur in der Grösse angepasst.
+**Ausnahme:** Die Titelbilder der Strandartikel Cala Sisine, Spiaggia del Principe, Tuerredda, Piscinas, Cala Domestica, Porto Giunco, Cala Brandinchi, La Cinta, Cala Luna, Cala Mariolu, Costa Rei, Is Arutas, Chia und Isola dei Gabbiani sowie der Insider-Artikel Casu Marzu, Su Filindeu, Fassonis (Stagno di Cabras), Accabadora, Mont'e Prama, Domus de Janas, Launeddas, Gairo Vecchio, Königreich (Palazzo Regio), Tiscali, Asinara, Wandern (Gola Su Gorropu), Camping Cala Gonone, Reisetipps (Golfo di Orosei), Moby-Artikel, Tiere (Giara), Flughäfen, Sprache und Weine (Weinberg bei Alghero), Küche (Porceddu und Gericht-Galerie) und Agriturismi (Pecorino) stammen von Wikimedia Commons (Urheber und Lizenz stehen in der Tabelle und jeweils im Fuss der Artikel), weil sich dort der Ort eindeutig prüfen lässt. Bei CC BY / CC BY-SA ist die Namensnennung Pflicht; die Bilder wurden nur in der Grösse angepasst.
 
 | Bild | Motiv |
 |---|---|
 | `images/straende-isuledda.jpg` | Strand S'Isuledda bei San Teodoro |
-| `images/kulinarik-porceddu.jpg` | Knuspriger Schweinebraten mit krosser Kruste |
+| `images/porceddu-spiess.jpg` | Spanferkel (Porceddu) am Spiess, Foto: Japs 88, CC BY-SA 4.0, via Wikimedia Commons |
+| `images/culurgiones.jpg` | Culurgiones aus der Ogliastra (Galerie im Küchen-Artikel), Foto: Marica Massaro, CC BY-SA 4.0, via Wikimedia Commons |
+| `images/pane-carasau.jpg` | Pane Carasau (Galerie), Foto: Luigi Chiesa, CC BY 3.0, via Wikimedia Commons |
+| `images/fregola.jpg` | Rohe Fregola (Galerie), Foto: Emily Parkhurst, CC BY-SA 2.0, via Wikimedia Commons |
 | `images/ausflug-tavolara.jpg` | Insel Tavolara |
 | `images/reiseziele-alghero.jpg` | Altstadtmauer von Alghero |
 | `images/anreise-ferry.jpg` | Fähre bei Sonnenuntergang |
@@ -305,7 +308,7 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | `images/giara-pferde.jpg` | Wildpferde der Giara, Foto: Filippo Aroffo, CC BY-SA 4.0, via Wikimedia Commons |
 | `images/delfintouren-delfin.jpg` | Springender Delfin |
 | `images/jahreszeiten-meer.jpg` | Küste im Abendlicht |
-| `images/agriturismi-tisch.jpg` | Käse, Trauben und Rotwein auf rustikalem Tisch |
+| `images/pecorino-sardo.jpg` | Pecorino Sardo auf Olivenholz, Foto: Helge Høifødt, CC BY-SA 4.0, via Wikimedia Commons |
 | `images/weinberg-alghero.jpg` | Weinberg bei Alghero, Foto: Gianni Careddu, CC BY-SA 3.0, via Wikimedia Commons |
 | `images/biere-glas.jpg` | Frisch gezapftes Bier |
 | `images/likoere-mirto.jpg` | Gläser mit dunkelrotem Likör |

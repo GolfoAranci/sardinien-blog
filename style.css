@@ -536,3 +536,12 @@ footer.site .disclaimer{max-width:600px;margin:8px auto 0;font-size:.76rem;}
 /* Cookie-Banner: Hero-Inhalte rücken nach oben, solange das Banner offen ist (Buttons bleiben sichtbar) */
 .hero-video .hero-content{transition:padding-bottom .3s ease;}
 .has-cookie-banner .hero-video .hero-content{padding-top:8px;padding-bottom:calc(clamp(48px,9vh,96px) + 72px);}
+
+/* Speise-Galerie in Küchen-Artikeln */
+.food-gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:26px 0 30px;}
+.food-gallery figure{margin:0;}
+.food-gallery img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:16px;display:block;box-shadow:0 10px 26px -16px rgba(13,43,62,.4);}
+.food-gallery figcaption{font-size:.84rem;font-weight:600;color:var(--blue-900);margin-top:8px;line-height:1.35;}
+.food-gallery figcaption small{font-weight:400;color:var(--ink-soft);font-size:.72rem;}
+.food-gallery figcaption a{color:inherit;text-decoration:underline;}
+@media (max-width:640px){.food-gallery{grid-template-columns:1fr;}}
