@@ -38,16 +38,23 @@
   </div>
 </header>
 
-<section class="blog-hero">
-  <div class="wrap">
-    <span class="eyebrow">Tips &amp; Travel Ideas</span>
-    <h1>Discover Sardinia</h1>
+<section class="hero-video" id="heroVideo">
+  <video class="hero-bg" autoplay muted loop playsinline preload="auto" poster="../images/strand-brandinchi.jpg" aria-hidden="true" tabindex="-1"><source src="../images/hero-loop.mp4" type="video/mp4"></video>
+  <div class="hero-shade"></div>
+  <div class="wrap hero-content">
+    <span class="eyebrow">Golfo Aranci · Sardinia</span>
+    <h1>Discover<br>Sardinia</h1>
     <p class="hero-subtitle">Beaches, food, excursions &amp; more</p>
-    <p class="lead">A complete collection of tips and ideas for the whole island of Sardinia – from the most beautiful beaches to culinary highlights and worthwhile excursions. This English edition now covers the full German site, article for article.</p>
+    <p class="lead">Tips and ideas for the whole island – from the most beautiful beaches to culinary highlights and worthwhile excursions. This English edition covers the full German site, article for article.</p>
+    <div class="hero-cta">
+      <a class="primary" href="#suche">Explore the articles</a>
+      <a class="ghost" href="posts/beaches-sardinia.html">The most beautiful beaches</a>
+    </div>
   </div>
+  <span class="hero-credit">Cala Brandinchi · Photo: Pixabay, animated as a loop</span>
 </section>
 
-<div class="wrap">
+<div class="wrap" id="suche">
   <div class="search-bar">
     <input type="search" id="searchInput" class="search-input" placeholder="🔍 Search articles (e.g. beach, camping, Mirto …)" aria-label="Search articles">
   </div>
@@ -1046,9 +1053,30 @@
 <footer class="site">
   <div class="wrap">
     <div>Sardinia Blog · Tips &amp; Ideas for the Island</div>
-    <p class="disclaimer">Cover images: Pixabay (free license). This English edition is a complete translation of the full German site.</p>
+    <p class="disclaimer">Cover images: Pixabay (free license). The background loop at the top is a Pixabay photo of Cala Brandinchi, lightly animated with AI assistance. This English edition is a complete translation of the full German site.</p>
   </div>
 </footer>
+
+<script>
+/* Hero video: fades in once playing (photo stays as fallback) */
+(function(){
+  "use strict";
+  var v=document.querySelector("#heroVideo video.hero-bg");
+  if(!v) return;
+  if(window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  var conn=navigator.connection;
+  if(conn && conn.saveData) return;
+  function go(){
+    if(!v.paused) return;
+    var p=v.play();
+    if(p && p.catch) p.catch(function(){});
+  }
+  v.addEventListener("playing", function(){ v.classList.add("on"); });
+  v.addEventListener("canplay", go);
+  document.addEventListener("visibilitychange", function(){ if(!document.hidden) go(); });
+  go();
+})();
+</script>
 
 <script>
 (function(){

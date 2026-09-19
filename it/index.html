@@ -23,16 +23,23 @@
   </div>
 </header>
 
-<section class="blog-hero">
-  <div class="wrap">
-    <span class="eyebrow">Guida &amp; idee di viaggio</span>
-    <h1>Scopri la Sardegna</h1>
+<section class="hero-video" id="heroVideo">
+  <video class="hero-bg" autoplay muted loop playsinline preload="auto" poster="../images/strand-brandinchi.jpg" aria-hidden="true" tabindex="-1"><source src="../images/hero-loop.mp4" type="video/mp4"></video>
+  <div class="hero-shade"></div>
+  <div class="wrap hero-content">
+    <span class="eyebrow">Golfo Aranci · Sardegna</span>
+    <h1>Scopri<br>la Sardegna</h1>
     <p class="hero-subtitle">Spiagge, cucina, escursioni e molto altro</p>
-    <p class="lead">Una raccolta crescente di consigli e idee per tutta l'isola della Sardegna – dalle spiagge più belle alla cucina tipica, fino ai luoghi da non perdere. Questa versione italiana è ancora agli inizi: la versione tedesca contiene già oltre 30 articoli.</p>
+    <p class="lead">Consigli e idee per tutta l'isola – dalle spiagge più belle alla cucina tipica, fino ai luoghi da non perdere. Questa versione italiana è ancora agli inizi: la versione tedesca è molto più completa.</p>
+    <div class="hero-cta">
+      <a class="primary" href="#suche">Scopri gli articoli</a>
+      <a class="ghost" href="posts/spiagge-sardegna.html">Le spiagge più belle</a>
+    </div>
   </div>
+  <span class="hero-credit">Cala Brandinchi · Foto: Pixabay, animata come loop</span>
 </section>
 
-<div class="wrap">
+<div class="wrap" id="suche">
   <div class="filter-bar" id="filterBar">
     <button class="filter-btn active" data-filter="all">Tutti</button>
     <button class="filter-btn" data-filter="spiagge">🏖️ Spiagge</button>
@@ -97,9 +104,30 @@
 <footer class="site">
   <div class="wrap">
     <div>Sardegna Blog · Consigli &amp; idee per l'isola</div>
-    <p class="disclaimer">Immagini di copertina: Pixabay (licenza gratuita). Questa è una selezione tradotta della versione tedesca completa, disponibile con oltre 30 articoli.</p>
+    <p class="disclaimer">Immagini di copertina: Pixabay (licenza gratuita). Il loop di sfondo in alto è una foto di Cala Brandinchi da Pixabay, leggermente animata con l'aiuto dell'IA. Questa è una selezione tradotta della versione tedesca completa.</p>
   </div>
 </footer>
+
+<script>
+/* Hero video: appare dolcemente quando parte (la foto resta come alternativa) */
+(function(){
+  "use strict";
+  var v=document.querySelector("#heroVideo video.hero-bg");
+  if(!v) return;
+  if(window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  var conn=navigator.connection;
+  if(conn && conn.saveData) return;
+  function go(){
+    if(!v.paused) return;
+    var p=v.play();
+    if(p && p.catch) p.catch(function(){});
+  }
+  v.addEventListener("playing", function(){ v.classList.add("on"); });
+  v.addEventListener("canplay", go);
+  document.addEventListener("visibilitychange", function(){ if(!document.hidden) go(); });
+  go();
+})();
+</script>
 
 <script>
 (function(){

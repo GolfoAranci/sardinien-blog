@@ -50,14 +50,20 @@
   </div>
 </header>
 
-<section class="blog-hero">
-  <div class="wrap">
-    <span class="eyebrow">Tipp- &amp; Ideensammlung</span>
-    <h1>Sardinien entdecken</h1>
+<section class="hero-video" id="heroVideo">
+  <video class="hero-bg" autoplay muted loop playsinline preload="auto" poster="images/strand-brandinchi.jpg" aria-hidden="true" tabindex="-1"><source src="images/hero-loop.mp4" type="video/mp4"></video>
+  <div class="hero-shade"></div>
+  <div class="wrap hero-content">
+    <span class="eyebrow">Golfo Aranci · Sardinien</span>
+    <h1>Sardinien<br>entdecken</h1>
     <p class="hero-subtitle">Strände, Küche, Ausflüge &amp; mehr</p>
-    <p class="lead">Eine wachsende Sammlung an Tipps und Ideen für die ganze Insel Sardinien – von den schönsten Stränden über kulinarische Highlights und lohnende Ausflugsziele bis zu Geschichten, die selbst Sardinien-Kenner überraschen.</p>
-    <img class="hero-sheep" src="images/hero-schaf.jpg" alt="Freches Schaf" loading="lazy">
+    <p class="lead">Tipps und Ideen für die ganze Insel – von den schönsten Stränden über kulinarische Highlights und lohnende Ausflugsziele bis zu Geschichten, die selbst Sardinien-Kenner überraschen.</p>
+    <div class="hero-cta">
+      <a class="primary" href="#suche">Beiträge entdecken</a>
+      <a class="ghost" href="posts/straende-sardinien.html">Die schönsten Strände</a>
+    </div>
   </div>
+  <span class="hero-credit">Cala Brandinchi · Foto: Pixabay, als Loop animiert</span>
 </section>
 
 <section class="spotlight">
@@ -184,7 +190,7 @@
   </div>
 </section>
 
-<div class="wrap">
+<div class="wrap" id="suche">
   <div class="search-bar">
     <input type="search" id="searchInput" class="search-input" placeholder="🔍 Artikel durchsuchen (z. B. Strand, Camping, Mirto …)" aria-label="Artikel durchsuchen">
   </div>
@@ -1195,9 +1201,30 @@
 <footer class="site">
   <div class="wrap">
     <div>Sardinien-Blog · Tipps &amp; Ideen für die Insel</div>
-    <p class="disclaimer">Titelbilder: Pixabay (freie Lizenz). Angaben zu Reservierungspflichten, Fährzeiten und Öffnungszeiten bitte vor der Reise aktuell gegenprüfen.</p>
+    <p class="disclaimer">Titelbilder: Pixabay (freie Lizenz). Der Hintergrund-Loop im Kopfbereich ist ein Pixabay-Foto von Cala Brandinchi, das mit KI-Unterstützung leicht animiert wurde. Angaben zu Reservierungspflichten, Fährzeiten und Öffnungszeiten bitte vor der Reise aktuell gegenprüfen.</p>
   </div>
 </footer>
+
+<script>
+/* Hero-Video: blendet das Video sanft ein, sobald es läuft (Foto bleibt als Fallback) */
+(function(){
+  "use strict";
+  var v=document.querySelector("#heroVideo video.hero-bg");
+  if(!v) return;
+  if(window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  var conn=navigator.connection;
+  if(conn && conn.saveData) return;
+  function go(){
+    if(!v.paused) return;
+    var p=v.play();
+    if(p && p.catch) p.catch(function(){});
+  }
+  v.addEventListener("playing", function(){ v.classList.add("on"); });
+  v.addEventListener("canplay", go);
+  document.addEventListener("visibilitychange", function(){ if(!document.hidden) go(); });
+  go();
+})();
+</script>
 
 <script>
 (function(){
