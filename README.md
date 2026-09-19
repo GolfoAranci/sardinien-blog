@@ -288,7 +288,7 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | `images/biere-glas.jpg` | Frisch gezapftes Bier |
 | `images/likoere-mirto.jpg` | Gläser mit dunkelrotem Likör |
 | `images/restaurants-golfoaranci.jpg` | Teller mit gegrillten Garnelen auf Spaghetti |
-| `images/strand-brandinchi.jpg` / `images/hero-loop.mp4` / `images/hero-loop-hd.mp4` | Cala Brandinchi. Das Video (Hero der drei Startseiten) ist dieses Pixabay-Foto, mit KI-Unterstützung (Higgsfield, Kling 3.0) als 14-s-Ping-Pong-Loop animiert, ohne Ton, zwei Grössen: 1,7 MB (Standard) und 4,1 MB in 1080p für grosse Bildschirme (Breite ab 1200 px und mind. 1800 Bildschirm-Pixel) |
+| `images/hero-golfoaranci.jpg` / `images/hero-loop.mp4` / `images/hero-loop-hd.mp4` | Küste bei Golfo Aranci mit Capo Figari und Figarolo. Das Video (Hero der drei Startseiten) ist dieses Pixabay-Foto, mit KI-Unterstützung (Higgsfield, Kling 3.0) als 14-s-Ping-Pong-Loop animiert, ohne Ton, zwei Grössen: 1,7 MB (Standard) und 4,1 MB in 1080p für grosse Bildschirme (Breite ab 1200 px und mind. 1800 Bildschirm-Pixel) |
 | `images/wildschweine-eber.jpg` | Wildschwein in freier Natur |
 | `images/feste-kostueme.jpg` | Traditionelle sardische Tracht mit Stickerei |
 | `images/cantu-tenore-nuoro.jpg` | Berglandschaft bei Nuoro (Barbagia) |
