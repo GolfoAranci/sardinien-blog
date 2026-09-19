@@ -526,3 +526,9 @@ footer.site .disclaimer{max-width:600px;margin:8px auto 0;font-size:.76rem;}
 .bm-list li:hover .bm-n,.bm-list li.on .bm-n{background:var(--blue-900);}
 .bm-note{margin:12px 0 0;font-size:.78rem;color:var(--ink-soft);}
 @media (max-width:760px){.beach-map{grid-template-columns:1fr;padding:16px;}.bm-map{max-width:240px;margin:0 auto;}.bm-list{columns:1;}}
+
+/* Flughafen-Karte: gleiche Karten-Bausteine, Kürzel statt Nummern */
+.air-map .bm-list{columns:1;}
+.bm-n.wide{width:auto;min-width:24px;padding:0 9px;border-radius:13px;letter-spacing:.04em;}
+.bm-reg{margin-left:6px;font-weight:500;font-size:.78rem;color:var(--ink-soft);}
+.air-map .bm-top text{font-size:4.2px;}
