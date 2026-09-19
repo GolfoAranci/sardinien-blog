@@ -289,7 +289,7 @@ Da es sich um reine, statische HTML/CSS/JS-Dateien ohne externe Abhängigkeiten 
 
 Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der freien [Pixabay-Inhaltslizenz](https://pixabay.com/service/license-summary/) (kostenlose Nutzung, keine Namensnennung erforderlich):
 
-**Ausnahme:** Die Titelbilder der Strandartikel Cala Sisine, Spiaggia del Principe, Tuerredda, Piscinas, Cala Domestica, Porto Giunco, Cala Brandinchi, La Cinta, Cala Luna, Cala Mariolu, Costa Rei, Is Arutas, Chia und Isola dei Gabbiani sowie der Insider-Artikel Casu Marzu, Su Filindeu, Fassonis (Stagno di Cabras), Accabadora, Mont'e Prama, Domus de Janas, Launeddas, Gairo Vecchio, Königreich (Palazzo Regio), Tiscali, Asinara, Wandern (Gola Su Gorropu), Camping Cala Gonone, Reisetipps (Golfo di Orosei), Moby-Artikel, Tiere (Giara), Flughäfen und Sprache stammen von Wikimedia Commons (Urheber und Lizenz stehen in der Tabelle und jeweils im Fuss der Artikel), weil sich dort der Ort eindeutig prüfen lässt. Bei CC BY / CC BY-SA ist die Namensnennung Pflicht; die Bilder wurden nur in der Grösse angepasst.
+**Ausnahme:** Die Titelbilder der Strandartikel Cala Sisine, Spiaggia del Principe, Tuerredda, Piscinas, Cala Domestica, Porto Giunco, Cala Brandinchi, La Cinta, Cala Luna, Cala Mariolu, Costa Rei, Is Arutas, Chia und Isola dei Gabbiani sowie der Insider-Artikel Casu Marzu, Su Filindeu, Fassonis (Stagno di Cabras), Accabadora, Mont'e Prama, Domus de Janas, Launeddas, Gairo Vecchio, Königreich (Palazzo Regio), Tiscali, Asinara, Wandern (Gola Su Gorropu), Camping Cala Gonone, Reisetipps (Golfo di Orosei), Moby-Artikel, Tiere (Giara), Flughäfen, Sprache und Weine (Weinberg bei Alghero) stammen von Wikimedia Commons (Urheber und Lizenz stehen in der Tabelle und jeweils im Fuss der Artikel), weil sich dort der Ort eindeutig prüfen lässt. Bei CC BY / CC BY-SA ist die Namensnennung Pflicht; die Bilder wurden nur in der Grösse angepasst.
 
 | Bild | Motiv |
 |---|---|
@@ -306,7 +306,7 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | `images/delfintouren-delfin.jpg` | Springender Delfin |
 | `images/jahreszeiten-meer.jpg` | Küste im Abendlicht |
 | `images/agriturismi-tisch.jpg` | Käse, Trauben und Rotwein auf rustikalem Tisch |
-| `images/weine-glaeser.jpg` | Rot- und Weisswein mit Trauben |
+| `images/weinberg-alghero.jpg` | Weinberg bei Alghero, Foto: Gianni Careddu, CC BY-SA 3.0, via Wikimedia Commons |
 | `images/biere-glas.jpg` | Frisch gezapftes Bier |
 | `images/likoere-mirto.jpg` | Gläser mit dunkelrotem Likör |
 | `images/restaurants-golfoaranci.jpg` | Teller mit gegrillten Garnelen auf Spaghetti |
