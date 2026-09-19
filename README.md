@@ -1,10 +1,3 @@
-| `images/cala-sisine.jpg` | Cala Sisine vom Meer aus, Foto: clurr (Flickr), CC BY 2.0, via Wikimedia Commons |
-| `images/spiaggia-del-principe.jpg` | Spiaggia del Principe, Foto: Ökologix, CC0, via Wikimedia Commons |
-| `images/isuledda-duenen.jpg` | Küste bei S'Isuledda mit Wacholder und Dünen (Pixabay) |
-| `images/tuerredda.jpg` | Strand von Tuerredda mit der Isola di Tuerredda, Foto: ilaria, CC BY 2.0, via Wikimedia Commons |
-| `images/piscinas.jpg` | Dünen von Piscinas, Foto: Gianni Careddu, CC BY-SA 4.0, via Wikimedia Commons |
-| `images/cala-domestica.jpg` | Bucht von Cala Domestica mit Wachturm, Foto: Mboesch, CC BY-SA 4.0, via Wikimedia Commons |
-| `images/porto-giunco.jpg` | Torre di Porto Giunco über dem Strand, Foto: dronepicr, CC BY 2.0, via Wikimedia Commons |
 # Sardegna Blog
 
 Eine Tipp- und Ideensammlung rund um Sardinien – Strände, Kulinarik, Ausflüge, Reiseziele und Anreise, aufbereitet wie ein Blog. Als statische Website gebaut – lässt sich unverändert auf jedes einfache Webhosting (z. B. via FTP oder GitHub Pages) hochladen, ohne Server, Datenbank oder Build-Schritt.
@@ -296,7 +289,7 @@ Da es sich um reine, statische HTML/CSS/JS-Dateien ohne externe Abhängigkeiten 
 
 Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der freien [Pixabay-Inhaltslizenz](https://pixabay.com/service/license-summary/) (kostenlose Nutzung, keine Namensnennung erforderlich):
 
-**Ausnahme:** Die Titelbilder der Strandartikel Cala Sisine, Spiaggia del Principe, Tuerredda, Piscinas, Cala Domestica, Porto Giunco, Cala Brandinchi, La Cinta, Cala Luna, Cala Mariolu, Costa Rei, Is Arutas, Chia und Isola dei Gabbiani sowie der Insider-Artikel Casu Marzu, Su Filindeu, Fassonis (Stagno di Cabras), Accabadora, Mont'e Prama, Domus de Janas, Launeddas, Gairo Vecchio, Königreich (Palazzo Regio), Tiscali und Asinara stammen von Wikimedia Commons (Urheber und Lizenz stehen in der Tabelle und jeweils im Fuss der Artikel), weil sich dort der Ort eindeutig prüfen lässt. Bei CC BY / CC BY-SA ist die Namensnennung Pflicht; die Bilder wurden nur in der Grösse angepasst.
+**Ausnahme:** Die Titelbilder der Strandartikel Cala Sisine, Spiaggia del Principe, Tuerredda, Piscinas, Cala Domestica, Porto Giunco, Cala Brandinchi, La Cinta, Cala Luna, Cala Mariolu, Costa Rei, Is Arutas, Chia und Isola dei Gabbiani sowie der Insider-Artikel Casu Marzu, Su Filindeu, Fassonis (Stagno di Cabras), Accabadora, Mont'e Prama, Domus de Janas, Launeddas, Gairo Vecchio, Königreich (Palazzo Regio), Tiscali, Asinara, Wandern (Gola Su Gorropu), Camping Cala Gonone, Reisetipps (Golfo di Orosei), Moby-Artikel, Tiere (Giara), Flughäfen und Sprache stammen von Wikimedia Commons (Urheber und Lizenz stehen in der Tabelle und jeweils im Fuss der Artikel), weil sich dort der Ort eindeutig prüfen lässt. Bei CC BY / CC BY-SA ist die Namensnennung Pflicht; die Bilder wurden nur in der Grösse angepasst.
 
 | Bild | Motiv |
 |---|---|
@@ -307,9 +300,9 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | `images/anreise-ferry.jpg` | Fähre bei Sonnenuntergang |
 | `images/tagnacht-faehre.jpg` | Sonnenaufgang über dem Meer |
 | `images/faehrhaefen-genua.jpg` | Hafen von Genua |
-| `images/tipps-map.jpg` | Landkarte, Reisepass und Kompass |
-| `images/flughaefen-plane.jpg` | Flugzeug bei Sonnenuntergang |
-| `images/tiere-pferd.jpg` | Pferdeporträt |
+| `images/golfo-di-orosei.jpg` | Küste des Golfo di Orosei, Foto: Falk2, CC BY-SA 4.0, via Wikimedia Commons |
+| `images/flughafen-cagliari.jpg` | Vorfeld Flughafen Cagliari-Elmas, Foto: Carlo Dani, CC BY-SA 4.0, via Wikimedia Commons |
+| `images/giara-pferde.jpg` | Wildpferde der Giara, Foto: Filippo Aroffo, CC BY-SA 4.0, via Wikimedia Commons |
 | `images/delfintouren-delfin.jpg` | Springender Delfin |
 | `images/jahreszeiten-meer.jpg` | Küste im Abendlicht |
 | `images/agriturismi-tisch.jpg` | Käse, Trauben und Rotwein auf rustikalem Tisch |
@@ -321,10 +314,10 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | `images/wildschweine-eber.jpg` | Wildschwein in freier Natur |
 | `images/feste-kostueme.jpg` | Traditionelle sardische Tracht mit Stickerei |
 | `images/cantu-tenore-nuoro.jpg` | Berglandschaft bei Nuoro (Barbagia) |
-| `images/sprache-buch.jpg` | Aufgeschlagenes altes Buch |
+| `images/sardisch-schild.jpg` | Zweisprachiges Schild Sardisch/Italienisch, Foto: Nicola Secci, CC BY-SA 4.0, via Wikimedia Commons |
 | `images/nuraghen-losa.jpg` | Nuraghe Losa |
 | `images/fakten-sardinien.jpg` | Sommerliche Küstenlandschaft |
-| `images/wandern-berg.jpg` | Wanderweg im Gebirge |
+| `images/gola-su-gorropu.jpg` | Schlucht Gola Su Gorropu, Foto: etheriel, CC0, via Wikimedia Commons |
 | `images/segeln-kueste.jpg` | Segelboot vor der Küste |
 | `images/mitkindern-familie.jpg` | Familie am Strand |
 | `images/autofahren-strasse.jpg` | Kurvenreiche Landstrasse |
@@ -343,6 +336,13 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | `images/strand-poetto.jpg` | Blick auf die Sella del Diavolo vom Poetto in Cagliari |
 | `images/costa-rei.jpg` | Strand von Costa Rei mit Scoglio di Peppino, Foto: Alex10, CC BY-SA 4.0, via Wikimedia Commons |
 | `images/chia.jpg` | Chia mit Turminsel, Foto: emmequadro61, CC BY 2.0, via Wikimedia Commons |
+| `images/cala-sisine.jpg` | Cala Sisine vom Meer aus, Foto: clurr (Flickr), CC BY 2.0, via Wikimedia Commons |
+| `images/spiaggia-del-principe.jpg` | Spiaggia del Principe, Foto: Ökologix, CC0, via Wikimedia Commons |
+| `images/isuledda-duenen.jpg` | Küste bei S'Isuledda mit Wacholder und Dünen (Pixabay) |
+| `images/tuerredda.jpg` | Strand von Tuerredda mit der Isola di Tuerredda, Foto: ilaria, CC BY 2.0, via Wikimedia Commons |
+| `images/piscinas.jpg` | Dünen von Piscinas, Foto: Gianni Careddu, CC BY-SA 4.0, via Wikimedia Commons |
+| `images/cala-domestica.jpg` | Bucht von Cala Domestica mit Wachturm, Foto: Mboesch, CC BY-SA 4.0, via Wikimedia Commons |
+| `images/porto-giunco.jpg` | Torre di Porto Giunco über dem Strand, Foto: dronepicr, CC BY 2.0, via Wikimedia Commons |
 | `images/hotel-caladivolpe.jpg` | Yachten in einer Bucht der Costa Smeralda |
 | `images/hotel-pitrizza.jpg` | Infinity-Pool mit Blick auf die Küste bei Sonnenuntergang |
 | `images/hotel-petrasegreta.jpg` | Runder Granitfelsen in den Hügeln der Gallura bei San Pantaleo |
@@ -367,9 +367,9 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | `images/monte-prama.jpg` | Kopf eines Giganten von Mont'e Prama, Foto: DedaloNur, CC BY-SA 3.0, via Wikimedia Commons |
 | `images/insider-bluezone.jpg` | Bergdorf am Fuss eines Kalksteinmassivs in der Barbagia |
 | `images/isola-gabbiani.jpg` | Damm zur Isola dei Gabbiani, Foto: Lory2k, CC BY 3.0, via Wikimedia Commons |
-| `images/anreise-mobyschiffe.jpg` | Weisse Fähre überquert eine ruhige Bucht |
+| `images/moby-orli.jpg` | Fähre Moby Orli in Livorno, Foto: Marcxosm, CC BY 4.0, via Wikimedia Commons |
 | `images/sardinien-karte.png`* | Stilisierte 3D-Karte von Sardinien (Routen-Sektion) |
-| `images/camping-calagonone.jpg` | Beleuchtetes Zelt unter Pinien und Sternenhimmel |
+| `images/cala-gonone.jpg` | Cala Gonone mit Hafen, Foto: Gianni Careddu, CC BY-SA 4.0, via Wikimedia Commons |
 | `images/camping-costaverde.jpg` | Wilde, felsige Küste im Südwesten Sardiniens |
 | `images/camping-maddalena.jpg` | Hafen und Altstadt von La Maddalena |
 | `images/camping-wildcamping.jpg` | Wellen laufen bei Dämmerung auf einen einsamen Strand |
