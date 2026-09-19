@@ -296,7 +296,7 @@ Da es sich um reine, statische HTML/CSS/JS-Dateien ohne externe Abhängigkeiten 
 
 Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der freien [Pixabay-Inhaltslizenz](https://pixabay.com/service/license-summary/) (kostenlose Nutzung, keine Namensnennung erforderlich):
 
-**Ausnahme:** Die Titelbilder der Strandartikel Cala Sisine, Spiaggia del Principe, Tuerredda, Piscinas, Cala Domestica, Porto Giunco, Cala Brandinchi und La Cinta stammen von Wikimedia Commons (Urheber und Lizenz stehen in der Tabelle und jeweils im Fuss der Artikel), weil sich dort der Ort eindeutig prüfen lässt. Bei CC BY / CC BY-SA ist die Namensnennung Pflicht; die Bilder wurden nur in der Grösse angepasst.
+**Ausnahme:** Die Titelbilder der Strandartikel Cala Sisine, Spiaggia del Principe, Tuerredda, Piscinas, Cala Domestica, Porto Giunco, Cala Brandinchi, La Cinta, Cala Luna, Cala Mariolu, Costa Rei, Is Arutas, Chia und Isola dei Gabbiani sowie der Insider-Artikel Casu Marzu und Su Filindeu stammen von Wikimedia Commons (Urheber und Lizenz stehen in der Tabelle und jeweils im Fuss der Artikel), weil sich dort der Ort eindeutig prüfen lässt. Bei CC BY / CC BY-SA ist die Namensnennung Pflicht; die Bilder wurden nur in der Grösse angepasst.
 
 | Bild | Motiv |
 |---|---|
@@ -335,14 +335,14 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | `images/herbst-sturm.jpg` | Aufziehende Herbstwolken über einer felsigen Küste |
 | `images/strand-pelosa.jpg` | Torre della Pelosa im türkisen Wasser bei Stintino |
 | `images/strand-goloritze.jpg` | Felsbogen und türkises Wasser bei Cala Goloritzé |
-| `images/strand-mariolu.jpg` | Runder heller Fels im türkisen Wasser bei Cala Mariolu |
-| `images/strand-luna.jpg` | Steilküste, Felsen und Boote bei Cala Luna |
+| `images/cala-mariolu.jpg` | Kieselbucht Cala Mariolu, Foto: Roberto Mura, CC BY-SA 3.0, via Wikimedia Commons |
+| `images/cala-luna.jpg` | Cala Luna vom Meer aus, Foto: trolvag, CC BY-SA 3.0, via Wikimedia Commons |
 | `images/cala-brandinchi-bucht.jpg` | Bucht von Cala Brandinchi mit Tavolara, Foto: Ramon Espiña (Panoramio), CC BY-SA 3.0, via Wikimedia Commons; zugeschnitten |
 | `images/la-cinta.jpg` | Strand La Cinta mit Blick auf Tavolara, Foto: Emabarto01, CC0, via Wikimedia Commons |
-| `images/strand-isarutas.jpg` | Küste bei Is Arutas auf der Sinis-Halbinsel bei Sonnenuntergang |
+| `images/is-arutas.jpg` | Is Arutas mit Quarzkies, Foto: Vid Pogacnik, CC BY-SA 4.0, via Wikimedia Commons |
 | `images/strand-poetto.jpg` | Blick auf die Sella del Diavolo vom Poetto in Cagliari |
-| `images/strand-costarei.jpg` | Felsige Küste und türkises Wasser bei Costa Rei |
-| `images/strand-chia.jpg` | Steinweg durch Pinien zur Bucht von Chia |
+| `images/costa-rei.jpg` | Strand von Costa Rei mit Scoglio di Peppino, Foto: Alex10, CC BY-SA 4.0, via Wikimedia Commons |
+| `images/chia.jpg` | Chia mit Turminsel, Foto: emmequadro61, CC BY 2.0, via Wikimedia Commons |
 | `images/hotel-caladivolpe.jpg` | Yachten in einer Bucht der Costa Smeralda |
 | `images/hotel-pitrizza.jpg` | Infinity-Pool mit Blick auf die Küste bei Sonnenuntergang |
 | `images/hotel-petrasegreta.jpg` | Runder Granitfelsen in den Hügeln der Gallura bei San Pantaleo |
@@ -353,8 +353,8 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | `images/hotel-alberocapovolto.jpg` | Historischer Wachturm an der Küste der Gallura |
 | `images/hotel-mannois.jpg` | Blick aus einer Felshöhle auf das türkise Meer am Golfo di Orosei |
 | `images/hotel-7pines.jpg` | Moderner Infinity-Pool mit Blick auf das Meer |
-| `images/insider-filindeu.jpg` | Reife Hartweizenähren kurz vor der Ernte |
-| `images/insider-casumarzu.jpg` | Angeschnittener Pecorino-Käselaib |
+| `images/su-filindeu.jpg` | Su Filindeu (Teigplatte), Foto: Aggrucar, CC BY-SA 4.0, via Wikimedia Commons |
+| `images/casu-marzu.jpg` | Angeschnittener Casu Marzu, Foto: Shardan, CC BY-SA 2.5, via Wikimedia Commons |
 | `images/insider-fassonis.jpg` | Schilfbewachsene Lagune bei Sonnenuntergang |
 | `images/insider-accabadora.jpg` | Eine einzelne brennende Kerze in Dunkelheit |
 | `images/insider-orgosolo.jpg` | Wandmalerei mit zwei Männern in traditioneller Kleidung |
@@ -365,7 +365,7 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | `images/insider-tiscali.jpg` | Nuragische Steinhütte mit Türsturz aus Stein |
 | `images/insider-asinara.jpg` | Küstenwachturm an einer Bucht auf Asinara |
 | `images/insider-bluezone.jpg` | Bergdorf am Fuss eines Kalksteinmassivs in der Barbagia |
-| `images/gabbiani-kite.jpg` | Kitesurfer springt über türkisfarbenes Wasser |
+| `images/isola-gabbiani.jpg` | Damm zur Isola dei Gabbiani, Foto: Lory2k, CC BY 3.0, via Wikimedia Commons |
 | `images/anreise-mobyschiffe.jpg` | Weisse Fähre überquert eine ruhige Bucht |
 | `images/sardinien-karte.png`* | Stilisierte 3D-Karte von Sardinien (Routen-Sektion) |
 | `images/camping-calagonone.jpg` | Beleuchtetes Zelt unter Pinien und Sternenhimmel |
