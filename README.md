@@ -314,7 +314,7 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | `images/strand-goloritze.jpg` | Felsbogen und türkises Wasser bei Cala Goloritzé |
 | `images/strand-mariolu.jpg` | Runder heller Fels im türkisen Wasser bei Cala Mariolu |
 | `images/strand-luna.jpg` | Steilküste, Felsen und Boote bei Cala Luna |
-| `images/cala-brandinchi.jpg` | Weisser Sandstrand und türkises Wasser mit Blick auf die Insel Tavolara (Cala Brandinchi) |
+| `images/cala-brandinchi.jpg` | Symbolfoto für den Cala-Brandinchi-Artikel: Strand bei Porto Taverna mit Blick auf die Insel Tavolara (nicht Cala Brandinchi selbst; bei Gelegenheit gegen ein echtes Foto tauschen) |
 | `images/strand-lacinta.jpg` | Wellen laufen sanft auf hellen Sandstrand |
 | `images/strand-isarutas.jpg` | Küste bei Is Arutas auf der Sinis-Halbinsel bei Sonnenuntergang |
 | `images/strand-poetto.jpg` | Blick auf die Sella del Diavolo vom Poetto in Cagliari |
