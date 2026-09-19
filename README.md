@@ -215,7 +215,7 @@ Eine eigene Filterkategorie "🕵️ Insider" auf der Startseite bündelt dreize
 
 Eine eigene Startseiten-Sektion "🗺️ Reiserouten" (zwischen dem Insider-Spotlight und der Artikel-Übersicht) bündelt fünf fertig ausgearbeitete Routenvorschläge, die bestehende Artikel zu kompletten Reisen verknüpfen: eine kompakte Nordosten-Woche, eine grosse 11-Tage-Rundreise, eine familienfreundliche Woche, ein Aktivurlaub mit Wandern/Camping/Wassersport und eine 10-tägige Route entlang der Insider-Geschichten. Alle Mehrtagesrouten sind bewusst als durchgehende Schlaufe ohne Rückwege angelegt. Wie beim Insider-Bereich sind die Routen zusätzlich über die Filterkategorie "🗺️ Routen" in der normalen Artikel-Übersicht erreichbar. Neue Routen lassen sich nach demselben Muster ergänzen: bestehende Artikel zu einem Tag-für-Tag-Verlauf verknüpfen, als eigene Seite unter `posts/route-*.html` anlegen und sowohl in der Routen-Sektion als auch im Post-Grid verlinken.
 
-Links in der Sektion steht eine stilisierte Sardinien-Karte (`images/sardinien-karte.png`), rechts die fünf Routenteaser als Liste. Beim Hovern oder Fokussieren (Tastatur) eines Teasers wird der jeweilige Streckenverlauf als gestrichelte Linie mit Stationspunkten über die Karte gelegt (`.routes-map-overlay`, ein transparentes SVG mit `viewBox="0 0 1024 1536"` passend zu den Pixelmassen des Kartenbilds). Neue oder geänderte Routen brauchen entsprechend angepasste `<polyline>`-Koordinaten in `index.html` – die ungefähre Zuordnung wichtiger Orte zu Koordinaten lässt sich am einfachsten von den bestehenden `<g class="map-route">`-Blöcken ableiten.
+Links in der Sektion steht eine stilisierte Sardinien-Karte (`images/sardinien-karte.webp`), rechts die fünf Routenteaser als Liste. Beim Hovern oder Fokussieren (Tastatur) eines Teasers wird der jeweilige Streckenverlauf als gestrichelte Linie mit Stationspunkten über die Karte gelegt (`.routes-map-overlay`, ein transparentes SVG mit `viewBox="0 0 1024 1536"` passend zu den Pixelmassen des Kartenbilds). Neue oder geänderte Routen brauchen entsprechend angepasste `<polyline>`-Koordinaten in `index.html` – die ungefähre Zuordnung wichtiger Orte zu Koordinaten lässt sich am einfachsten von den bestehenden `<g class="map-route">`-Blöcken ableiten.
 
 ## Mehrsprachigkeit
 
@@ -320,7 +320,7 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | `images/gola-su-gorropu.jpg` | Schlucht Gola Su Gorropu, Foto: etheriel, CC0, via Wikimedia Commons |
 | `images/segeln-kueste.jpg` | Segelboot vor der Küste |
 | `images/mitkindern-familie.jpg` | Familie am Strand |
-| `images/autofahren-strasse.jpg` | Kurvenreiche Landstrasse |
+| `images/ss125-dorgali.jpg` | SS 125 bei Dorgali, Foto: Gianni Careddu, CC BY-SA 4.0, via Wikimedia Commons |
 | `images/camping-zelt.jpg` | Zelt am Strand |
 | `images/touren-boot.jpg` | Kleines Boot auf ruhigem Meer |
 | `images/mietwagen-fiat.jpg` | Oranger Fiat 500 auf einer Landstrasse |
@@ -357,7 +357,7 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | `images/casu-marzu.jpg` | Angeschnittener Casu Marzu, Foto: Shardan, CC BY-SA 2.5, via Wikimedia Commons |
 | `images/stagno-cabras.jpg` | Stagno di Cabras, Foto: Gianni Careddu, CC BY-SA 4.0, via Wikimedia Commons |
 | `images/accabadora-museum.jpg` | Kammer der Accabadora im Galluras Museum, Foto: Paolo Manca, CC BY-SA 3.0, via Wikimedia Commons |
-| `images/insider-orgosolo.jpg` | Wandmalerei mit zwei Männern in traditioneller Kleidung |
+| `images/orgosolo-murales.jpg` | Wandbilder in Orgosolo, Foto: Sailko, CC BY 3.0, via Wikimedia Commons; zugeschnitten |
 | `images/domus-de-janas.jpg` | Domus de Janas bei Monte Arista, Foto: Thiotrix, CC BY-SA 4.0, via Wikimedia Commons |
 | `images/launeddas.jpg` | Launeddas, Foto: Giorgio Pili, CC BY-SA 3.0, via Wikimedia Commons |
 | `images/gairo-vecchio.jpg` | Gairo Vecchio, Foto: Mbarrieau, CC BY 3.0, via Wikimedia Commons |
@@ -365,10 +365,10 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | `images/tiscali.jpg` | Doline von Tiscali, Foto: Vid Pogacnik, CC BY-SA 4.0, via Wikimedia Commons |
 | `images/asinara.jpg` | Cala Reale auf Asinara, Foto: Alexkom000, CC BY 4.0, via Wikimedia Commons |
 | `images/monte-prama.jpg` | Kopf eines Giganten von Mont'e Prama, Foto: DedaloNur, CC BY-SA 3.0, via Wikimedia Commons |
-| `images/insider-bluezone.jpg` | Bergdorf am Fuss eines Kalksteinmassivs in der Barbagia |
+| `images/villagrande-strisaili.jpg` | Villagrande Strisàili (Ogliastra), Foto: trolvag, CC BY-SA 3.0, via Wikimedia Commons |
 | `images/isola-gabbiani.jpg` | Damm zur Isola dei Gabbiani, Foto: Lory2k, CC BY 3.0, via Wikimedia Commons |
 | `images/moby-orli.jpg` | Fähre Moby Orli in Livorno, Foto: Marcxosm, CC BY 4.0, via Wikimedia Commons |
-| `images/sardinien-karte.png`* | Stilisierte 3D-Karte von Sardinien (Routen-Sektion) |
+| `images/sardinien-karte.webp`* | Stilisierte 3D-Karte von Sardinien (Routen-Sektion) |
 | `images/cala-gonone.jpg` | Cala Gonone mit Hafen, Foto: Gianni Careddu, CC BY-SA 4.0, via Wikimedia Commons |
 | `images/camping-costaverde.jpg` | Wilde, felsige Küste im Südwesten Sardiniens |
 | `images/camping-maddalena.jpg` | Hafen und Altstadt von La Maddalena |
@@ -376,7 +376,6 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | `images/camping-glamping.jpg` | Beleuchtetes Lodge-Zelt mit Holzterrasse im Pinienwald |
 | `images/camping-packliste.jpg` | Windgeformte Dünen mit hohem Strandgras |
 | `images/camping-kosten.jpg` | Ausgebreitete Euro-Centmünzen |
-| `images/hero-schaf.jpg` | Freches Cartoon-Schaf (Startseite, Hero-Bereich) |
 
 \* Ausnahme von der Pixabay-Regel oben: KI-generiert (vom Website-Betreiber bereitgestellt), keine Pixabay-Lizenz.
 
