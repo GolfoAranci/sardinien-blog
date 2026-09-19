@@ -1,4 +1,4 @@
-# Sardinien-Blog
+# Sardegna Blog
 
 Eine Tipp- und Ideensammlung rund um Sardinien – Strände, Kulinarik, Ausflüge, Reiseziele und Anreise, aufbereitet wie ein Blog. Als statische Website gebaut – lässt sich unverändert auf jedes einfache Webhosting (z. B. via FTP oder GitHub Pages) hochladen, ohne Server, Datenbank oder Build-Schritt.
 
@@ -234,7 +234,7 @@ Technisch läuft das über [Cusdis](https://cusdis.com), einen leichtgewichtigen
 
 - Überschriften nutzen die Google-Schriftart "Poppins" (per `@import` in `style.css` eingebunden, keine zusätzlichen `<link>`-Tags nötig).
 - Artikelkarten haben einen dezenten Hover-Effekt (Bild-Zoom, Schatten) sowie eine sanfte Eingangs-Animation; der Hero-Bereich der Startseite hat dezente, verschwommene Farbflächen im Hintergrund.
-- Das Logo im Header ist eine stilisierte Sardinien-Insel-Silhouette (Inline-SVG, kein Bild).
+- **Name und Logo:** Der Blog heisst in allen Sprachversionen "Sardegna Blog". Das Logo (`images/logo-icon.svg`) ist ein nachtblauer Kreis mit türkisem Ring und einer selbst gezeichneten Sardinien-Silhouette aus türkisen Wellenlinien; der kleine Koralle-Punkt markiert Golfo Aranci. Für Browser-Tab und Lesezeichen gibt es die vereinfachte Fassung `images/favicon.svg` (massive Insel ohne Wellen, damit sie bei 16 px lesbar bleibt). Der Schriftzug im Header ist normaler Text in Poppins. Farben: Nachtblau `#0d2b3e`, Türkis `#2bb4a3`, Hellblau `#7fd8c9`, Koralle `#e0794a`.
 - Auf der Startseite lässt sich die Artikel-Übersicht per Themen-Filter (Leiste über den Karten) auf eine Kategorie eingrenzen; die restlichen Karten rücken automatisch zusammen (`hidden`-Attribut statt Scroll-Anker).
 - **Suchfeld** über der Filter-Leiste durchsucht Titel und Kurzbeschreibung aller Artikel rein clientseitig (kein Backend, kein Index-Build nötig). Ein Klick auf einen Kategorie-Filter leert das Suchfeld wieder. Die Suche ist per `?q=suchbegriff` in der URL direkt verlinkbar (z. B. für Googles Sitelinks-Suchbox, siehe `potentialAction`/`SearchAction` im WebSite-Schema).
 
@@ -244,7 +244,7 @@ Technisch läuft das über [Cusdis](https://cusdis.com), einen leichtgewichtigen
 - Jede Seite hat eine individuelle **Meta-Description** für bessere Suchergebnis-Snippets.
 - **Google Analytics (GA4)** ist eingebunden (`analytics.js`), lädt aber erst nach Zustimmung über den Cookie-Banner am unteren Bildschirmrand (`.cookie-banner` in `style.css`). Die Measurement-ID steht am Anfang von `analytics.js` (`GA_ID`). Die Zustimmung wird im `localStorage` des jeweiligen Browsers gespeichert.
 - Neu bei Google veröffentlichte Seiten werden nicht automatisch gefunden – ohne Backlinks und ohne Einreichung in der [Google Search Console](https://search.google.com/search-console) kann es Tage bis Wochen dauern, bis sie indexiert wird.
-- **Strukturierte Daten (Schema.org):** Jeder Artikel hat ein `Article`-JSON-LD-Snippet im `<head>` (Headline, Beschreibung, Bild, echtes Erstell-/Änderungsdatum aus der Git-Historie, Autor/Publisher als Organisation "Sardinien-Blog"). Die Startseite trägt ein `WebSite`-Snippet. Damit Suchmaschinen und KI-Assistenten Inhalte besser einordnen und zitieren können. Neue Artikel sollten dasselbe Muster übernehmen (siehe ein beliebiger bestehender Artikel als Vorlage) – Datumsangaben lassen sich mit `git log --follow --diff-filter=A --format=%aI -- posts/<datei>.html` (Erstellung) bzw. `git log -1 --format=%aI -- posts/<datei>.html` (letzte Änderung) ermitteln.
+- **Strukturierte Daten (Schema.org):** Jeder Artikel hat ein `Article`-JSON-LD-Snippet im `<head>` (Headline, Beschreibung, Bild, echtes Erstell-/Änderungsdatum aus der Git-Historie, Autor/Publisher als Organisation "Sardegna Blog"). Die Startseite trägt ein `WebSite`-Snippet. Damit Suchmaschinen und KI-Assistenten Inhalte besser einordnen und zitieren können. Neue Artikel sollten dasselbe Muster übernehmen (siehe ein beliebiger bestehender Artikel als Vorlage) – Datumsangaben lassen sich mit `git log --follow --diff-filter=A --format=%aI -- posts/<datei>.html` (Erstellung) bzw. `git log -1 --format=%aI -- posts/<datei>.html` (letzte Änderung) ermitteln.
 
 ## Monetarisierung (vorbereitet, noch nicht aktiv)
 

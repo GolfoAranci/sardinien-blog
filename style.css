@@ -371,3 +371,6 @@ footer.site .disclaimer{max-width:600px;margin:8px auto 0;font-size:.76rem;}
 @media (prefers-reduced-motion:reduce){
   .hero-video .hero-bg{display:none;}
 }
+
+/* BRAND-LOGO (Kopfzeile) */
+.site-brand .brand-icon{width:40px;height:40px;flex:0 0 auto;display:block;filter:drop-shadow(0 6px 10px rgba(13,43,62,.28));}
