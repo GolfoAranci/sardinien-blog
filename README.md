@@ -79,6 +79,7 @@ Sardinien-Blog/
     ├── likoere-sardinien.html
     ├── ausfluege-sardinien.html
     ├── reiseziele-sardinien.html
+    ├── golfo-aranci-ortsguide-sardinien.html
     ├── faehre-schiffe-sardinien.html
     ├── moby-aki-orli-sardinien.html
     ├── tag-oder-nachtfaehre.html
@@ -145,6 +146,7 @@ Sardinien-Blog/
   - Isola dei Gabbiani: Kite- & Windsurf-Paradies bei Palau
 - **Reiseziele**
   - Regionen Sardiniens im Überblick (Costa Smeralda, Alghero, Golfo di Orosei, Cagliari, Barbagia, Sinis-Halbinsel)
+  - Golfo Aranci: Mehr als ein Fährhafen (Ortsguide mit Anreise, Stränden, Capo Figari, Ortsgeschichte, Essen und Quellenliste; Fakten aus Sardegna Turismo, der Touristeninformation des Ortes, Fährportalen und Wikipedia)
 - **Unterkunft** *(neu, vorher Teil von Reiseziele)*
   - Unterkunft auf Sardinien: Hotel, Ferienwohnung oder Agriturismo?
   - 10 aussergewöhnliche Hotels: Cala di Volpe, Pitrizza, Petra Segreta, Faro Capo Spartivento, Villa Las Tronas, Palazzo Doglio, Borgo Lu Puleu, Albero Capovolto, Albergo Diffuso Mannois, 7Pines
@@ -230,7 +232,7 @@ Ein kleiner **Sprachumschalter** (🇮🇹 / 🇩🇪) im Header verlinkt zwisch
 
 **Weitere Artikel übersetzen:** Eine bestehende deutsche Seite in `posts/` kopieren, ins Italienische übersetzen, unter `it/posts/` mit passendem Dateinamen ablegen, in `it/index.html` verlinken, in `sitemap.xml` ergänzen und auf beiden Seiten (DE + IT) den `lang-switch`-Link sowie den `hreflang`-Tag ergänzen.
 
-Seit Kurzem gibt es zusätzlich eine **englische** Version im Unterordner [en/](en/index.html) – anders als die italienische Fassung (bewusst nur eine kleine Auswahl) ist sie als vollständige Übersetzung der gesamten deutschen Seite angelegt und mittlerweile auch fertig: alle 89 deutschen Artikel plus Startseite existieren auf Englisch, kategorienweise übersetzt in der Reihenfolge Strände (18), Kulinarik (6), Ausflüge (5), Reiseziele/Natur (4), Kultur (5), Anreise (7), Routen (5), Tipps (15, inkl. Camping-Überblick plus 8 Campingplatz-/Themenartikel), Insider (13) und zuletzt Unterkunft (11: Überblick plus 10 Hotelporträts). Jede Kategorie hat auf der Startseite ihren eigenen Filter-Button und eigene Karten, analog zur deutschen Struktur. Dateinamen folgen dem Muster `<name>-sardinia.html` (statt `-sardinien.html`) unter `en/posts/`. Neue oder geänderte Artikel übersetzen läuft nach demselben Muster wie bei Italienisch, nur mit drei Sprachversionen im `hreflang`-Verbund (DE/IT/EN) statt zwei – und zusätzlich mit einem eigenen `Article`-JSON-LD-Snippet auf Englisch (`inLanguage: "en"`).
+Seit Kurzem gibt es zusätzlich eine **englische** Version im Unterordner [en/](en/index.html) – anders als die italienische Fassung (bewusst nur eine kleine Auswahl) ist sie als vollständige Übersetzung der gesamten deutschen Seite angelegt und mittlerweile auch fertig: alle 90 deutschen Artikel plus Startseite existieren auf Englisch, kategorienweise übersetzt in der Reihenfolge Strände (18), Kulinarik (6), Ausflüge (5), Reiseziele/Natur (4), Kultur (5), Anreise (7), Routen (5), Tipps (15, inkl. Camping-Überblick plus 8 Campingplatz-/Themenartikel), Insider (13) und zuletzt Unterkunft (11: Überblick plus 10 Hotelporträts). Jede Kategorie hat auf der Startseite ihren eigenen Filter-Button und eigene Karten, analog zur deutschen Struktur. Dateinamen folgen dem Muster `<name>-sardinia.html` (statt `-sardinien.html`) unter `en/posts/`. Neue oder geänderte Artikel übersetzen läuft nach demselben Muster wie bei Italienisch, nur mit drei Sprachversionen im `hreflang`-Verbund (DE/IT/EN) statt zwei – und zusätzlich mit einem eigenen `Article`-JSON-LD-Snippet auf Englisch (`inLanguage: "en"`).
 
 ## Forum
 
