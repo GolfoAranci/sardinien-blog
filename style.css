@@ -53,7 +53,7 @@ header.site .wrap{display:flex;align-items:center;justify-content:space-between;
   box-shadow:0 6px 14px -6px rgba(43,180,163,.55);
 }
 .site-brand .badge svg{display:block;}
-.site-brand b{color:#fff;font-size:1.05rem;font-family:var(--font-head);font-weight:700;}
+.site-brand b{color:#fff;font-size:1.4rem;font-family:var(--font-head);font-weight:800;letter-spacing:-.01em;line-height:1.1;}
 .site-brand span{display:block;font-size:.72rem;color:#a9d6d0;}
 .lang-switch{
   font-size:.82rem;font-weight:600;color:#fff;text-decoration:none;
