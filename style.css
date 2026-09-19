@@ -39,9 +39,9 @@ img,svg{max-width:100%;}
 
 /* HEADER */
 header.site{
-  background:rgba(255,255,255,.85);
+  background:rgba(13,43,62,.97);
   backdrop-filter:blur(8px);
-  border-bottom:1px solid var(--sand-200);
+  border-bottom:1px solid #fff;
   position:sticky;top:0;z-index:20;
 }
 header.site .wrap{display:flex;align-items:center;justify-content:space-between;padding:16px 24px;flex-wrap:wrap;gap:10px;}
@@ -53,14 +53,14 @@ header.site .wrap{display:flex;align-items:center;justify-content:space-between;
   box-shadow:0 6px 14px -6px rgba(43,180,163,.55);
 }
 .site-brand .badge svg{display:block;}
-.site-brand b{color:var(--blue-900);font-size:1.05rem;font-family:var(--font-head);font-weight:700;}
-.site-brand span{display:block;font-size:.72rem;color:var(--ink-soft);}
+.site-brand b{color:#fff;font-size:1.05rem;font-family:var(--font-head);font-weight:700;}
+.site-brand span{display:block;font-size:.72rem;color:#a9d6d0;}
 .lang-switch{
-  font-size:.82rem;font-weight:600;color:var(--blue-700);text-decoration:none;
-  padding:8px 14px;border-radius:20px;border:1.5px solid var(--sand-200);transition:.15s;
+  font-size:.82rem;font-weight:600;color:#fff;text-decoration:none;
+  padding:8px 14px;border-radius:20px;border:1.5px solid rgba(255,255,255,.38);transition:.15s;
   white-space:nowrap;
 }
-.lang-switch:hover{background:var(--sand-100);}
+.lang-switch:hover{background:rgba(255,255,255,.12);}
 .lang-switch .flag-icon{display:inline-block;vertical-align:-2px;margin-right:5px;border-radius:2px;}
 .header-actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap;}
 .forum-btn{
@@ -322,7 +322,7 @@ footer.site .disclaimer{max-width:600px;margin:8px auto 0;font-size:.76rem;}
 /* HERO VIDEO (Startseite) */
 .hero-video{
   position:relative;overflow:hidden;color:#fff;
-  min-height:calc(100vh - 74px);min-height:calc(100svh - 74px);
+  min-height:calc(100vh - 88px);min-height:calc(100svh - 88px);
   display:flex;align-items:flex-end;
   background:#0d2b3e url('images/hero-golfoaranci.jpg') center/cover no-repeat;
 }
@@ -373,4 +373,5 @@ footer.site .disclaimer{max-width:600px;margin:8px auto 0;font-size:.76rem;}
 }
 
 /* BRAND-LOGO (Kopfzeile) */
-.site-brand .brand-icon{width:40px;height:40px;flex:0 0 auto;display:block;filter:drop-shadow(0 6px 10px rgba(13,43,62,.28));}
+.site-brand .brand-icon{width:54px;height:54px;flex:0 0 auto;display:block;filter:none;}
+@media (max-width:760px){.site-brand .brand-icon{width:46px;height:46px;}}
