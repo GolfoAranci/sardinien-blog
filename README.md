@@ -296,7 +296,7 @@ Da es sich um reine, statische HTML/CSS/JS-Dateien ohne externe Abhängigkeiten 
 
 Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der freien [Pixabay-Inhaltslizenz](https://pixabay.com/service/license-summary/) (kostenlose Nutzung, keine Namensnennung erforderlich):
 
-**Ausnahme:** Die Titelbilder der Strandartikel Cala Sisine, Spiaggia del Principe, Tuerredda, Piscinas, Cala Domestica und Porto Giunco stammen von Wikimedia Commons (Urheber und Lizenz stehen in der Tabelle und jeweils im Fuss der Artikel), weil sich dort der Ort eindeutig prüfen lässt. Bei CC BY / CC BY-SA ist die Namensnennung Pflicht; die Bilder wurden nur in der Grösse angepasst.
+**Ausnahme:** Die Titelbilder der Strandartikel Cala Sisine, Spiaggia del Principe, Tuerredda, Piscinas, Cala Domestica, Porto Giunco, Cala Brandinchi und La Cinta stammen von Wikimedia Commons (Urheber und Lizenz stehen in der Tabelle und jeweils im Fuss der Artikel), weil sich dort der Ort eindeutig prüfen lässt. Bei CC BY / CC BY-SA ist die Namensnennung Pflicht; die Bilder wurden nur in der Grösse angepasst.
 
 | Bild | Motiv |
 |---|---|
@@ -337,8 +337,8 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | `images/strand-goloritze.jpg` | Felsbogen und türkises Wasser bei Cala Goloritzé |
 | `images/strand-mariolu.jpg` | Runder heller Fels im türkisen Wasser bei Cala Mariolu |
 | `images/strand-luna.jpg` | Steilküste, Felsen und Boote bei Cala Luna |
-| `images/cala-brandinchi.jpg` | Symbolfoto für den Cala-Brandinchi-Artikel: Strand bei Porto Taverna mit Blick auf die Insel Tavolara (nicht Cala Brandinchi selbst; bei Gelegenheit gegen ein echtes Foto tauschen) |
-| `images/strand-lacinta.jpg` | Wellen laufen sanft auf hellen Sandstrand |
+| `images/cala-brandinchi-bucht.jpg` | Bucht von Cala Brandinchi mit Tavolara, Foto: Ramon Espiña (Panoramio), CC BY-SA 3.0, via Wikimedia Commons; zugeschnitten |
+| `images/la-cinta.jpg` | Strand La Cinta mit Blick auf Tavolara, Foto: Emabarto01, CC0, via Wikimedia Commons |
 | `images/strand-isarutas.jpg` | Küste bei Is Arutas auf der Sinis-Halbinsel bei Sonnenuntergang |
 | `images/strand-poetto.jpg` | Blick auf die Sella del Diavolo vom Poetto in Cagliari |
 | `images/strand-costarei.jpg` | Felsige Küste und türkises Wasser bei Costa Rei |
