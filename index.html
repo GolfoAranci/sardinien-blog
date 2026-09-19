@@ -243,42 +243,48 @@
           </g>
         </svg>
        </div>
+       <div class="routes-legend" id="routesLegend" data-route="nordosten"><span class="rl-dot"></span><span class="rl-text"><b id="rlTitle">Nordosten: Costa Smeralda &amp; Maddalena</b><i id="rlMeta">7 Tage</i></span></div>
       </div>
       <div class="routes-list">
         <a class="route-card" data-route="nordosten" href="posts/route-nordosten-sardinien.html">
-          <span class="route-days">7 Tage</span>
+          <span class="route-days"><b>7</b><i>Tage</i></span>
           <span class="route-text">
             <span class="route-title">Nordosten: Costa Smeralda &amp; Maddalena</span>
             <span class="route-desc">Strände, Inselhüpfen und Wassersport, alles innerhalb einer Autostunde.</span>
           </span>
+          <span class="route-go" aria-hidden="true">→</span>
         </a>
         <a class="route-card" data-route="rundreise" href="posts/route-rundreise-sardinien.html">
-          <span class="route-days">11 Tage</span>
+          <span class="route-days"><b>11</b><i>Tage</i></span>
           <span class="route-text">
             <span class="route-title">Rundreise um die ganze Insel</span>
             <span class="route-desc">Küste, Supramonte, Barbagia und Cagliari einmal im Uhrzeigersinn.</span>
           </span>
+          <span class="route-go" aria-hidden="true">→</span>
         </a>
         <a class="route-card" data-route="familien" href="posts/route-familien-sardinien.html">
-          <span class="route-days">7 Tage</span>
+          <span class="route-days"><b>7</b><i>Tage</i></span>
           <span class="route-text">
             <span class="route-title">Familienwoche mit Kindern</span>
             <span class="route-desc">Flache Strände, kurze Fahrten, viel Zeit zum Spielen.</span>
           </span>
+          <span class="route-go" aria-hidden="true">→</span>
         </a>
         <a class="route-card" data-route="aktiv" href="posts/route-aktiv-sardinien.html">
-          <span class="route-days">7 Tage</span>
+          <span class="route-days"><b>7</b><i>Tage</i></span>
           <span class="route-text">
             <span class="route-title">Aktivurlaub: Wandern, Camping &amp; Wassersport</span>
             <span class="route-desc">Bergdörfer zu Fuss, Buchten per Boot, Kitesurfen am Nachmittag.</span>
           </span>
+          <span class="route-go" aria-hidden="true">→</span>
         </a>
         <a class="route-card" data-route="insider" href="posts/route-insider-sardinien.html">
-          <span class="route-days">10 Tage</span>
+          <span class="route-days"><b>10</b><i>Tage</i></span>
           <span class="route-text">
             <span class="route-title">Insider-Route abseits der Klassiker</span>
             <span class="route-desc">Unsere "Krass, aber wahr"-Geschichten als eigene Reiseroute.</span>
           </span>
+          <span class="route-go" aria-hidden="true">→</span>
         </a>
       </div>
     </div>
@@ -1404,10 +1410,24 @@
 
   var routeCards = document.querySelectorAll(".route-card[data-route]");
   var mapRoutes = document.querySelectorAll(".map-route");
+  var legend = document.getElementById("routesLegend");
+  var rlTitle = document.getElementById("rlTitle");
+  var rlMeta = document.getElementById("rlMeta");
+  var defaultRoute = "nordosten";
   function setActiveRoute(name){
+    name = name || defaultRoute;
     mapRoutes.forEach(function(g){
       g.classList.toggle("active", g.dataset.route === name);
     });
+    routeCards.forEach(function(c){
+      c.classList.toggle("is-active", c.dataset.route === name);
+    });
+    var card = document.querySelector('.route-card[data-route="' + name + '"]');
+    if(card && legend){
+      legend.setAttribute("data-route", name);
+      rlTitle.textContent = card.querySelector(".route-title").textContent;
+      rlMeta.textContent = card.querySelector(".route-days b").textContent + " Tage";
+    }
   }
   routeCards.forEach(function(card){
     card.addEventListener("mouseenter", function(){ setActiveRoute(card.dataset.route); });
@@ -1415,6 +1435,7 @@
     card.addEventListener("focus", function(){ setActiveRoute(card.dataset.route); });
     card.addEventListener("blur", function(){ setActiveRoute(null); });
   });
+  setActiveRoute(null);
 })();
 </script>
 <script>
