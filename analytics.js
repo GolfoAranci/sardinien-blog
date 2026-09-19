@@ -23,25 +23,36 @@
     try { localStorage.setItem(CONSENT_KEY, value); } catch(e){}
   }
 
+  var TEXTS = {
+    de: {msg: "Diese Seite verwendet Google Analytics, um anonymisierte Besucherstatistiken zu erfassen. Du kannst dem zustimmen oder ablehnen.", no: "Ablehnen", yes: "Akzeptieren"},
+    en: {msg: "This site uses Google Analytics to collect anonymised visitor statistics. You can accept or decline.", no: "Decline", yes: "Accept"},
+    it: {msg: "Questo sito utilizza Google Analytics per raccogliere statistiche anonime sui visitatori. Puoi accettare o rifiutare.", no: "Rifiuta", yes: "Accetta"}
+  };
+
   function showBanner(){
+    var lang = (document.documentElement.getAttribute("lang") || "de").slice(0, 2).toLowerCase();
+    var t = TEXTS[lang] || TEXTS.de;
     var banner = document.createElement("div");
     banner.className = "cookie-banner";
     banner.innerHTML =
-      '<p>Diese Seite verwendet Google Analytics, um anonymisierte Besucherstatistiken zu erfassen. Du kannst dem zustimmen oder ablehnen.</p>' +
+      "<p>" + t.msg + "</p>" +
       '<div class="cookie-banner-actions">' +
-      '<button type="button" class="cookie-decline">Ablehnen</button>' +
-      '<button type="button" class="cookie-accept">Akzeptieren</button>' +
+      '<button type="button" class="cookie-decline">' + t.no + '</button>' +
+      '<button type="button" class="cookie-accept">' + t.yes + '</button>' +
       '</div>';
     document.body.appendChild(banner);
+    document.documentElement.classList.add("has-cookie-banner");
 
     banner.querySelector(".cookie-accept").addEventListener("click", function(){
       setConsent("granted");
       banner.remove();
+      document.documentElement.classList.remove("has-cookie-banner");
       loadGA();
     });
     banner.querySelector(".cookie-decline").addEventListener("click", function(){
       setConsent("denied");
       banner.remove();
+      document.documentElement.classList.remove("has-cookie-banner");
     });
   }
 
