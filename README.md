@@ -296,7 +296,7 @@ Da es sich um reine, statische HTML/CSS/JS-Dateien ohne externe Abhängigkeiten 
 
 Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der freien [Pixabay-Inhaltslizenz](https://pixabay.com/service/license-summary/) (kostenlose Nutzung, keine Namensnennung erforderlich):
 
-**Ausnahme:** Die Titelbilder der Strandartikel Cala Sisine, Spiaggia del Principe, Tuerredda, Piscinas, Cala Domestica, Porto Giunco, Cala Brandinchi, La Cinta, Cala Luna, Cala Mariolu, Costa Rei, Is Arutas, Chia und Isola dei Gabbiani sowie der Insider-Artikel Casu Marzu und Su Filindeu stammen von Wikimedia Commons (Urheber und Lizenz stehen in der Tabelle und jeweils im Fuss der Artikel), weil sich dort der Ort eindeutig prüfen lässt. Bei CC BY / CC BY-SA ist die Namensnennung Pflicht; die Bilder wurden nur in der Grösse angepasst.
+**Ausnahme:** Die Titelbilder der Strandartikel Cala Sisine, Spiaggia del Principe, Tuerredda, Piscinas, Cala Domestica, Porto Giunco, Cala Brandinchi, La Cinta, Cala Luna, Cala Mariolu, Costa Rei, Is Arutas, Chia und Isola dei Gabbiani sowie der Insider-Artikel Casu Marzu, Su Filindeu, Fassonis (Stagno di Cabras), Accabadora, Mont'e Prama, Domus de Janas, Launeddas, Gairo Vecchio, Königreich (Palazzo Regio), Tiscali und Asinara stammen von Wikimedia Commons (Urheber und Lizenz stehen in der Tabelle und jeweils im Fuss der Artikel), weil sich dort der Ort eindeutig prüfen lässt. Bei CC BY / CC BY-SA ist die Namensnennung Pflicht; die Bilder wurden nur in der Grösse angepasst.
 
 | Bild | Motiv |
 |---|---|
@@ -355,15 +355,16 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | `images/hotel-7pines.jpg` | Moderner Infinity-Pool mit Blick auf das Meer |
 | `images/su-filindeu.jpg` | Su Filindeu (Teigplatte), Foto: Aggrucar, CC BY-SA 4.0, via Wikimedia Commons |
 | `images/casu-marzu.jpg` | Angeschnittener Casu Marzu, Foto: Shardan, CC BY-SA 2.5, via Wikimedia Commons |
-| `images/insider-fassonis.jpg` | Schilfbewachsene Lagune bei Sonnenuntergang |
-| `images/insider-accabadora.jpg` | Eine einzelne brennende Kerze in Dunkelheit |
+| `images/stagno-cabras.jpg` | Stagno di Cabras, Foto: Gianni Careddu, CC BY-SA 4.0, via Wikimedia Commons |
+| `images/accabadora-museum.jpg` | Kammer der Accabadora im Galluras Museum, Foto: Paolo Manca, CC BY-SA 3.0, via Wikimedia Commons |
 | `images/insider-orgosolo.jpg` | Wandmalerei mit zwei Männern in traditioneller Kleidung |
-| `images/insider-domusdejanas.jpg` | Natürlicher Höhlengang mit Lichteinfall |
-| `images/insider-launeddas.jpg` | Hohe Schilfrohr-Halme im Wind |
-| `images/insider-gairovecchio.jpg` | Verfallenes Steinhaus mit alter Holztür |
-| `images/insider-koenigreich.jpg` | Historischer Torbogen im Castello-Viertel von Cagliari |
-| `images/insider-tiscali.jpg` | Nuragische Steinhütte mit Türsturz aus Stein |
-| `images/insider-asinara.jpg` | Küstenwachturm an einer Bucht auf Asinara |
+| `images/domus-de-janas.jpg` | Domus de Janas bei Monte Arista, Foto: Thiotrix, CC BY-SA 4.0, via Wikimedia Commons |
+| `images/launeddas.jpg` | Launeddas, Foto: Giorgio Pili, CC BY-SA 3.0, via Wikimedia Commons |
+| `images/gairo-vecchio.jpg` | Gairo Vecchio, Foto: Mbarrieau, CC BY 3.0, via Wikimedia Commons |
+| `images/palazzo-regio-cagliari.jpg` | Palazzo Regio Cagliari, Foto: Stadt Cagliari, CC BY-SA 3.0 IT, via Wikimedia Commons |
+| `images/tiscali.jpg` | Doline von Tiscali, Foto: Vid Pogacnik, CC BY-SA 4.0, via Wikimedia Commons |
+| `images/asinara.jpg` | Cala Reale auf Asinara, Foto: Alexkom000, CC BY 4.0, via Wikimedia Commons |
+| `images/monte-prama.jpg` | Kopf eines Giganten von Mont'e Prama, Foto: DedaloNur, CC BY-SA 3.0, via Wikimedia Commons |
 | `images/insider-bluezone.jpg` | Bergdorf am Fuss eines Kalksteinmassivs in der Barbagia |
 | `images/isola-gabbiani.jpg` | Damm zur Isola dei Gabbiani, Foto: Lory2k, CC BY 3.0, via Wikimedia Commons |
 | `images/anreise-mobyschiffe.jpg` | Weisse Fähre überquert eine ruhige Bucht |
