@@ -193,6 +193,8 @@ Bewusst als allgemeine Ideen- und Tippsammlung angelegt, nicht als persönliches
 
 ## Insider-Themen
 
+Auf der Startseite (Abschnitt "Krass, aber wahr") laufen alle dreizehn Insider-Geschichten als **hochformatiger Slider**: Foto bis zum Rand, Text auf dunklem Verlauf, seitlich wischbar mit Einrasten (CSS Scroll-Snap), Pfeile und Ziehen mit der Maus am Desktop, Fortschrittsbalken und eine Abschlusskarte, die zur Insider-Übersicht springt. Die Klassen heissen `story-*` in `style.css`, das Skript steht am Ende von `index.html`. Das Gelb ist bewusst die Insider-Farbe (auch Filterknopf und Kategorie-Kärtchen).
+
 Eine eigene Filterkategorie "🕵️ Insider" auf der Startseite bündelt dreizehn Artikel zu Themen, die auf den meisten anderen Sardinien-Blogs kaum vorkommen: von der seltensten Pasta der Welt über eine umstrittene Sterbehilfe-Legende bis zum Königreich, das Italien seinen Namen gab. Die Artikel sind recherchiert und mit Quellen abgesichert; bei historisch umstrittenen Themen (z. B. Sa Femina Accabadora) wird der Streitstand offen benannt statt als gesicherte Tatsache dargestellt.
 
 ## Routenvorschläge

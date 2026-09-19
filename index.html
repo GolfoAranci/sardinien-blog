@@ -72,40 +72,134 @@
     <span class="eyebrow">🕵️ Krass, aber wahr</span>
     <h2>Sardinien hat mehr Geheimnisse, als du denkst</h2>
     <p class="spotlight-lead">Dreizehn recherchierte Geschichten abseits der üblichen Reiseblog-Themen – von der seltensten Pasta der Welt bis zum Bergdorf, das man von unten nicht sieht.</p>
-    <div class="spotlight-grid">
-      <a class="spotlight-card" href="posts/insider-filindeu-sardinien.html">
-        <span class="spotlight-thumb"><img src="images/insider-filindeu.jpg" alt="Reife Hartweizenähren kurz vor der Ernte" loading="lazy"></span>
-        <span class="spotlight-fact">Nur eine einzige Familie weltweit kann sie herstellen</span>
-        <span class="spotlight-title">Su Filindeu, die seltenste Pasta der Welt →</span>
-      </a>
-      <a class="spotlight-card" href="posts/insider-casumarzu-sardinien.html">
-        <span class="spotlight-thumb"><img src="images/insider-casumarzu.jpg" alt="Angeschnittener Pecorino-Käselaib" loading="lazy"></span>
-        <span class="spotlight-fact">Verboten – und trotzdem seit Generationen Tradition</span>
-        <span class="spotlight-title">Der Käse mit lebenden Fliegenlarven →</span>
-      </a>
-      <a class="spotlight-card" href="posts/insider-fassonis-sardinien.html">
-        <span class="spotlight-thumb"><img src="images/insider-fassonis.jpg" alt="Schilfbewachsene Lagune bei Sonnenuntergang" loading="lazy"></span>
-        <span class="spotlight-fact">Boote geflochten aus Schilf – wie am Titicacasee, nicht am Mittelmeer</span>
-        <span class="spotlight-title">Is Fassonis: Uralte Schilfboote von Cabras →</span>
-      </a>
-      <a class="spotlight-card" href="posts/insider-domusdejanas-sardinien.html">
-        <span class="spotlight-thumb"><img src="images/insider-domusdejanas.jpg" alt="Natürlicher Höhlengang mit Lichteinfall" loading="lazy"></span>
-        <span class="spotlight-fact">Über 3500 Grabkammern direkt in den Fels gehauen</span>
-        <span class="spotlight-title">Domus de Janas: Die Feenhäuser →</span>
-      </a>
-      <a class="spotlight-card" href="posts/insider-asinara-sardinien.html">
-        <span class="spotlight-thumb"><img src="images/insider-asinara.jpg" alt="Küstenwachturm an einer Bucht auf Asinara" loading="lazy"></span>
-        <span class="spotlight-fact">Mafia-Bosse sassen hier ein, heute leben nur noch weisse Esel</span>
-        <span class="spotlight-title">Asinara: Vom Gefängnis zum Nationalpark →</span>
-      </a>
-      <a class="spotlight-card" href="posts/insider-bluezone-sardinien.html">
-        <span class="spotlight-thumb"><img src="images/insider-bluezone.jpg" alt="Bergdorf am Fuss eines Kalksteinmassivs in der Barbagia" loading="lazy"></span>
-        <span class="spotlight-fact">Dreimal mehr Hundertjährige als im Rest der Insel</span>
-        <span class="spotlight-title">Blue Zone Barbagia: Das Langlebigkeits-Rätsel →</span>
-      </a>
+    <div class="story-nav" aria-hidden="false">
+      <button class="story-arrow" type="button" id="storyPrev" aria-label="Vorherige Geschichten">←</button>
+      <button class="story-arrow" type="button" id="storyNext" aria-label="Weitere Geschichten">→</button>
     </div>
-    <button class="spotlight-cta" type="button" id="spotlightCta">Alle 13 Insider-Geschichten ansehen ↓</button>
   </div>
+  <div class="story-track" id="storyTrack" role="region" aria-label="Insider-Geschichten, seitlich wischen" tabindex="0">
+    <a class="story-card" href="posts/insider-filindeu-sardinien.html" draggable="false">
+      <img src="images/insider-filindeu.jpg" alt="Reife Hartweizenähren kurz vor der Ernte" loading="lazy" draggable="false" style="object-position:50% 50%">
+      <span class="story-count">01 / 13</span>
+      <span class="story-body">
+        <span class="story-fact">Nur eine einzige Familie weltweit kann sie herstellen</span>
+        <span class="story-title">Su Filindeu, die seltenste Pasta der Welt</span>
+        <span class="story-more">Geschichte lesen →</span>
+      </span>
+    </a>
+    <a class="story-card" href="posts/insider-casumarzu-sardinien.html" draggable="false">
+      <img src="images/insider-casumarzu.jpg" alt="Angeschnittener Pecorino-Käselaib" loading="lazy" draggable="false" style="object-position:45% 50%">
+      <span class="story-count">02 / 13</span>
+      <span class="story-body">
+        <span class="story-fact">Verboten – und trotzdem seit Generationen Tradition</span>
+        <span class="story-title">Der Käse mit lebenden Fliegenlarven</span>
+        <span class="story-more">Geschichte lesen →</span>
+      </span>
+    </a>
+    <a class="story-card" href="posts/insider-fassonis-sardinien.html" draggable="false">
+      <img src="images/insider-fassonis.jpg" alt="Schilfbewachsene Lagune bei Sonnenuntergang" loading="lazy" draggable="false" style="object-position:50% 50%">
+      <span class="story-count">03 / 13</span>
+      <span class="story-body">
+        <span class="story-fact">Boote geflochten aus Schilf – wie am Titicacasee, nicht am Mittelmeer</span>
+        <span class="story-title">Is Fassonis: Uralte Schilfboote von Cabras</span>
+        <span class="story-more">Geschichte lesen →</span>
+      </span>
+    </a>
+    <a class="story-card" href="posts/insider-domusdejanas-sardinien.html" draggable="false">
+      <img src="images/insider-domusdejanas.jpg" alt="Natürlicher Höhlengang mit Lichteinfall" loading="lazy" draggable="false" style="object-position:50% 50%">
+      <span class="story-count">04 / 13</span>
+      <span class="story-body">
+        <span class="story-fact">Über 3500 Grabkammern direkt in den Fels gehauen</span>
+        <span class="story-title">Domus de Janas: Die Feenhäuser</span>
+        <span class="story-more">Geschichte lesen →</span>
+      </span>
+    </a>
+    <a class="story-card" href="posts/insider-asinara-sardinien.html" draggable="false">
+      <img src="images/insider-asinara.jpg" alt="Küstenwachturm an einer Bucht auf Asinara" loading="lazy" draggable="false" style="object-position:50% 50%">
+      <span class="story-count">05 / 13</span>
+      <span class="story-body">
+        <span class="story-fact">Mafia-Bosse sassen hier ein, heute leben nur noch weisse Esel</span>
+        <span class="story-title">Asinara: Vom Gefängnis zum Nationalpark</span>
+        <span class="story-more">Geschichte lesen →</span>
+      </span>
+    </a>
+    <a class="story-card" href="posts/insider-bluezone-sardinien.html" draggable="false">
+      <img src="images/insider-bluezone.jpg" alt="Bergdorf am Fuss eines Kalksteinmassivs in der Barbagia" loading="lazy" draggable="false" style="object-position:55% 50%">
+      <span class="story-count">06 / 13</span>
+      <span class="story-body">
+        <span class="story-fact">Dreimal mehr Hundertjährige als im Rest der Insel</span>
+        <span class="story-title">Blue Zone Barbagia: Das Langlebigkeits-Rätsel</span>
+        <span class="story-more">Geschichte lesen →</span>
+      </span>
+    </a>
+    <a class="story-card" href="posts/insider-accabadora-sardinien.html" draggable="false">
+      <img src="images/insider-accabadora.jpg" alt="Eine einzelne brennende Kerze in Dunkelheit" loading="lazy" draggable="false" style="object-position:50% 50%">
+      <span class="story-count">07 / 13</span>
+      <span class="story-body">
+        <span class="story-fact">Die umstrittene Legende der „Todesbringerinnen“ Sardiniens</span>
+        <span class="story-title">Sa Femina Accabadora: Legende oder Realität?</span>
+        <span class="story-more">Geschichte lesen →</span>
+      </span>
+    </a>
+    <a class="story-card" href="posts/insider-monteprama-sardinien.html" draggable="false">
+      <img src="images/nuraghen-losa.jpg" alt="Nuraghe Losa, ein bronzezeitlicher Steinturm" loading="lazy" draggable="false" style="object-position:50% 50%">
+      <span class="story-count">08 / 13</span>
+      <span class="story-body">
+        <span class="story-fact">1974 zufällig entdeckte Steinstatuen, die die Archäologie überraschten</span>
+        <span class="story-title">Die Riesen von Mont'e Prama</span>
+        <span class="story-more">Geschichte lesen →</span>
+      </span>
+    </a>
+    <a class="story-card" href="posts/insider-orgosolo-sardinien.html" draggable="false">
+      <img src="images/insider-orgosolo.jpg" alt="Wandmalerei mit zwei Männern in traditioneller Kleidung in Sardinien" loading="lazy" draggable="false" style="object-position:50% 50%">
+      <span class="story-count">09 / 13</span>
+      <span class="story-body">
+        <span class="story-fact">Rund 150 politische Wandmalereien, entstanden aus Protest gegen eine Militärbasis</span>
+        <span class="story-title">Orgosolo: Das Dorf der Wandmalereien</span>
+        <span class="story-more">Geschichte lesen →</span>
+      </span>
+    </a>
+    <a class="story-card" href="posts/insider-launeddas-sardinien.html" draggable="false">
+      <img src="images/insider-launeddas.jpg" alt="Hohe Schilfrohr-Halme im Wind" loading="lazy" draggable="false" style="object-position:50% 50%">
+      <span class="story-count">10 / 13</span>
+      <span class="story-body">
+        <span class="story-fact">Ein Dreifach-Rohrblattinstrument, gespielt mit Zirkularatmung</span>
+        <span class="story-title">Launeddas: Sardiniens 3000 Jahre altes Instrument</span>
+        <span class="story-more">Geschichte lesen →</span>
+      </span>
+    </a>
+    <a class="story-card" href="posts/insider-gairovecchio-sardinien.html" draggable="false">
+      <img src="images/insider-gairovecchio.jpg" alt="Verfallenes Steinhaus mit alter Holztür" loading="lazy" draggable="false" style="object-position:50% 50%">
+      <span class="story-count">11 / 13</span>
+      <span class="story-body">
+        <span class="story-fact">Ein Geisterdorf, das gleich viermal Erdrutsche überstehen musste</span>
+        <span class="story-title">Gairo Vecchio: Das viermal überflutete Geisterdorf</span>
+        <span class="story-more">Geschichte lesen →</span>
+      </span>
+    </a>
+    <a class="story-card" href="posts/insider-koenigreich-sardinien.html" draggable="false">
+      <img src="images/insider-koenigreich.jpg" alt="Historischer Torbogen im Castello-Viertel von Cagliari" loading="lazy" draggable="false" style="object-position:50% 50%">
+      <span class="story-count">12 / 13</span>
+      <span class="story-body">
+        <span class="story-fact">Wie die Insel dem Staat ihren Namen gab, aus dem später Italien entstand</span>
+        <span class="story-title">Das Königreich Sardinien: Namensgeber Italiens</span>
+        <span class="story-more">Geschichte lesen →</span>
+      </span>
+    </a>
+    <a class="story-card" href="posts/insider-tiscali-sardinien.html" draggable="false">
+      <img src="images/insider-tiscali.jpg" alt="Nuragische Steinhütte mit Türsturz aus Stein" loading="lazy" draggable="false" style="object-position:50% 50%">
+      <span class="story-count">13 / 13</span>
+      <span class="story-body">
+        <span class="story-fact">Ein nuragisches Dorf, versteckt in einer Doline mitten im Supramonte</span>
+        <span class="story-title">Tiscali: Das Bergdorf, das niemand von unten sieht</span>
+        <span class="story-more">Geschichte lesen →</span>
+      </span>
+    </a>
+    <button class="story-card story-end" type="button" id="spotlightCta">
+      <span class="story-end-inner"><span class="story-end-num">13</span><span class="story-end-text">Insider-Geschichten<br>in der Übersicht ansehen ↓</span></span>
+    </button>
+  </div>
+  <div class="wrap"><div class="story-progress" aria-hidden="true"><span id="storyBar"></span></div></div>
 </section>
 
 <section class="routes">
@@ -1323,5 +1417,51 @@
   });
 })();
 </script>
+<script>
+/* Insider-Slider: Pfeile, Fortschritt, Ziehen mit der Maus */
+(function(){
+  "use strict";
+  var t=document.getElementById("storyTrack");
+  if(!t) return;
+  var prev=document.getElementById("storyPrev"), next=document.getElementById("storyNext"), bar=document.getElementById("storyBar");
+  var reduce=window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  function step(){ var c=t.querySelector(".story-card"); return (c?c.getBoundingClientRect().width:300)+16; }
+  function update(){
+    var max=t.scrollWidth-t.clientWidth, p=max>0?t.scrollLeft/max:0;
+    if(bar) bar.style.width=(12+88*p)+"%";
+    if(prev) prev.disabled=t.scrollLeft<4;
+    if(next) next.disabled=t.scrollLeft>=max-4;
+  }
+  function go(dir){
+    var max=t.scrollWidth-t.clientWidth;
+    var target=Math.max(0,Math.min(max,t.scrollLeft+dir*step()*2));
+    t.scrollTo({left:target,behavior:reduce?"auto":"smooth"});
+  }
+  if(prev) prev.addEventListener("click", function(){ go(-1); });
+  if(next) next.addEventListener("click", function(){ go(1); });
+  t.addEventListener("scroll", update, {passive:true});
+  window.addEventListener("resize", update);
+  var down=false, moved=false, sx=0, sl=0;
+  t.addEventListener("pointerdown", function(e){
+    if(e.pointerType!=="mouse"||e.button!==0) return;
+    down=true; moved=false; sx=e.clientX; sl=t.scrollLeft;
+  });
+  window.addEventListener("pointermove", function(e){
+    if(!down) return;
+    var dx=e.clientX-sx;
+    if(!moved && Math.abs(dx)>6){ moved=true; t.classList.add("dragging"); }
+    if(moved) t.scrollLeft=sl-dx;
+  });
+  window.addEventListener("pointerup", function(){
+    if(!down) return;
+    down=false; t.classList.remove("dragging");
+  });
+  t.addEventListener("click", function(e){
+    if(moved){ e.preventDefault(); e.stopPropagation(); moved=false; }
+  }, true);
+  update();
+})();
+</script>
+
 </body>
 </html>
