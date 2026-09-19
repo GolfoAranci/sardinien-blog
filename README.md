@@ -218,6 +218,8 @@ Seit Kurzem gibt es zusätzlich eine **englische** Version im Unterordner [en/](
 
 ## Forum
 
+**Aktuell ausgeblendet:** Der Button ist per CSS (letzte Regel in `style.css`, `.forum-btn{display:none}`) vorübergehend versteckt, bis das Forum wieder funktioniert; zum Wiedereinblenden die Regel löschen. 
+
 Über den **Forum**-Button oben rechts im Header (auf der Startseite und allen deutschen Artikeln) gelangt man zu [forum.html](forum.html), einem einfachen Kommentar-Board ohne Registrierung: Besucher geben nur einen Nickname ein und schreiben direkt los.
 
 Technisch läuft das über [Cusdis](https://cusdis.com), einen leichtgewichtigen, quelloffenen und datenschutzfreundlichen Kommentar-Dienst (kostenlose Cloud-Stufe, aktuell 100 freigegebene Kommentare/Monat):
