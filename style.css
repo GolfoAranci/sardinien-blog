@@ -505,3 +505,19 @@ footer.site .disclaimer{max-width:600px;margin:8px auto 0;font-size:.76rem;}
   .post-grid .post-card .post-meta{font-size:.68rem;}
 }
 @media (prefers-reduced-motion:reduce){.post-grid .post-card .thumb img{transition:none;}.post-grid .post-card:hover{transform:none;}}
+
+/* STRAND-KARTE (Strände-Übersicht): schematische Inselkarte mit nummerierten Pins */
+.beach-map{display:grid;grid-template-columns:minmax(200px,290px) 1fr;gap:28px;align-items:start;margin:26px 0 34px;padding:22px;background:linear-gradient(180deg,#fff,var(--turquoise-100));border-radius:24px;box-shadow:var(--shadow-lg);}
+.bm-map svg{display:block;width:100%;height:auto;}
+.bm-pin{cursor:pointer;}
+.bm-pin circle{fill:var(--coral);stroke:#fff;stroke-width:1.2;transition:fill .2s, transform .2s;transform-box:fill-box;transform-origin:center;}
+.bm-pin text{font-family:var(--font-head);font-weight:800;font-size:3.4px;fill:#fff;text-anchor:middle;dominant-baseline:central;pointer-events:none;}
+.bm-pin:hover circle,.bm-pin.on circle,.bm-pin:focus circle{fill:var(--blue-900);transform:scale(1.35);}
+.bm-list{list-style:none;margin:0;padding:0;columns:2;column-gap:22px;}
+.bm-list li{break-inside:avoid;margin:0 0 7px;padding:0;}
+.beach-map .bm-list a{display:flex;align-items:center;gap:9px;text-decoration:none;color:var(--blue-900);font-weight:600;font-size:.9rem;padding:4px 8px 4px 4px;border-radius:14px;transition:background .15s;}
+.bm-list li:hover a,.bm-list li.on a{background:var(--turquoise-100);}
+.bm-n{flex:0 0 auto;width:24px;height:24px;border-radius:50%;background:var(--coral);color:#fff;font:800 .74rem var(--font-head);display:flex;align-items:center;justify-content:center;transition:background .15s;}
+.bm-list li:hover .bm-n,.bm-list li.on .bm-n{background:var(--blue-900);}
+.bm-note{margin:12px 0 0;font-size:.78rem;color:var(--ink-soft);}
+@media (max-width:760px){.beach-map{grid-template-columns:1fr;padding:16px;}.bm-map{max-width:240px;margin:0 auto;}.bm-list{columns:1;}}

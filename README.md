@@ -1,3 +1,10 @@
+| `images/cala-sisine.jpg` | Cala Sisine vom Meer aus, Foto: clurr (Flickr), CC BY 2.0, via Wikimedia Commons |
+| `images/spiaggia-del-principe.jpg` | Spiaggia del Principe, Foto: Ökologix, CC0, via Wikimedia Commons |
+| `images/isuledda-duenen.jpg` | Küste bei S'Isuledda mit Wacholder und Dünen (Pixabay) |
+| `images/tuerredda.jpg` | Strand von Tuerredda mit der Isola di Tuerredda, Foto: ilaria, CC BY 2.0, via Wikimedia Commons |
+| `images/piscinas.jpg` | Dünen von Piscinas, Foto: Gianni Careddu, CC BY-SA 4.0, via Wikimedia Commons |
+| `images/cala-domestica.jpg` | Bucht von Cala Domestica mit Wachturm, Foto: Mboesch, CC BY-SA 4.0, via Wikimedia Commons |
+| `images/porto-giunco.jpg` | Torre di Porto Giunco über dem Strand, Foto: dronepicr, CC BY 2.0, via Wikimedia Commons |
 # Sardegna Blog
 
 Eine Tipp- und Ideensammlung rund um Sardinien – Strände, Kulinarik, Ausflüge, Reiseziele und Anreise, aufbereitet wie ein Blog. Als statische Website gebaut – lässt sich unverändert auf jedes einfache Webhosting (z. B. via FTP oder GitHub Pages) hochladen, ohne Server, Datenbank oder Build-Schritt.
@@ -54,6 +61,13 @@ Sardinien-Blog/
     ├── poetto-cagliari-sardinien.html
     ├── costa-rei-sardinien.html
     ├── chia-sardinien.html
+    ├── cala-sisine-sardinien.html
+    ├── spiaggia-del-principe-sardinien.html
+    ├── isuledda-san-teodoro-sardinien.html
+    ├── tuerredda-sardinien.html
+    ├── piscinas-sardinien.html
+    ├── cala-domestica-sardinien.html
+    ├── porto-giunco-sardinien.html
     ├── herbst-anreise-sardinien.html
     ├── hotel-caladivolpe-sardinien.html
     ├── hotel-pitrizza-sardinien.html
@@ -116,6 +130,13 @@ Sardinien-Blog/
   - Spiaggia del Poetto: Der Stadtstrand von Cagliari
   - Costa Rei: Kilometerlanger Sandstrand im Südosten
   - Chia: Dünen, Turm und türkises Wasser im Süden
+  - Cala Sisine: Die Bucht am Ende der Schlucht
+  - Spiaggia del Principe: Die Bucht an der Costa Smeralda
+  - S'Isuledda: Flacher Sandstrand bei San Teodoro
+  - Tuerredda: Türkisfarbene Bucht mit Inselchen im Südwesten (Reservierung 2026)
+  - Piscinas: Die Wanderdünen der Costa Verde
+  - Cala Domestica: Die Bucht der alten Bergwerke
+  - Porto Giunco: Strand, Wachturm und Flamingo-Lagune
 - **Kulinarik**
   - Sardische Küche: Gerichte, Wein & Restaurant-Tipps
   - Agriturismi auf Sardinien: Essen wie auf dem Land
@@ -274,6 +295,8 @@ Da es sich um reine, statische HTML/CSS/JS-Dateien ohne externe Abhängigkeiten 
 ## Bildnachweis
 
 Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der freien [Pixabay-Inhaltslizenz](https://pixabay.com/service/license-summary/) (kostenlose Nutzung, keine Namensnennung erforderlich):
+
+**Ausnahme:** Die Titelbilder der Strandartikel Cala Sisine, Spiaggia del Principe, Tuerredda, Piscinas, Cala Domestica und Porto Giunco stammen von Wikimedia Commons (Urheber und Lizenz stehen in der Tabelle und jeweils im Fuss der Artikel), weil sich dort der Ort eindeutig prüfen lässt. Bei CC BY / CC BY-SA ist die Namensnennung Pflicht; die Bilder wurden nur in der Grösse angepasst.
 
 | Bild | Motiv |
 |---|---|
