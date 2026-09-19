@@ -24,7 +24,7 @@
 </header>
 
 <section class="hero-video" id="heroVideo">
-  <video class="hero-bg" autoplay muted loop playsinline preload="auto" poster="../images/strand-brandinchi.jpg" aria-hidden="true" tabindex="-1"><source src="../images/hero-loop.mp4" type="video/mp4"></video>
+  <video class="hero-bg" muted loop playsinline preload="auto" poster="../images/strand-brandinchi.jpg" data-sd="../images/hero-loop.mp4" data-hd="../images/hero-loop-hd.mp4" aria-hidden="true" tabindex="-1"></video>
   <div class="hero-shade"></div>
   <div class="wrap hero-content">
     <span class="eyebrow">Golfo Aranci · Sardegna</span>
@@ -117,6 +117,9 @@
   if(window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
   var conn=navigator.connection;
   if(conn && conn.saveData) return;
+  var dpr=window.devicePixelRatio||1;
+  var hd=window.innerWidth>=1200 && window.innerWidth*dpr>=1800;
+  v.src=v.getAttribute(hd?"data-hd":"data-sd");
   function go(){
     if(!v.paused) return;
     var p=v.play();
