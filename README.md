@@ -240,6 +240,7 @@ Technisch läuft das über [Cusdis](https://cusdis.com), einen leichtgewichtigen
 - Artikelkarten haben einen dezenten Hover-Effekt (Bild-Zoom, Schatten) sowie eine sanfte Eingangs-Animation; der Hero-Bereich der Startseite hat dezente, verschwommene Farbflächen im Hintergrund.
 - **Name und Logo:** Der Blog heisst in allen Sprachversionen "Sardegna Blog". Das Logo (`images/logo-icon.svg`) ist ein türkis-blauer Kreis mit einer selbst gezeichneten, weissen Sardinien-Silhouette; der kleine Koralle-Punkt markiert Golfo Aranci. Für Browser-Tab und Lesezeichen gibt es `images/favicon.svg` (gleiches Motiv, grösserer Punkt). Der Header ist nachtblau mit weisser Trennlinie. Der Schriftzug im Header ist normaler Text in Poppins. Farben: Nachtblau `#0d2b3e`, Türkis `#2bb4a3`, Hellblau `#7fd8c9`, Koralle `#e0794a`.
 - **Routen-Abschnitt (Startseite):** Jede der fünf Routen hat eine eigene Farbe (Türkis, Koralle, Blau, Grün, Amber), die auf der Karte, im Tage-Kärtchen und in der Legende unter der Karte wiederkehrt. Die Karte zeigt immer eine Route (Standard: Nordosten), beim Darüberfahren oder Fokussieren einer Karte wechselt sie. Die Farben stehen als `--rc` je `data-route` am Ende von `style.css`.
+- **Artikel-Übersicht:** Die Karten im Raster (`.post-grid`) sind hochformatige Story-Karten wie im Insider-Slider: Foto bis zum Rand, Kategorie-Kapsel oben, Titel, Kurztext (3 Zeilen) und Lesezeit unten auf dunklem Verlauf; am Handy zwei Spalten ohne Kurztext. Das Markup blieb unverändert, es ist rein CSS (letzter Block in `style.css`) und gilt für DE, EN und IT. Die "Weiterlesen"-Kästchen unter den Artikeln sind bewusst nicht betroffen.
 - Auf der Startseite lässt sich die Artikel-Übersicht per Themen-Filter (Leiste über den Karten) auf eine Kategorie eingrenzen; die restlichen Karten rücken automatisch zusammen (`hidden`-Attribut statt Scroll-Anker).
 - **Suchfeld** über der Filter-Leiste durchsucht Titel und Kurzbeschreibung aller Artikel rein clientseitig (kein Backend, kein Index-Build nötig). Ein Klick auf einen Kategorie-Filter leert das Suchfeld wieder. Die Suche ist per `?q=suchbegriff` in der URL direkt verlinkbar (z. B. für Googles Sitelinks-Suchbox, siehe `potentialAction`/`SearchAction` im WebSite-Schema).
 
@@ -313,7 +314,7 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | `images/strand-goloritze.jpg` | Felsbogen und türkises Wasser bei Cala Goloritzé |
 | `images/strand-mariolu.jpg` | Runder heller Fels im türkisen Wasser bei Cala Mariolu |
 | `images/strand-luna.jpg` | Steilküste, Felsen und Boote bei Cala Luna |
-| `images/strand-brandinchi.jpg` | Blick auf die Insel Tavolara von der Küste bei San Teodoro |
+| `images/cala-brandinchi.jpg` | Weisser Sandstrand und türkises Wasser mit Blick auf die Insel Tavolara (Cala Brandinchi) |
 | `images/strand-lacinta.jpg` | Wellen laufen sanft auf hellen Sandstrand |
 | `images/strand-isarutas.jpg` | Küste bei Is Arutas auf der Sinis-Halbinsel bei Sonnenuntergang |
 | `images/strand-poetto.jpg` | Blick auf die Sella del Diavolo vom Poetto in Cagliari |
