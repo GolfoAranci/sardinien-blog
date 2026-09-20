@@ -293,7 +293,7 @@ Da es sich um reine, statische HTML/CSS/JS-Dateien ohne externe Abhängigkeiten 
 
 Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der freien [Pixabay-Inhaltslizenz](https://pixabay.com/service/license-summary/) (kostenlose Nutzung, keine Namensnennung erforderlich):
 
-**Ausnahme:** Die Titelbilder der Strandartikel Cala Sisine, Spiaggia del Principe, Tuerredda, Piscinas, Cala Domestica, Porto Giunco, Cala Brandinchi, La Cinta, Cala Luna, Cala Mariolu, Costa Rei, Is Arutas, Chia und Isola dei Gabbiani sowie der Insider-Artikel Casu Marzu, Su Filindeu, Fassonis (Stagno di Cabras), Accabadora, Mont'e Prama, Domus de Janas, Launeddas, Gairo Vecchio, Königreich (Palazzo Regio), Tiscali, Asinara, Wandern (Gola Su Gorropu), Camping Cala Gonone, Reisetipps (Golfo di Orosei), Moby-Artikel, Tiere (Giara), Flughäfen, Sprache und Weine (Weinberg bei Alghero), Küche (Porceddu und Gericht-Galerie) und Agriturismi (Pecorino) stammen von Wikimedia Commons (Urheber und Lizenz stehen in der Tabelle und jeweils im Fuss der Artikel), weil sich dort der Ort eindeutig prüfen lässt. Bei CC BY / CC BY-SA ist die Namensnennung Pflicht; die Bilder wurden nur in der Grösse angepasst.
+**Ausnahme:** Die Titelbilder der Strandartikel Cala Sisine, Spiaggia del Principe, Tuerredda, Piscinas, Cala Domestica, Porto Giunco, Cala Brandinchi, La Cinta, Cala Luna, Cala Mariolu, Costa Rei, Is Arutas, Chia und Isola dei Gabbiani sowie der Insider-Artikel Casu Marzu, Su Filindeu, Fassonis (Stagno di Cabras), Accabadora, Mont'e Prama, Domus de Janas, Launeddas, Gairo Vecchio, Königreich (Palazzo Regio), Tiscali, Asinara, Wandern (Gola Su Gorropu), Camping Cala Gonone, Reisetipps (Golfo di Orosei), Moby-Artikel, Tiere (Giara), Flughäfen, Sprache und Liköre (Myrtenbeeren, Galerie), Weine (Weinberg bei Alghero), Küche (Porceddu und Gericht-Galerie) und Agriturismi (Pecorino) stammen von Wikimedia Commons (Urheber und Lizenz stehen in der Tabelle und jeweils im Fuss der Artikel), weil sich dort der Ort eindeutig prüfen lässt. Bei CC BY / CC BY-SA ist die Namensnennung Pflicht; die Bilder wurden nur in der Grösse angepasst.
 
 | Bild | Motiv |
 |---|---|
@@ -315,6 +315,9 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | `images/pecorino-sardo.jpg` | Pecorino Sardo auf Olivenholz, Foto: Helge Høifødt, CC BY-SA 4.0, via Wikimedia Commons |
 | `images/weinberg-alghero.jpg` | Weinberg bei Alghero, Foto: Gianni Careddu, CC BY-SA 3.0, via Wikimedia Commons |
 | `images/biere-glas.jpg` | Frisch gezapftes Bier |
+| `images/mirto-weisse-beeren.jpg` | Weisse Myrtenbeeren aus einem Garten in Macomer (Sardinien), Foto: Japs 88, CC BY-SA 4.0, via Wikimedia Commons |
+| `images/myrte-zweig.jpg` | Myrtenzweig mit Beeren (Aufnahme aus Ligurien), Foto: Ligurian Vascular Flora, CC BY 2.0, via Wikimedia Commons |
+| `images/mirto-flasche.jpg` | Mirto in Flasche und Glas, Wikimedia Commons, CC BY-SA 3.0 (zugeschnitten) |
 | `images/likoere-mirto.jpg` | Gläser mit dunkelrotem Likör |
 | `images/restaurants-golfoaranci.jpg` | Teller mit gegrillten Garnelen auf Spaghetti |
 | `images/hero-golfoaranci.jpg` / `images/hero-loop.mp4` / `images/hero-loop-hd.mp4` | Küste bei Golfo Aranci mit Capo Figari und Figarolo. Das Video (Hero der drei Startseiten) ist dieses Pixabay-Foto, mit KI-Unterstützung (Higgsfield, Kling 3.0) als 14-s-Ping-Pong-Loop animiert, ohne Ton, zwei Grössen: 1,7 MB (Standard) und 4,1 MB in 1080p für grosse Bildschirme (Breite ab 1200 px und mind. 1800 Bildschirm-Pixel) |
