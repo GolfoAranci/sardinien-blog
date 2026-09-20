@@ -315,8 +315,8 @@ Alle Titelbilder stammen von [Pixabay](https://pixabay.com) und stehen unter der
 | `images/pecorino-sardo.jpg` | Pecorino Sardo auf Olivenholz, Foto: Helge Høifødt, CC BY-SA 4.0, via Wikimedia Commons |
 | `images/weinberg-alghero.jpg` | Weinberg bei Alghero, Foto: Gianni Careddu, CC BY-SA 3.0, via Wikimedia Commons |
 | `images/biere-glas.jpg` | Frisch gezapftes Bier |
-| `images/mirto-weisse-beeren.jpg` | Weisse Myrtenbeeren aus einem Garten in Macomer (Sardinien), Foto: Japs 88, CC BY-SA 4.0, via Wikimedia Commons |
-| `images/myrte-zweig.jpg` | Myrtenzweig mit Beeren (Aufnahme aus Ligurien), Foto: Ligurian Vascular Flora, CC BY 2.0, via Wikimedia Commons |
+| `images/myrte-zweig.jpg` | Titelbild Liköre: Myrtenzweig mit Beeren (Aufnahme aus Ligurien), Foto: Ligurian Vascular Flora, CC BY 2.0, via Wikimedia Commons |
+| `images/mirto-weisse-beeren.jpg` | Weisse Myrtenbeeren aus einem Garten in Macomer (Sardinien), Foto: Japs 88, CC BY-SA 4.0, via Wikimedia Commons (Galerie) |
 | `images/mirto-flasche.jpg` | Mirto in Flasche und Glas, Wikimedia Commons, CC BY-SA 3.0 (zugeschnitten) |
 | `images/likoere-mirto.jpg` | Gläser mit dunkelrotem Likör |
 | `images/restaurants-golfoaranci.jpg` | Teller mit gegrillten Garnelen auf Spaghetti |
